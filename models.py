@@ -25,4 +25,4 @@ class UaLocationsSettlement(Base):
     # https://dba.stackexchange.com/questions/72641/checking-whether-two-tables-have-identical-content-in-postgresql
 
     def __repr__(self):
-        return "<UaLocationsSettlement (name='%s')>" % (self.name)
+        return f"id='{self.id}', name='{self.name['uk']}', {self.lat}, {self.lng}"
