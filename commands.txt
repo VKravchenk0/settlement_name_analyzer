@@ -1,0 +1,5 @@
+FLASK_ENV=development flask run
+
+git push heroku master
+
+heroku config --app ua-settlement-names-analyzer
