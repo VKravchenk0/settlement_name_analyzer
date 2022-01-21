@@ -9,6 +9,9 @@ from config import DEFAULT_DATABASE_URL
 # from ua_locations_db_importer import save_ua_locations_from_json_to_db
 
 database_path = os.getenv('DATABASE_URL', DEFAULT_DATABASE_URL)
+# https://stackoverflow.com/questions/66690321/flask-and-heroku-sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy
+database_path = database_path.replace("postgres://", "postgresql://")
+
 engine = create_engine(database_path,
                        # ensures unicode symbols are not converted to ascii. see
                        # https://github.com/sqlalchemy/sqlalchemy/issues/4798#issuecomment-519760839
