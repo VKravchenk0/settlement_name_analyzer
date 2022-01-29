@@ -5,6 +5,12 @@
     <title>FlaskApp</title>
 </head>
 <body>
+    <h3>Для пошуку використовується синтаксис регулярних виразів</h3>
+    <h3>Приклади:</h3>
+    <div>Одеса - в назві міститься слово "Одеса"</div>
+    <div>^Олек. - населені пункти, назва яких починається з "Олек"</div>
+    <div>.вка^ - населені пункти, назва яких закінчується на "вка"</div>
+    <div>.том. - в назві міститься буквосполучення "том" оточене іншими літерами</div>
     <form action="" method="post">
         <p>
             <label for="settlement_name_regex">Regex:</label>
@@ -14,7 +20,11 @@
             <input type="submit">
         </p>
     </form>
-    <img src="/plot.png" alt="my plot">
+
+    {% if settlement_ids is defined and settlement_ids|length > 0 %}
+        <img src="/plot.png?settlement_ids={{ settlement_ids }}">
+    {% endif %}
+
     {% if settlements is defined and settlements|length > 0 %}
         <table>
         <thead>

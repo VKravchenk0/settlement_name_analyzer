@@ -34,6 +34,7 @@ def create_app():
     def render_image():
         name_regex = ''
         settlements = []
+        settlement_ids = []
         if request.method == 'POST':
             name_regex = request.form.get('settlement_name_regex')  # access the data inside
             print("searching by regex " + name_regex)
@@ -42,13 +43,18 @@ def create_app():
                     and_(
                         UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
                         UaLocationsSettlement.lat.isnot(None)) \
-                .limit(3).all()
+                .all()
             print("result found: " + str(settlements))
-        return render_template('render-image.html', settlements=settlements, settlement_name_regex=name_regex)
+            for s in settlements:
+                settlement_ids.append(str(s.id))
+        return render_template('render-image.html', settlements=settlements, settlement_ids=",".join(settlement_ids),
+                               settlement_name_regex=name_regex)
 
     @app.route('/plot.png')
     def plot_png():
-        settlements = UaLocationsSettlement.query.order_by(func.random()).limit(5).all()
+        settlement_ids_string = request.args.get("settlement_ids")
+        settlement_ids = settlement_ids_string.split(",")
+        settlements = UaLocationsSettlement.query.filter(UaLocationsSettlement.id.in_(settlement_ids)).all()
         fig = plot_settlements(settlements)
         output = io.BytesIO()
         FigureCanvas(fig).print_png(output)
