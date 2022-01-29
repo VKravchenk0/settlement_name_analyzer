@@ -8,8 +8,9 @@ from ua_locations_db_importer import save_ua_locations_from_json_to_db
 
 def create_app():
     app = Flask(__name__)
-    recreate_db()
-    save_ua_locations_from_json_to_db()
+
+    # TODO: work on migrations if needed
+    # recreate_db_and_import_data()
 
     @app.route("/")
     def index():
@@ -24,6 +25,14 @@ def create_app():
         db_session.remove()
 
     return app
+
+
+def recreate_db_and_import_data():
+    # Add migrations if needed
+    # https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
+    # https://stackoverflow.com/questions/37863235/how-to-wire-up-migrations-in-flask-with-declarative-base
+    recreate_db()
+    save_ua_locations_from_json_to_db()
 
 
 app = create_app()
