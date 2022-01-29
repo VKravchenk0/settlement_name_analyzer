@@ -7,13 +7,36 @@
 <body>
     <form action="" method="post">
         <p>
-            <label for="settlementnameregex">Regex:</label>
-            <input type="text" name="settlementnameregex">
+            <label for="settlement_name_regex">Regex:</label>
+            <input type="text" name="settlement_name_regex" value="{{ settlement_name_regex }}">
         </p>
         <p>
             <input type="submit">
         </p>
     </form>
     <img src="/plot.png" alt="my plot">
+    {% if settlements is defined and settlements|length > 0 %}
+        <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>lat</th>
+                <th>lon</th>
+            </tr>
+        </thead>
+        {% for settlement in settlements %}
+        <tbody>
+            <tr>
+                <td>{{ settlement.id }}</td>
+                <td>{{ settlement.name['uk'] }}</td>
+                <td>{{ settlement.lat }}</td>
+                <td>{{ settlement.lng }}</td>
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>
+    {% endif %}
+
 </body>
 </html>

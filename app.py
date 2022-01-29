@@ -31,7 +31,14 @@ def create_app():
 
     @app.route("/render-image", methods=['post', 'get'])
     def render_image():
-        return render_template('render-image.html')
+        name_regex = ''
+        settlements = []
+        if request.method == 'POST':
+            name_regex = request.form.get('settlement_name_regex')  # access the data inside
+            print("searching by regex " + name_regex)
+            settlements = UaLocationsSettlement.query.filter(UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)).limit(3).all()
+            print("result found: " + str(settlements))
+        return render_template('render-image.html', settlements=settlements, settlement_name_regex=name_regex)
 
     @app.route('/plot.png')
     def plot_png():
