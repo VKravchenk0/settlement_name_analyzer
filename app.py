@@ -35,11 +35,8 @@ def create_app():
 
     @app.route('/plot.png')
     def plot_png():
-        settlement1 = UaLocationsSettlement.query.order_by(func.random()).first()
-        settlement2 = UaLocationsSettlement.query.order_by(func.random()).first()
-        settlement3 = UaLocationsSettlement.query.order_by(func.random()).first()
-
-        fig = plot_settlements([settlement1, settlement2, settlement3])
+        settlements = UaLocationsSettlement.query.order_by(func.random()).limit(5).all()
+        fig = plot_settlements(settlements)
         output = io.BytesIO()
         FigureCanvas(fig).print_png(output)
         return Response(output.getvalue(), mimetype='image/png')
