@@ -1,7 +1,11 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+import io
+from flask import Response
 
 from sqlalchemy.sql.expression import func
 from src.database import recreate_db, db_session
+from src.image_creator import plot_settlements
 from src.models import UaLocationsSettlement
 from src.ua_locations_db_importer import save_ua_locations_from_json_to_db
 
@@ -23,8 +27,22 @@ def create_app():
     @app.route("/example-render-template")
     def server_side_template():
         settlement = UaLocationsSettlement.query.order_by(func.random()).first()
-        # settlement_str = str(settlement)
         return render_template('example-render-template.html', settlement=settlement)
+
+    @app.route("/render-image", methods=['post', 'get'])
+    def render_image():
+        return render_template('render-image.html')
+
+    @app.route('/plot.png')
+    def plot_png():
+        settlement1 = UaLocationsSettlement.query.order_by(func.random()).first()
+        settlement2 = UaLocationsSettlement.query.order_by(func.random()).first()
+        settlement3 = UaLocationsSettlement.query.order_by(func.random()).first()
+
+        fig = plot_settlements([settlement1, settlement2, settlement3])
+        output = io.BytesIO()
+        FigureCanvas(fig).print_png(output)
+        return Response(output.getvalue(), mimetype='image/png')
 
     @app.teardown_appcontext
     def shutdown_session(exception=None):
