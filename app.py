@@ -1,9 +1,9 @@
 from flask import Flask
 
 from sqlalchemy.sql.expression import func
-from database import recreate_db, db_session
-from models import UaLocationsSettlement
-from ua_locations_db_importer import save_ua_locations_from_json_to_db
+from src.database import recreate_db, db_session
+from src.models import UaLocationsSettlement
+from src.ua_locations_db_importer import save_ua_locations_from_json_to_db
 
 
 def create_app():

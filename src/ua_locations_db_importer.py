@@ -1,13 +1,13 @@
-from crud import save_list
+from src.crud import save_list
 import json
 
-from models import UaLocationsSettlement
-from util import replace_latin_letters_with_cyrillic, replace_apostrophe
+from src.models import UaLocationsSettlement
+from src.util import replace_latin_letters_with_cyrillic, replace_apostrophe
 
 
 def load_locations():
     print("Started Reading JSON file which contains multiple JSON document")
-    with open('./resources/ua_locations_db/ua_locations_10_11_2021.json', 'r') as f:
+    with open('../resources/ua_locations_db/ua_locations_10_11_2021.json', 'r') as f:
         json_data = f.read()
         result = json.loads(json_data)
         f.close()

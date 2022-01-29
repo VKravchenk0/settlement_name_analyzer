@@ -1,5 +1,5 @@
 from sqlalchemy import text
-from database import engine, db_session
+from src.database import engine, db_session
 
 
 def save_list(model_list):

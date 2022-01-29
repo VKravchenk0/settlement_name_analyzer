@@ -1,7 +1,7 @@
 from sqlalchemy.dialects.postgresql import DOUBLE_PRECISION, UUID
 from sqlalchemy import Column, Integer, String, JSON, DateTime
 
-from database import Base
+from src.database import Base
 
 
 class UaLocationsSettlement(Base):
