@@ -4,6 +4,7 @@ import io
 from flask import Response
 
 from sqlalchemy.sql.expression import func
+from sqlalchemy import and_
 from src.database import recreate_db, db_session
 from src.image_creator import plot_settlements
 from src.models import UaLocationsSettlement
@@ -36,7 +37,12 @@ def create_app():
         if request.method == 'POST':
             name_regex = request.form.get('settlement_name_regex')  # access the data inside
             print("searching by regex " + name_regex)
-            settlements = UaLocationsSettlement.query.filter(UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)).limit(3).all()
+            settlements = UaLocationsSettlement.query \
+                .filter(
+                    and_(
+                        UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
+                        UaLocationsSettlement.lat.isnot(None)) \
+                .limit(3).all()
             print("result found: " + str(settlements))
         return render_template('render-image.html', settlements=settlements, settlement_name_regex=name_regex)
 
