@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 from sqlalchemy.sql.expression import func
 from src.database import recreate_db, db_session
@@ -19,6 +19,12 @@ def create_app():
         print("settlement found:")
         print(settlement_str)
         return settlement_str
+
+    @app.route("/example-render-template")
+    def server_side_template():
+        settlement = UaLocationsSettlement.query.order_by(func.random()).first()
+        # settlement_str = str(settlement)
+        return render_template('example-render-template.html', settlement=settlement)
 
     @app.teardown_appcontext
     def shutdown_session(exception=None):
