@@ -45,6 +45,8 @@ def create_app():
                         UaLocationsSettlement.lat.isnot(None)) \
                 .all()
             print("result found: " + str(settlements))
+            if not settlements:
+                print(f"No results found by regex {name_regex}")
             for s in settlements:
                 settlement_ids.append(str(s.id))
         return render_template('render-image.html', settlements=settlements, settlement_ids=",".join(settlement_ids),
