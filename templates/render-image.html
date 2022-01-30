@@ -46,6 +46,10 @@
         </tbody>
         {% endfor %}
     </table>
+    {% else %}
+        {% if settlement_name_regex is defined and settlement_name_regex|length > 0 %}
+            <div>Не знайдено результатів за запитом {{ settlement_name_regex }}</div>
+        {% endif %}
     {% endif %}
 
 </body>
