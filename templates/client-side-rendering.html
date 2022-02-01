@@ -35,26 +35,26 @@
             fills: {
                 'point': '#0000FF',
                 defaultFill: '#e87127'
+            },
+            bubblesConfig: {
+              fillKey: 'point',
+              fillOpacity: 1,
+              radius: 5
             }
         });
 
     var bombs = [{
         name: 'Joe 4',
-        radius: 5,
         yield: 400,
         country: 'USSR',
-        fillKey: 'point',
         significance: 'First fusion weapon test by the USSR (not "staged")',
         date: '1953-08-12',
         latitude: 50.450001,
         longitude: 30.523333
       },{
         name: 'RDS-37',
-        radius: 40,
         yield: 1600,
         country: 'USSR',
-        fillKey: 'point',
-        borderColor: '#000000',
         significance: 'First "staged" thermonuclear weapon test by the USSR (deployable)',
         date: '1955-11-22',
         latitude: 49.842957,
@@ -62,12 +62,8 @@
 
       },{
         name: 'Tsar Bomba',
-        radius: 75,
         yield: 50000,
         country: 'USSR',
-        fillKey: 'point',
-        fillOpacity: 0.5,
-        borderWidth: 10,
         significance: 'Largest thermonuclear weapon ever tested—scaled down from its initial 100 Mt design by 50%',
         date: '1961-10-31',
         latitude: 49.988358,
