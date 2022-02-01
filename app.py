@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
 from flask import Response
@@ -12,10 +12,15 @@ from src.ua_locations_db_importer import save_ua_locations_from_json_to_db
 
 
 def create_app():
-    app = Flask(__name__)
+    app = Flask(__name__, static_url_path='')
 
     # TODO: work on migrations if needed
     # recreate_db_and_import_data()
+
+    # serving js files
+    @app.route('/js/<path:path>')
+    def send_js(path):
+        return send_from_directory('templates/js', path)
 
     @app.route("/")
     def index():
@@ -61,6 +66,11 @@ def create_app():
         output = io.BytesIO()
         FigureCanvas(fig).print_png(output)
         return Response(output.getvalue(), mimetype='image/png')
+
+    # https://flatlogic.com/blog/top-mapping-and-maps-api/
+    @app.route("/client-side-rendering")
+    def client_side_rendering():
+        return render_template('client-side-rendering.html')
 
     @app.teardown_appcontext
     def shutdown_session(exception=None):

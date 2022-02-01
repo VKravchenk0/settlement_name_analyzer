@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+    <script src="/js/d3-3.5.3.min.js"></script>
+    <script src="/js/topojson-1.6.9.min.js"></script>
+    <script src="/js/datamaps-0.4.4.world.min.js"></script>
+    <script src="/js/datamaps.ukr.js"></script>
+</head>
+<body>
+    <div>Hello world</div>
+    <div id="container" style="position: relative; width: 1000px; height: 600px;"></div>
+    <script>
+        var map = new Datamap({
+            scope: 'ukr',
+            element: document.getElementById('container'),
+            geographyConfig: {
+                popupOnHover: false,
+                highlightOnHover: false
+            },
+            projection: 'mercator',
+            height: null, //if not null, datamaps will grab the height of 'element'
+            width: null, //if not null, datamaps will grab the width of 'element'
+            setProjection: function(element) {
+                var projection = d3.geo.mercator()
+                  .center([31,49])
+                  .scale(2000)
+                  .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+                var path = d3.geo.path()
+                  .projection(projection);
+
+                return {path: path, projection: projection};
+            },
+            fills: {
+                'UKR': '#FF7127',
+                'point': '#0000FF',
+                defaultFill: '#e87127'
+            },
+            data: {
+                'UKR': {fillKey: 'UKR'}
+            }
+        });
+
+    var bombs = [{
+        name: 'Joe 4',
+        radius: 5,
+        yield: 400,
+        country: 'USSR',
+        fillKey: 'point',
+        significance: 'First fusion weapon test by the USSR (not "staged")',
+        date: '1953-08-12',
+        latitude: 50.450001,
+        longitude: 30.523333
+      },{
+        name: 'RDS-37',
+        radius: 40,
+        yield: 1600,
+        country: 'USSR',
+        fillKey: 'point',
+        borderColor: '#000000',
+        significance: 'First "staged" thermonuclear weapon test by the USSR (deployable)',
+        date: '1955-11-22',
+        latitude: 49.842957,
+        longitude: 24.031111
+
+      },{
+        name: 'Tsar Bomba',
+        radius: 75,
+        yield: 50000,
+        country: 'USSR',
+        fillKey: 'point',
+        fillOpacity: 0.5,
+        borderWidth: 10,
+        significance: 'Largest thermonuclear weapon ever tested—scaled down from its initial 100 Mt design by 50%',
+        date: '1961-10-31',
+        latitude: 49.988358,
+        longitude: 36.232845
+      }
+    ];
+    //draw bubbles for bombs
+    map.bubbles(bombs, {
+        popupTemplate: function (geo, data) {
+                return ['<div class="hoverinfo">' +  data.name,
+                '<br/>Payload: ' +  data.yield + ' kilotons',
+                '<br/>Country: ' +  data.country + '',
+                '<br/>Date: ' +  data.date + '',
+                '</div>'].join('');
+        }
+    });
+
+    </script>
+</body>
+</html>
