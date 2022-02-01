@@ -73,11 +73,12 @@
     //draw bubbles for bombs
     map.bubbles(bombs, {
         popupTemplate: function (geo, data) {
-                return ['<div class="hoverinfo">' +  data.name,
-                '<br/>Payload: ' +  data.yield + ' kilotons',
-                '<br/>Country: ' +  data.country + '',
-                '<br/>Date: ' +  data.date + '',
-                '</div>'].join('');
+                return `<div class="hoverinfo">
+                          ${data.name}<br/>
+                          Payload:  ${data.yield} kilotons<br/>
+                          Country:  ${data.country}<br/>
+                          Date: ${data.date}
+                        </div>`;
         }
     });
 
