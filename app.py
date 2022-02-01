@@ -1,10 +1,16 @@
-from flask import Flask, render_template, request
+import json
+from typing import List
+
+import jsonpickle
+from flask import Flask, render_template, request, send_from_directory
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
 from flask import Response
 
 from sqlalchemy.sql.expression import func
 from sqlalchemy import and_
+
+from src.converters import convert_settlements
 from src.database import recreate_db, db_session
 from src.image_creator import plot_settlements
 from src.models import UaLocationsSettlement
@@ -12,10 +18,15 @@ from src.ua_locations_db_importer import save_ua_locations_from_json_to_db
 
 
 def create_app():
-    app = Flask(__name__)
+    app = Flask(__name__, static_url_path='')
 
     # TODO: work on migrations if needed
     # recreate_db_and_import_data()
+
+    # serving js files
+    @app.route('/js/<path:path>')
+    def send_js(path):
+        return send_from_directory('templates/js', path)
 
     @app.route("/")
     def index():
@@ -61,6 +72,32 @@ def create_app():
         output = io.BytesIO()
         FigureCanvas(fig).print_png(output)
         return Response(output.getvalue(), mimetype='image/png')
+
+    # https://flatlogic.com/blog/top-mapping-and-maps-api/
+    @app.route("/client-side-rendering")
+    def client_side_rendering():
+        return render_template('client-side-rendering.html')
+    
+    @app.route("/api/settlements")
+    def search_settlements():
+        name_regex = request.args.get("settlement_name_regex")
+        print(f"settlement name to search: ${name_regex}")
+        settlements = UaLocationsSettlement.query \
+            .filter(
+            and_(
+                UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
+            UaLocationsSettlement.lat.isnot(None)) \
+            .all()
+        print("result found: " + str(settlements))
+        if not settlements:
+            print(f"No results found by regex {name_regex}")
+        settlement_dtos = convert_settlements(settlements)
+        response = app.response_class(
+            response=jsonpickle.encode(settlement_dtos, unpicklable=False),
+            status=200,
+            mimetype='application/json'
+        )
+        return response
 
     @app.teardown_appcontext
     def shutdown_session(exception=None):
