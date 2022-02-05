@@ -28,6 +28,11 @@ def create_app():
     def send_js(path):
         return send_from_directory('templates/js', path)
 
+    # serving js files
+    @app.route('/css/<path:path>')
+    def send_css(path):
+        return send_from_directory('templates/css', path)
+
     # https://flatlogic.com/blog/top-mapping-and-maps-api/
     @app.route("/")
     def client_side_rendering():
