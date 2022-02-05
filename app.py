@@ -5,7 +5,7 @@ import jsonpickle
 from flask import Flask, render_template, request, send_from_directory
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
-from flask import Response
+from flask import Response, redirect
 
 from sqlalchemy.sql.expression import func
 from sqlalchemy import and_
@@ -28,18 +28,44 @@ def create_app():
     def send_js(path):
         return send_from_directory('templates/js', path)
 
+    # https://flatlogic.com/blog/top-mapping-and-maps-api/
     @app.route("/")
-    def index():
+    def client_side_rendering():
+        return render_template('client-side-rendering.html')
+
+    # legacy url
+    @app.route("/client-side-rendering")
+    def client_side_rendering_legacy():
+        return redirect('/', code=302)
+
+    @app.route("/api/settlements")
+    def search_settlements():
+        name_regex = request.args.get("settlement_name_regex")
+        print(f"settlement name to search: ${name_regex}")
+        settlements = UaLocationsSettlement.query \
+            .filter(
+            and_(
+                UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
+            UaLocationsSettlement.lat.isnot(None)) \
+            .all()
+        print("result found: " + str(settlements))
+        if not settlements:
+            print(f"No results found by regex {name_regex}")
+        settlement_dtos = convert_settlements(settlements)
+        response = app.response_class(
+            response=jsonpickle.encode(settlement_dtos, unpicklable=False),
+            status=200,
+            mimetype='application/json'
+        )
+        return response
+
+    @app.route("/random-settlement")
+    def random_settlement():
         settlement = UaLocationsSettlement.query.order_by(func.random()).first()
         settlement_str = str(settlement)
         print("settlement found:")
         print(settlement_str)
         return settlement_str
-
-    @app.route("/example-render-template")
-    def server_side_template():
-        settlement = UaLocationsSettlement.query.order_by(func.random()).first()
-        return render_template('example-render-template.html', settlement=settlement)
 
     @app.route("/render-image", methods=['post', 'get'])
     def render_image():
@@ -72,32 +98,6 @@ def create_app():
         output = io.BytesIO()
         FigureCanvas(fig).print_png(output)
         return Response(output.getvalue(), mimetype='image/png')
-
-    # https://flatlogic.com/blog/top-mapping-and-maps-api/
-    @app.route("/client-side-rendering")
-    def client_side_rendering():
-        return render_template('client-side-rendering.html')
-    
-    @app.route("/api/settlements")
-    def search_settlements():
-        name_regex = request.args.get("settlement_name_regex")
-        print(f"settlement name to search: ${name_regex}")
-        settlements = UaLocationsSettlement.query \
-            .filter(
-            and_(
-                UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
-            UaLocationsSettlement.lat.isnot(None)) \
-            .all()
-        print("result found: " + str(settlements))
-        if not settlements:
-            print(f"No results found by regex {name_regex}")
-        settlement_dtos = convert_settlements(settlements)
-        response = app.response_class(
-            response=jsonpickle.encode(settlement_dtos, unpicklable=False),
-            status=200,
-            mimetype='application/json'
-        )
-        return response
 
     @app.teardown_appcontext
     def shutdown_session(exception=None):
