@@ -1,3 +1,17 @@
 .disclaimer .examples ul li span {
-    font-weight: bold
+    font-weight: bold;
+    cursor: pointer;
+    color: #0000EE;
+}
+
+.disclaimer .examples ul li span:hover {
+    text-decoration: underline;
+}
+
+.controls .submit-btn-wrapper {
+    margin-top: 10px;
+}
+
+.controls .search-term-wrapper {
+    margin-top: 5px;
 }

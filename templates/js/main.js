@@ -62,13 +62,23 @@ $("#submit-btn").on("click", function(event) {
   searchSettlementsAndShowOnMap();
 });
 
-$('#settlement-name-regex').bind("enterKey",function(e){
+var searchInputElement = $('#settlement-name-regex');
+
+searchInputElement.bind("enterKey",function(e){
   console.log("pressing enter");
   searchSettlementsAndShowOnMap();
 });
-$('#settlement-name-regex').keyup(function(e){
+
+searchInputElement.keyup(function(e){
     if(e.keyCode == 13)
     {
         $(this).trigger("enterKey");
     }
+});
+
+$('.disclaimer .examples ul li span').on("click", function(event) {
+    event.preventDefault();
+    var text = $(this).text().trim();
+    searchInputElement.val(text);
+    searchInputElement.trigger("enterKey");
 });

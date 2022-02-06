@@ -18,8 +18,8 @@
             <ul>
                 <li><span>том</span> - в назві міститься буквосполучення "том" в будь-якому місці (початок слова/середина/кінець)</li>
                 <li><span>.том.</span> - в назві міститься буквосполучення "том" оточене іншими літерами (тільки середина слова)</li>
-                <li><span>^Олек</span> - назва починається з "Олек"</li>
-                <li><span>вка$</span> - назва закінчується на "вка"</li>
+                <li><span>^дз</span> - назва починається з "дз"</li>
+                <li><span>ин$</span> - назва закінчується на "ин"</li>
                 <li><span>.* .*</span> - назва з двох слів</li>
                 <li><span>.* .*вк</span> - назва з двох слів, друге з яких має містить буквосполучення "вк"</li>
             </ul>
@@ -27,14 +27,16 @@
         </div>
     </div>
 
-    <div id="controls">
-      <p>
-          <label for="settlement_name_regex">Regex:</label>
-          <input id="settlement-name-regex" type="text" name="settlement_name_regex" value="">
-      </p>
-      <p>
-          <input id="submit-btn" type="submit">
-      </p>
+    <div id="controls" class="controls">
+        <div>
+            <label for="settlement_name_regex">Пошуковий запит:</label>
+        </div>
+        <div class="search-term-wrapper">
+            <input id="settlement-name-regex" type="text" name="settlement_name_regex" value="">
+        </div>
+        <div class="submit-btn-wrapper">
+            <input id="submit-btn" type="submit" value="Пошук">
+        </div>
     </div>
     <div id="container" style="position: relative; width: 1000px; height: 600px;"></div>
 
