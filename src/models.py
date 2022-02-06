@@ -14,6 +14,7 @@ class UaLocationsSettlement(Base):
     updated_at = Column(DateTime(), nullable=False)
     type = Column(String())
     name = Column(JSON())
+    name_lower = Column(String(), nullable=False, index=True)
     post_code = Column(JSON())
     katottg = Column(String())
     koatuu = Column(String())

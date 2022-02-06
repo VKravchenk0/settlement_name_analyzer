@@ -7,7 +7,7 @@ from src.util import replace_latin_letters_with_cyrillic, replace_apostrophe
 
 def load_locations():
     print("Started Reading JSON file which contains multiple JSON document")
-    with open('../resources/ua_locations_db/ua_locations_10_11_2021.json', 'r') as f:
+    with open('./resources/ua_locations_db/ua_locations_10_11_2021.json', 'r') as f:
         json_data = f.read()
         result = json.loads(json_data)
         f.close()
@@ -46,6 +46,7 @@ def convert_raw_entry_to_model(list):
         settlement.updated_at = entry["updated_at"]
         settlement.type = convert_to_string_and_strip(entry["type"])
         settlement.name = process_json_entry(entry["name"])
+        settlement.name_lower = settlement.name["uk"].lower()
         settlement.post_code = entry["post_code"]
         settlement.katottg = convert_to_string_and_strip(entry["katottg"])
         settlement.koatuu = convert_to_string_and_strip(entry["koatuu"])
