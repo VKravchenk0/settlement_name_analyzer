@@ -13,3 +13,17 @@
                         UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
                         UaLocationsSettlement.lat.isnot(None)) \
                 .all()
+
+
+-- working datamaps bubbles config
+bubblesConfig: {
+      fillKey: 'point',
+      fillOpacity: 1,
+      radius: 20,
+      highlightFillColor: '#0000FF',
+      borderOpacity: 1,
+      borderColor: '#FFFFFF',
+      borderWidth: 1,
+      highlightBorderWidth: 10,
+      highlightBorderColor: 'rgba(0, 0, 0, 1)'
+    }

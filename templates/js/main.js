@@ -25,7 +25,13 @@ var map = new Datamap({
     bubblesConfig: {
       fillKey: 'point',
       fillOpacity: 1,
-      radius: 5
+      radius: 7,
+      borderOpacity: 1,
+      borderColor: '#FFFFFF',
+      borderWidth: 1,
+      highlightFillColor: '#0000FF',
+      highlightBorderWidth: 2,
+      highlightBorderColor: 'rgba(0, 0, 0, 1)'
     }
 });
 
