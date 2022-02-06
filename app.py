@@ -1,6 +1,3 @@
-import json
-from typing import List
-
 import jsonpickle
 from flask import Flask, render_template, request, send_from_directory
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
@@ -8,10 +5,10 @@ import io
 from flask import Response, redirect
 
 from sqlalchemy.sql.expression import func
-from sqlalchemy import and_
 
 from src.converters import convert_settlements
 from src.database import recreate_db, db_session
+from src.finders import find_settlements_by_regex
 from src.image_creator import plot_settlements
 from src.models import UaLocationsSettlement
 from src.ua_locations_db_importer import save_ua_locations_from_json_to_db
@@ -46,16 +43,7 @@ def create_app():
     @app.route("/api/settlements")
     def search_settlements():
         name_regex = request.args.get("settlement_name_regex")
-        print(f"settlement name to search: ${name_regex}")
-        settlements = UaLocationsSettlement.query \
-            .filter(
-            and_(
-                UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
-            UaLocationsSettlement.lat.isnot(None)) \
-            .all()
-        print("result found: " + str(settlements))
-        if not settlements:
-            print(f"No results found by regex {name_regex}")
+        settlements = find_settlements_by_regex(name_regex)
         settlement_dtos = convert_settlements(settlements)
         response = app.response_class(
             response=jsonpickle.encode(settlement_dtos, unpicklable=False),
@@ -79,16 +67,8 @@ def create_app():
         settlement_ids = []
         if request.method == 'POST':
             name_regex = request.form.get('settlement_name_regex')  # access the data inside
-            print("searching by regex " + name_regex)
-            settlements = UaLocationsSettlement.query \
-                .filter(
-                    and_(
-                        UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
-                        UaLocationsSettlement.lat.isnot(None)) \
-                .all()
-            print("result found: " + str(settlements))
-            if not settlements:
-                print(f"No results found by regex {name_regex}")
+            settlements = find_settlements_by_regex(name_regex)
+
             for s in settlements:
                 settlement_ids.append(str(s.id))
         return render_template('render-image.html', settlements=settlements, settlement_ids=",".join(settlement_ids),

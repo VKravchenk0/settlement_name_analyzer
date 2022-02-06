@@ -1,0 +1,15 @@
+-- add name_lower column:
+    ALTER TABLE public.ua_settlements ADD COLUMN name_lower VARCHAR;
+    UPDATE public.ua_settlements SET name_lower = LOWER(name ->> 'uk');
+    ALTER TABLE ua_settlements
+        ALTER COLUMN name_lower SET NOT NULL;
+    CREATE INDEX ix_ua_settlements_name_lower ON public.ua_settlements USING btree (name_lower);
+
+
+-- json column regex search:
+    settlements = UaLocationsSettlement.query \
+                .filter(
+                    and_(
+                        UaLocationsSettlement.name['uk'].as_string().op("~")(name_regex)),
+                        UaLocationsSettlement.lat.isnot(None)) \
+                .all()
