@@ -24,4 +24,7 @@
 #results-table {
     border-collapse: separate;
     border-spacing: 5px;
+    display: block;
+    height: 600px;
+    overflow-y: scroll;
 }
