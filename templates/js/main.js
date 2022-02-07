@@ -35,6 +35,45 @@ var map = new Datamap({
     }
 });
 
+function initRowsHoverListeners() {
+    $('#results-table tbody tr').hover(
+        function(e) {
+            var settlementId = $(this).attr("data-settlement-id");
+            var bubble = d3.select(`.datamaps-bubble[data-id="${settlementId}"]`);
+            var previousAttributes = {
+              'fill':  bubble.style('fill'),
+              'stroke': bubble.style('stroke'),
+              'stroke-width': bubble.style('stroke-width'),
+              'fill-opacity': bubble.style('fill-opacity')
+            };
+
+            bubble
+              .style('fill', map.options.bubblesConfig.highlightFillColor)
+              .style('stroke', map.options.bubblesConfig.highlightBorderColor)
+              .style('stroke-width', map.options.bubblesConfig.highlightBorderWidth)
+              .style('fill-opacity', map.options.bubblesConfig.highlightFillOpacity)
+              .attr('data-previousAttributes', JSON.stringify(previousAttributes));
+        },
+        function(e) {
+            var settlementId = $(this).attr("data-settlement-id");
+            var bubble = d3.select(`.datamaps-bubble[data-id="${settlementId}"]`);
+            var previousAttributes = {
+              'fill':  bubble.style('fill'),
+              'stroke': bubble.style('stroke'),
+              'stroke-width': bubble.style('stroke-width'),
+              'fill-opacity': bubble.style('fill-opacity')
+            };
+
+            bubble
+              .style('fill', map.options.fills.point)
+              .style('stroke', map.options.bubblesConfig.borderColor)
+              .style('stroke-width', map.options.bubblesConfig.borderWidth)
+              .style('fill-opacity', map.options.bubblesConfig.fillOpacity)
+              .attr('data-previousAttributes', JSON.stringify(previousAttributes));
+        }
+    )
+}
+
 function addResultsToTable(settlements) {
     $('#table-wrapper').show();
 
@@ -53,7 +92,22 @@ function addResultsToTable(settlements) {
         `;
         tableBody.append(settlementHtml)
     }
+    initRowsHoverListeners();
 
+}
+
+function showBubbles(result) {
+    map.bubbles(result, {
+          popupTemplate: function (geo, data) {
+                  return `<div class="hoverinfo">
+                            ${data.name}<br/>
+                            id:  ${data.id}
+                          </div>`;
+          }
+    });
+    $('.datamaps-bubble').each(function( index ) {
+      $(this).attr('data-id', JSON.parse($(this).attr('data-info')).id);
+    });
 }
 
 function searchSettlementsAndShowOnMap() {
@@ -71,14 +125,7 @@ function searchSettlementsAndShowOnMap() {
       console.log("Results:")
       console.log(result)
 
-      map.bubbles(result, {
-          popupTemplate: function (geo, data) {
-                  return `<div class="hoverinfo">
-                            ${data.name}<br/>
-                            id:  ${data.id}
-                          </div>`;
-          }
-      });
+      showBubbles(result)
 
       addResultsToTable(result);
     }
