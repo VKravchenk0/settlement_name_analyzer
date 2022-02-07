@@ -15,3 +15,13 @@
 .controls .search-term-wrapper {
     margin-top: 5px;
 }
+
+#results-holder div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#results-table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}

@@ -10,6 +10,7 @@ def find_settlements_by_regex(name_regex):
         and_(
             UaLocationsSettlement.name_lower.op("~")(name_regex.lower())),
         UaLocationsSettlement.lat.isnot(None)) \
+        .order_by(UaLocationsSettlement.name_lower) \
         .all()
 
     print("result found: " + str(settlements))

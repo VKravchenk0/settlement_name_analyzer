@@ -35,6 +35,27 @@ var map = new Datamap({
     }
 });
 
+function addResultsToTable(settlements) {
+    $('#table-wrapper').show();
+
+    var tableBody = $('#results-table tbody');
+    tableBody.empty();
+
+    for (var i=0; i < settlements.length; i++) {
+        settlement = settlements[i];
+        var settlementHtml = `
+            <tr data-settlement-id="${settlement.id}">
+                <td>${settlement.id}</td>
+                <td>${settlement.name}</td>
+                <td>${settlement.latitude}</td>
+                <td>${settlement.longitude}</td>
+            </tr>
+        `;
+        tableBody.append(settlementHtml)
+    }
+
+}
+
 function searchSettlementsAndShowOnMap() {
 
   let nameRegex = $('#settlement-name-regex').val()
@@ -58,6 +79,8 @@ function searchSettlementsAndShowOnMap() {
                           </div>`;
           }
       });
+
+      addResultsToTable(result);
     }
   });
 
