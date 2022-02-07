@@ -35,41 +35,40 @@ var map = new Datamap({
     }
 });
 
+// this function is inspired by the `handleBubbles` function from datamaps source code
+// https://github.com/markmarkoh/datamaps/blob/master/src/js/datamaps.js
+function toggleBubbleHighlight(settlementId, isHoverEnterEvent) {
+    var bubble = d3.select(`.datamaps-bubble[data-id="${settlementId}"]`);
+
+    var previousAttributes = {
+      'fill':  bubble.style('fill'),
+      'stroke': bubble.style('stroke'),
+      'stroke-width': bubble.style('stroke-width'),
+      'fill-opacity': bubble.style('fill-opacity')
+    };
+
+    var newFill = isHoverEnterEvent ? map.options.bubblesConfig.highlightFillColor : map.options.fills.point;
+    var newStroke = isHoverEnterEvent ? map.options.bubblesConfig.highlightBorderColor : map.options.bubblesConfig.borderColor;
+    var newStrokeWidth = isHoverEnterEvent ? map.options.bubblesConfig.highlightBorderWidth : map.options.bubblesConfig.borderWidth;
+    var newFillOpacity = isHoverEnterEvent ? map.options.bubblesConfig.highlightFillOpacity : map.options.bubblesConfig.fillOpacity;
+
+    bubble
+      .style('fill', newFill)
+      .style('stroke', newStroke)
+      .style('stroke-width', newStrokeWidth)
+      .style('fill-opacity', newFillOpacity)
+      .attr('data-previousAttributes', JSON.stringify(previousAttributes));
+}
+
 function initRowsHoverListeners() {
     $('#results-table tbody tr').hover(
         function(e) {
             var settlementId = $(this).attr("data-settlement-id");
-            var bubble = d3.select(`.datamaps-bubble[data-id="${settlementId}"]`);
-            var previousAttributes = {
-              'fill':  bubble.style('fill'),
-              'stroke': bubble.style('stroke'),
-              'stroke-width': bubble.style('stroke-width'),
-              'fill-opacity': bubble.style('fill-opacity')
-            };
-
-            bubble
-              .style('fill', map.options.bubblesConfig.highlightFillColor)
-              .style('stroke', map.options.bubblesConfig.highlightBorderColor)
-              .style('stroke-width', map.options.bubblesConfig.highlightBorderWidth)
-              .style('fill-opacity', map.options.bubblesConfig.highlightFillOpacity)
-              .attr('data-previousAttributes', JSON.stringify(previousAttributes));
+            toggleBubbleHighlight(settlementId, true);
         },
         function(e) {
             var settlementId = $(this).attr("data-settlement-id");
-            var bubble = d3.select(`.datamaps-bubble[data-id="${settlementId}"]`);
-            var previousAttributes = {
-              'fill':  bubble.style('fill'),
-              'stroke': bubble.style('stroke'),
-              'stroke-width': bubble.style('stroke-width'),
-              'fill-opacity': bubble.style('fill-opacity')
-            };
-
-            bubble
-              .style('fill', map.options.fills.point)
-              .style('stroke', map.options.bubblesConfig.borderColor)
-              .style('stroke-width', map.options.bubblesConfig.borderWidth)
-              .style('fill-opacity', map.options.bubblesConfig.fillOpacity)
-              .attr('data-previousAttributes', JSON.stringify(previousAttributes));
+            toggleBubbleHighlight(settlementId, false);
         }
     )
 }
@@ -80,7 +79,7 @@ function addResultsToTable(settlements) {
     var tableBody = $('#results-table tbody');
     tableBody.empty();
 
-    for (var i=0; i < settlements.length; i++) {
+    for (var i = 0; i < settlements.length; i++) {
         settlement = settlements[i];
         var settlementHtml = `
             <tr data-settlement-id="${settlement.id}">
