@@ -73,25 +73,44 @@ function initRowsHoverListeners() {
     )
 }
 
-function addResultsToTable(settlements) {
-    $('#table-wrapper').show();
-
-    var tableBody = $('#results-table tbody');
-    tableBody.empty();
-
-    for (var i = 0; i < settlements.length; i++) {
-        settlement = settlements[i];
-        var settlementHtml = `
-            <tr data-settlement-id="${settlement.id}">
-                <td>${settlement.id}</td>
-                <td>${settlement.name}</td>
-                <td>${settlement.latitude}</td>
-                <td>${settlement.longitude}</td>
-            </tr>
-        `;
-        tableBody.append(settlementHtml)
+function pluralizeResults(size) {
+    var lastDigit = size % 10;
+    if (lastDigit == 1) {
+        return "результат";
+    } else if (lastDigit > 1 && lastDigit < 5) {
+        return "результати";
+    } else if (lastDigit == 0 || lastDigit > 4) {
+        return "результатів"
     }
-    initRowsHoverListeners();
+}
+
+function addResultsToTable(settlements) {
+
+    if (settlements && settlements.length > 0) {
+        $('#table-wrapper .results-number').text(`Знайдено ${settlements.length} ${pluralizeResults(settlements.length)}`);
+
+        var tableBody = $('#results-table tbody');
+        tableBody.empty();
+
+        for (var i = 0; i < settlements.length; i++) {
+            settlement = settlements[i];
+            var settlementHtml = `
+                <tr data-settlement-id="${settlement.id}">
+                    <td>${settlement.id}</td>
+                    <td>${settlement.name}</td>
+                    <td>${settlement.latitude}</td>
+                    <td>${settlement.longitude}</td>
+                </tr>
+            `;
+            tableBody.append(settlementHtml)
+        }
+        initRowsHoverListeners();
+        $('#results-table').show();
+
+    } else {
+        $('#results-table').hide();
+        $('#table-wrapper .results-number').text(`Не знайдено жодного результату`);
+    }
 
 }
 
