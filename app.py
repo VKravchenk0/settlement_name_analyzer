@@ -1,17 +1,20 @@
+import os
+
 import jsonpickle
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory, send_file
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
 from flask import Response, redirect
 
 from sqlalchemy.sql.expression import func
 
-from src.converters import convert_settlements
+from src.converters import convert_settlements, convert_missing_coordinates_settlements
 from src.database import recreate_db, db_session
-from src.finders import find_settlements_by_regex
+from src.finders import find_settlements_by_regex, find_settlements_without_coordinates
 from src.image_creator import plot_settlements
 from src.models import UaLocationsSettlement
 from src.ua_locations_db_importer import save_ua_locations_from_json_to_db
+from src.util import split_into_chunks_and_compress_into_archive
 
 
 def create_app():
@@ -83,6 +86,15 @@ def create_app():
         output = io.BytesIO()
         FigureCanvas(fig).print_png(output)
         return Response(output.getvalue(), mimetype='image/png')
+
+    if os.environ['FLASK_ENV'] == 'development':
+        @app.route("/locations-without-coordinates")
+        def download_locations_without_coordinates():
+            settlements_without_coordinates = find_settlements_without_coordinates()
+            result_dtos = convert_missing_coordinates_settlements(settlements_without_coordinates)
+            zip_file = split_into_chunks_and_compress_into_archive(result_dtos, number_of_chunks=5)
+
+            return send_file(zip_file, download_name='settlements_without_coordinates.zip', as_attachment=True)
 
     @app.teardown_appcontext
     def shutdown_session(exception=None):
