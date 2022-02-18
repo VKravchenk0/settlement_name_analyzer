@@ -2,18 +2,8 @@ from src.crud import save_list
 import json, os
 from src.database import db_session
 
-
 from src.models import UaLocationsSettlement
 from src.util import replace_latin_letters_with_cyrillic, replace_apostrophe
-
-# todo use read_json_file function
-def load_locations():
-    print("Started Reading JSON file which contains multiple JSON document")
-    with open('./resources/ua_locations_db/ua_locations_10_11_2021.json', 'r') as f:
-        json_data = f.read()
-        result = json.loads(json_data)
-        f.close()
-        return result
 
 
 def convert_to_string_and_strip(input_value):
@@ -63,7 +53,7 @@ def convert_raw_entry_to_model(list):
 
 def save_ua_locations_from_json_to_db():
     print("save_settlements_from_koatuu_to_db -> start")
-    locations_list = load_locations()
+    locations_list = read_json_file('./resources/ua_locations_db/ua_locations_10_11_2021.json')
     settlements = convert_raw_entry_to_model(locations_list)
     save_list(settlements)
     print("save_settlements_from_koatuu_to_db -> finish")
