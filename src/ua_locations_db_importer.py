@@ -1,10 +1,12 @@
 from src.crud import save_list
-import json
+import json, os
+from src.database import db_session
+
 
 from src.models import UaLocationsSettlement
 from src.util import replace_latin_letters_with_cyrillic, replace_apostrophe
 
-
+# todo use read_json_file function
 def load_locations():
     print("Started Reading JSON file which contains multiple JSON document")
     with open('./resources/ua_locations_db/ua_locations_10_11_2021.json', 'r') as f:
@@ -65,3 +67,34 @@ def save_ua_locations_from_json_to_db():
     settlements = convert_raw_entry_to_model(locations_list)
     save_list(settlements)
     print("save_settlements_from_koatuu_to_db -> finish")
+
+
+def update_settlements_with_manual_coordinates():
+    dir_name = './resources/ua_locations_db/manual_coordinates'
+    for filename in os.listdir(dir_name):
+        file_path = os.path.join(dir_name, filename)
+        json_object = read_json_file(file_path)
+        process_manual_coordinates_entires(json_object)
+
+
+def process_manual_coordinates_entires(json_object):
+    for entry in json_object:
+        if entry["lat"] and entry["lon"]:
+            print(f"lat and lon values present for id {entry['id']}")
+            UaLocationsSettlement.query.filter(UaLocationsSettlement.id == int(entry['id'])) \
+                .update({
+                    "lat": float(entry['lat']),
+                    "lng": float(entry['lon']),
+                    "coordinates_added_manually": True
+            })
+            db_session.commit()
+        else:
+            print(f"lat and long values are absent for id {entry['id']}")
+
+
+def read_json_file(file_path):
+    with open(file_path, 'r') as f:
+        json_data = f.read()
+        result = json.loads(json_data)
+        f.close()
+        return result

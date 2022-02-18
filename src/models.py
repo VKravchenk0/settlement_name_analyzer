@@ -1,5 +1,5 @@
 from sqlalchemy.dialects.postgresql import DOUBLE_PRECISION, UUID
-from sqlalchemy import Column, Integer, String, JSON, DateTime
+from sqlalchemy import Column, Integer, String, JSON, DateTime, Boolean
 
 from src.database import Base
 
@@ -20,6 +20,7 @@ class UaLocationsSettlement(Base):
     koatuu = Column(String())
     lng = Column(DOUBLE_PRECISION())
     lat = Column(DOUBLE_PRECISION())
+    coordinates_added_manually = Column(Boolean(), nullable=False, default=False)
     parent_id = Column(Integer())
     public_name = Column(JSON())
 

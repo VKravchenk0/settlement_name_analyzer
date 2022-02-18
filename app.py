@@ -13,7 +13,7 @@ from src.database import recreate_db, db_session
 from src.finders import find_settlements_by_regex, find_settlements_without_coordinates
 from src.image_creator import plot_settlements
 from src.models import UaLocationsSettlement
-from src.ua_locations_db_importer import save_ua_locations_from_json_to_db
+from src.ua_locations_db_importer import save_ua_locations_from_json_to_db, update_settlements_with_manual_coordinates
 from src.util import split_into_chunks_and_compress_into_archive
 
 
@@ -21,7 +21,7 @@ def create_app():
     app = Flask(__name__, static_url_path='')
 
     # TODO: work on migrations if needed
-    # recreate_db_and_import_data()
+    recreate_db_and_import_data()
 
     # serving js files
     @app.route('/js/<path:path>')
@@ -87,7 +87,7 @@ def create_app():
         FigureCanvas(fig).print_png(output)
         return Response(output.getvalue(), mimetype='image/png')
 
-    if os.environ['FLASK_ENV'] == 'development':
+    if 'FLASK_ENV' in os.environ and os.environ['FLASK_ENV'] == 'development':
         @app.route("/locations-without-coordinates")
         def download_locations_without_coordinates():
             settlements_without_coordinates = find_settlements_without_coordinates()
@@ -109,6 +109,7 @@ def recreate_db_and_import_data():
     # https://stackoverflow.com/questions/37863235/how-to-wire-up-migrations-in-flask-with-declarative-base
     recreate_db()
     save_ua_locations_from_json_to_db()
+    update_settlements_with_manual_coordinates()
 
 
 app = create_app()
