@@ -1,0 +1,92 @@
+# English translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-10-11 20:11+0300\n"
+"PO-Revision-Date: 2022-10-11 01:23+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: templates/client-side-rendering.html:26
+msgid "disclaimer.regex"
+msgstr "Search uses the regular expressions syntax"
+
+#: templates/client-side-rendering.html:28
+msgid "disclaimer.examples.header"
+msgstr "Examples:"
+
+#: templates/client-side-rendering.html:30
+msgid "disclaimer.examples.exact.code"
+msgstr "^lviv$"
+
+#: templates/client-side-rendering.html:30
+msgid "disclaimer.examples.exact.desc"
+msgstr " - name is exactly 'lviv'"
+
+#: templates/client-side-rendering.html:31
+msgid "disclaimer.examples.anywhere.code"
+msgstr "tom"
+
+#: templates/client-side-rendering.html:31
+msgid "disclaimer.examples.anywhere.desc"
+msgstr " - name contains 'tom' anywhere (beginning/middle/end)"
+
+#: templates/client-side-rendering.html:32
+msgid "disclaimer.examples.middle.code"
+msgstr ".tom."
+
+#: templates/client-side-rendering.html:32
+msgid "disclaimer.examples.middle.desc"
+msgstr " - name contains 'tom' surrounded by other letters"
+
+#: templates/client-side-rendering.html:33
+msgid "disclaimer.examples.startswith.code"
+msgstr "^dz"
+
+#: templates/client-side-rendering.html:33
+msgid "disclaimer.examples.startswith.desc"
+msgstr " - starts with 'dz'"
+
+#: templates/client-side-rendering.html:34
+msgid "disclaimer.examples.endswith.code"
+msgstr "yn$"
+
+#: templates/client-side-rendering.html:34
+msgid "disclaimer.examples.endswith.desc"
+msgstr " - ends with 'yn'"
+
+#: templates/client-side-rendering.html:35
+msgid "disclaimer.examples.twowords.code"
+msgstr ".* .*"
+
+#: templates/client-side-rendering.html:35
+msgid "disclaimer.examples.twowords.desc"
+msgstr " - name consists of two words"
+
+#: templates/client-side-rendering.html:36
+msgid "disclaimer.examples.twowords2.code"
+msgstr ".* .*vk"
+
+#: templates/client-side-rendering.html:36
+msgid "disclaimer.examples.twowords2.desc"
+msgstr " - name consists of two words, second word contains 'vk'"
+
+#: templates/client-side-rendering.html:44
+msgid "search.input.label"
+msgstr "Search term:"
+
+#: templates/client-side-rendering.html:50
+msgid "search.button.label"
+msgstr "Search"
+

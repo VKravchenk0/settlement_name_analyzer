@@ -15,6 +15,7 @@ class UaLocationsSettlement(Base):
     type = Column(String())
     name = Column(JSON())
     name_lower = Column(String(), nullable=False, index=True)
+    name_en_lower = Column(String(), nullable=True, index=True)
     post_code = Column(JSON())
     katottg = Column(String())
     koatuu = Column(String())

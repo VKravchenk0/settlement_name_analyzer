@@ -1,13 +1,16 @@
 import os
 
 import jsonpickle
-from flask import Flask, render_template, request, send_from_directory, send_file
+from flask import Flask, render_template, request, session, send_from_directory, send_file
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
 from flask import Response, redirect
+from flask_babel import Babel, gettext
+from flask_session import Session
 
 from sqlalchemy.sql.expression import func
 
+from src.config import LANGUAGES
 from src.converters import convert_settlements, convert_missing_coordinates_settlements
 from src.database import recreate_db, db_session
 from src.finders import find_settlements_by_regex, find_settlements_without_coordinates
@@ -19,8 +22,31 @@ from src.util import split_into_chunks_and_compress_into_archive
 
 def create_app():
     app = Flask(__name__, static_url_path='')
+    app.config["SESSION_PERMANENT"] = False
+    app.config["SESSION_TYPE"] = "filesystem"
+    Session(app)
+    babel = Babel(app)
+
+    @babel.localeselector
+    def get_locale():
+        return compute_locale()
+
+    def compute_locale():
+        try:
+            language = session['language']
+        except KeyError:
+            language = None
+        if language is not None:
+            return language
+        match = request.accept_languages.best_match(LANGUAGES.keys())
+        session['language'] = match
+        return match
 
     # recreate_db_and_import_data()
+
+    @app.context_processor
+    def inject_conf_var():
+        return dict(AVAILABLE_LANGUAGES=LANGUAGES, CURRENT_LANGUAGE=compute_locale())
 
     # serving js files
     @app.route('/js/<path:path>')
@@ -42,10 +68,15 @@ def create_app():
     def client_side_rendering_legacy():
         return redirect('/', code=302)
 
+    @app.route('/language/<language>')
+    def set_language(language=None):
+        session['language'] = language
+        return redirect('/', code=302)
+
     @app.route("/api/settlements")
     def search_settlements():
         name_regex = request.args.get("settlement_name_regex")
-        settlements = find_settlements_by_regex(name_regex)
+        settlements = find_settlements_by_regex(name_regex, session['language'])
         settlement_dtos = convert_settlements(settlements)
         response = app.response_class(
             response=jsonpickle.encode(settlement_dtos, unpicklable=False),

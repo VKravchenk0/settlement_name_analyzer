@@ -39,6 +39,7 @@ def convert_raw_entry_to_model(list):
         settlement.type = convert_to_string_and_strip(entry["type"])
         settlement.name = process_json_entry(entry["name"])
         settlement.name_lower = settlement.name["uk"].lower()
+        settlement.name_en_lower = settlement.name["en"].lower()
         settlement.post_code = entry["post_code"]
         settlement.katottg = convert_to_string_and_strip(entry["katottg"])
         settlement.koatuu = convert_to_string_and_strip(entry["koatuu"])

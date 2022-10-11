@@ -73,21 +73,11 @@ function initRowsHoverListeners() {
     )
 }
 
-function pluralizeResults(size) {
-    var lastDigit = size % 10;
-    if (lastDigit == 1) {
-        return "результат";
-    } else if (lastDigit > 1 && lastDigit < 5) {
-        return "результати";
-    } else if (lastDigit == 0 || lastDigit > 4) {
-        return "результатів"
-    }
-}
-
 function addResultsToTable(settlements) {
 
     if (settlements && settlements.length > 0) {
-        $('#table-wrapper .results-number').text(`Знайдено ${settlements.length} ${pluralizeResults(settlements.length)}`);
+        var resultsText = `${lang.search.resultsFound} ${settlements.length} ${pluralizeResults(settlements.length)}`
+        $('#table-wrapper .results-number').text(resultsText);
 
         var tableBody = $('#results-table tbody');
         tableBody.empty();
@@ -98,6 +88,7 @@ function addResultsToTable(settlements) {
                 <tr data-settlement-id="${settlement.id}">
                     <td>${settlement.id}</td>
                     <td>${settlement.name}</td>
+                    <td>${settlement.name_en}</td>
                     <td>${settlement.latitude}</td>
                     <td>${settlement.longitude}</td>
                 </tr>
@@ -106,10 +97,9 @@ function addResultsToTable(settlements) {
         }
         initRowsHoverListeners();
         $('#results-table').show();
-
     } else {
         $('#results-table').hide();
-        $('#table-wrapper .results-number').text(`Не знайдено жодного результату`);
+        $('#table-wrapper .results-number').text(lang.search.noResultsFound);
     }
 
 }
@@ -119,6 +109,7 @@ function showBubbles(result) {
           popupTemplate: function (geo, data) {
                   return `<div class="hoverinfo">
                             ${data.name}<br/>
+                            ${data.name_en}<br/>
                             id:  ${data.id}
                           </div>`;
           }
@@ -159,7 +150,6 @@ $("#submit-btn").on("click", function(event) {
 var searchInputElement = $('#settlement-name-regex');
 
 searchInputElement.bind("enterKey",function(e){
-  console.log("pressing enter");
   searchSettlementsAndShowOnMap();
 });
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FlaskApp</title>
+    <title>Settlement name visualizer</title>
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/lib/d3-3.5.3.min.js"></script>
     <script src="/js/lib/topojson-1.6.9.min.js"></script>
@@ -11,17 +11,32 @@
     <script src="/js/lib/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+    <div class="language-selector-wrapper">
+        <div class="language-selector">
+            {% for language in AVAILABLE_LANGUAGES.items() %}
+                {% if CURRENT_LANGUAGE == language[0] %}
+                <div class="language-item active">{{ language[0]|upper }}</div>
+                {% else %}
+                <div><a href="/language/{{ language[0] }}"><div class="language-item">{{ language[0]|upper }}</div></a></div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
     <div class="disclaimer">
-        <h3>Для пошуку використовується синтаксис регулярних виразів.</h3>
+        {% if CURRENT_LANGUAGE == 'en' %}
+                <h3>Data disclaimer: currently, some settlements might have names transliterated from the Russian language instead of the Ukrainian one (like Kiev/Kyiv)</h3>
+        {% endif %}
+        <h3>{{ gettext('disclaimer.regex') }}</h3>
         <div class="examples">
-            <h3>Приклади запитів:</h3>
+            <h3>{{ gettext('disclaimer.examples.header') }}</h3>
             <ul>
-                <li><span>том</span> - в назві міститься буквосполучення "том" в будь-якому місці (початок слова/середина/кінець)</li>
-                <li><span>.том.</span> - в назві міститься буквосполучення "том" оточене іншими літерами (тільки середина слова)</li>
-                <li><span>^дз</span> - назва починається з "дз"</li>
-                <li><span>ин$</span> - назва закінчується на "ин"</li>
-                <li><span>.* .*</span> - назва з двох слів</li>
-                <li><span>.* .*вк</span> - назва з двох слів, друге з яких має містить буквосполучення "вк"</li>
+                <li><span>{{ gettext('disclaimer.examples.exact.code') }}</span> {{ gettext('disclaimer.examples.exact.desc') }}</li>
+                <li><span>{{ gettext('disclaimer.examples.anywhere.code') }}</span> {{ gettext('disclaimer.examples.anywhere.desc') }}</li>
+                <li><span>{{ gettext('disclaimer.examples.middle.code') }}</span> {{ gettext('disclaimer.examples.middle.desc') }}</li>
+                <li><span>{{ gettext('disclaimer.examples.startswith.code') }}</span> {{ gettext('disclaimer.examples.startswith.desc') }}</li>
+                <li><span>{{ gettext('disclaimer.examples.endswith.code') }}</span> {{ gettext('disclaimer.examples.endswith.desc') }}</li>
+                <li><span>{{ gettext('disclaimer.examples.twowords.code') }}</span> {{ gettext('disclaimer.examples.twowords.desc') }}</li>
+                <li><span>{{ gettext('disclaimer.examples.twowords2.code') }}</span> {{ gettext('disclaimer.examples.twowords2.desc') }}</li>
             </ul>
 
         </div>
@@ -29,13 +44,13 @@
 
     <div id="controls" class="controls">
         <div>
-            <label for="settlement_name_regex">Пошуковий запит:</label>
+            <label for="settlement_name_regex">{{ gettext('search.input.label') }}</label>
         </div>
         <div class="search-term-wrapper">
             <input id="settlement-name-regex" type="text" name="settlement_name_regex" value="">
         </div>
         <div class="submit-btn-wrapper">
-            <input id="submit-btn" type="submit" value="Пошук">
+            <input id="submit-btn" type="submit" value="{{ gettext('search.button.label') }}">
         </div>
     </div>
     <div id="results-holder">
@@ -47,6 +62,7 @@
                     <tr>
                         <th>id</th>
                         <th>name</th>
+                        <th>name en</th>
                         <th>lat</th>
                         <th>lon</th>
                     </tr>
@@ -57,6 +73,10 @@
         </div>
     </div>
 
+    <div>{{CURRENT_LANGUAGE}}</div>
+
+    <script src="/js/lang/lang_{{CURRENT_LANGUAGE}}.js"></script>
+    <script>console.log(JSON.stringify(lang))</script>
     <script src="/js/main.js"></script>
 </body>
 </html>

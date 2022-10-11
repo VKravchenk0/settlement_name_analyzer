@@ -30,4 +30,3 @@ def recreate_db():
     # you will have to import them first before calling recreate_db()
     Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
-    # save_ua_locations_from_json_to_db()
