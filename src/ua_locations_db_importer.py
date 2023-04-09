@@ -1,6 +1,7 @@
 from src.crud import save_list
 import json, os
 from src.database import db_session
+from datetime import datetime
 
 from src.models import UaLocationsSettlement
 from src.util import replace_latin_letters_with_cyrillic, replace_apostrophe
@@ -34,8 +35,9 @@ def convert_raw_entry_to_model(list):
         settlement.id = entry["id"]
         settlement.uuid = convert_to_string_and_strip(entry["uuid"])
         settlement.meta = process_json_entry(entry["meta"])
-        settlement.created_at = entry["created_at"]
-        settlement.updated_at = entry["updated_at"]
+        date_format = '%Y-%m-%d %H:%M:%S.%f'
+        settlement.created_at = datetime.strptime(entry["created_at"], date_format)
+        settlement.updated_at = datetime.strptime(entry["updated_at"], date_format)
         settlement.type = convert_to_string_and_strip(entry["type"])
         settlement.name = process_json_entry(entry["name"])
         settlement.name_lower = settlement.name["uk"].lower()
