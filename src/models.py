@@ -1,5 +1,5 @@
-from sqlalchemy.dialects.postgresql import DOUBLE_PRECISION, UUID
-from sqlalchemy import Column, Integer, String, JSON, DateTime, Boolean
+# from sqlalchemy.dialects.sqlite import DOUBLE_PRECISION, UUID
+from sqlalchemy import Column, Integer, String, JSON, DateTime, Boolean, Float, Text
 
 from src.database import Base
 
@@ -8,7 +8,7 @@ class UaLocationsSettlement(Base):
     __tablename__ = 'ua_settlements'
 
     id = Column(Integer(), primary_key=True, nullable=False)
-    uuid = Column(UUID(), unique=True, nullable=False)
+    uuid = Column(Text(length=36), unique=True, nullable=False)
     meta = Column(JSON())
     created_at = Column(DateTime(), nullable=False)
     updated_at = Column(DateTime(), nullable=False)
@@ -18,8 +18,8 @@ class UaLocationsSettlement(Base):
     post_code = Column(JSON())
     katottg = Column(String())
     koatuu = Column(String())
-    lng = Column(DOUBLE_PRECISION())
-    lat = Column(DOUBLE_PRECISION())
+    lng = Column(Float())
+    lat = Column(Float())
     coordinates_added_manually = Column(Boolean(), nullable=False, default=False)
     parent_id = Column(Integer())
     public_name = Column(JSON())
