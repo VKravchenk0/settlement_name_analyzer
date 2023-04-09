@@ -21,7 +21,7 @@ def create_app():
     app = Flask(__name__, static_url_path='')
 
     # todo check if data exists
-    # recreate_db_and_import_data()
+    recreate_db_and_import_data()
 
     # serving js files
     @app.route('/js/<path:path>')

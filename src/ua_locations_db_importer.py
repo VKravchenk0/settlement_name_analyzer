@@ -72,7 +72,7 @@ def update_settlements_with_manual_coordinates():
 def process_manual_coordinates_entires(json_object):
     for entry in json_object:
         if entry["lat"] and entry["lon"]:
-            print(f"lat and lon values present for id {entry['id']}")
+            #print(f"lat and lon values present for id {entry['id']}")
             UaLocationsSettlement.query.filter(UaLocationsSettlement.id == int(entry['id'])) \
                 .update({
                     "lat": float(entry['lat']),
@@ -80,8 +80,8 @@ def process_manual_coordinates_entires(json_object):
                     "coordinates_added_manually": True
             })
             db_session.commit()
-        else:
-            print(f"lat and long values are absent for id {entry['id']}")
+        #else:
+            #print(f"lat and long values are absent for id {entry['id']}")
 
 
 def read_json_file(file_path):
