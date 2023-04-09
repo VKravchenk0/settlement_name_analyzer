@@ -1,1 +1,1 @@
-DEFAULT_DATABASE_URL = 'sqlite:///./settlements.db'
+DEFAULT_DATABASE_URL = 'sqlite:///settlements.db'

@@ -10,7 +10,7 @@ from src.config import DEFAULT_DATABASE_URL
 
 database_path = os.getenv('DATABASE_URL', DEFAULT_DATABASE_URL)
 # https://stackoverflow.com/questions/66690321/flask-and-heroku-sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy
-database_path = database_path.replace("postgres://", "postgresql://")
+# database_path = database_path.replace("postgres://", "postgresql://")
 
 engine = create_engine(database_path,
                        # ensures unicode symbols are not converted to ascii. see
