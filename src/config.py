@@ -1,1 +1,3 @@
-DEFAULT_DATABASE_URL = 'sqlite:///settlements.db'
+import os
+
+DATABASE_URL = os.getenv('DATABASE_URL', 'sqlite:///settlements.db')

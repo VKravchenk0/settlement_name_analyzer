@@ -2,6 +2,10 @@ from sqlalchemy import text
 from src.database import engine, db_session
 
 
+def save(model):
+    db_session.add(model)
+    db_session.commit()
+
 def save_list(model_list):
     db_session.add_all(model_list)
     db_session.commit()

@@ -1,9 +1,12 @@
-from src.crud import save_list
+from sqlalchemy_utils import database_exists
+
+from src.config import DATABASE_URL
+from src.crud import save_list, save
 import json, os
 from src.database import db_session
 from datetime import datetime
 
-from src.models import UaLocationsSettlement
+from src.models import UaLocationsSettlement, ImportSuccessFlag
 from src.util import replace_latin_letters_with_cyrillic, replace_apostrophe
 
 
@@ -54,11 +57,12 @@ def convert_raw_entry_to_model(list):
 
 
 def save_ua_locations_from_json_to_db():
-    print("save_settlements_from_koatuu_to_db -> start")
+    print("Base locations import -> start")
     locations_list = read_json_file('./resources/ua_locations_db/ua_locations_10_11_2021.json')
     settlements = convert_raw_entry_to_model(locations_list)
+    print(f"Base locations import. Saving {len(settlements)} locations")
     save_list(settlements)
-    print("save_settlements_from_koatuu_to_db -> finish")
+    print("Base locations import -> finish")
 
 
 def update_settlements_with_manual_coordinates():
@@ -82,6 +86,35 @@ def process_manual_coordinates_entires(json_object):
             db_session.commit()
         #else:
             #print(f"lat and long values are absent for id {entry['id']}")
+
+
+def flag_import_as_successful():
+    print("[flag_import_as_successful] Start")
+    success_flag = ImportSuccessFlag()
+    success_flag.id = 1
+    success_flag.finished_at = datetime.now()
+    success_flag.success = True
+    print(f"[flag_import_as_successful] Saving {success_flag}")
+    save(success_flag)
+    print("[flag_import_as_successful] Finish")
+
+
+def db_is_initialized():
+    print("[db_is_initialized] Start")
+    if not database_exists(DATABASE_URL):
+        print("[db_is_initialized] Db not initialized")
+        return False
+
+    success_flags = ImportSuccessFlag.query.all()
+    print(f"[db_is_initialized] Success flags found: {success_flags}")
+    if len(success_flags) != 1:
+        print("[db_is_initialized] Success flags length not equal to 1")
+        return False
+    if not success_flags[0].success:
+        print(f"[db_is_initialized] Success flag value: {success_flags[0].success}")
+        return False
+    print("[db_is_initialized] DB is initialized")
+    return True
 
 
 def read_json_file(file_path):
