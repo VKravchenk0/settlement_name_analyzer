@@ -3,7 +3,7 @@ from sqlalchemy import and_, or_
 
 
 def find_settlements_by_regex(name_regex, language='uk'):
-    print("searching by regex " + name_regex)
+    print("Searching by regex " + name_regex)
 
     search_field = UaLocationsSettlement.name_lower
     if language == 'en':
@@ -18,7 +18,7 @@ def find_settlements_by_regex(name_regex, language='uk'):
         .order_by(search_field) \
         .all()
 
-    print("result found: " + str(settlements))
+    print("Results found: " + str(len(settlements)))
     if not settlements:
         print(f"No results found by regex {name_regex}")
 
@@ -26,7 +26,7 @@ def find_settlements_by_regex(name_regex, language='uk'):
 
 
 def find_settlements_without_coordinates():
-    print("searching settlements without coordinates")
+    print("Searching settlements without coordinates")
 
     settlements = UaLocationsSettlement.query \
         .filter(

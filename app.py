@@ -2,17 +2,10 @@ import os
 
 import jsonpickle
 from flask import Flask, render_template, request, send_from_directory, send_file
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-import io
-from flask import Response, redirect
-
-from sqlalchemy.sql.expression import func
 
 from src.converters import convert_settlements, convert_missing_coordinates_settlements
 from src.database import recreate_db, db_session
 from src.finders import find_settlements_by_regex, find_settlements_without_coordinates
-from src.image_creator import plot_settlements
-from src.models import UaLocationsSettlement
 from src.ua_locations_db_importer import save_ua_locations_from_json_to_db, update_settlements_with_manual_coordinates, \
     flag_import_as_successful, db_is_initialized
 from src.util import split_into_chunks_and_compress_into_archive
@@ -35,13 +28,8 @@ def create_app():
 
     # https://flatlogic.com/blog/top-mapping-and-maps-api/
     @app.route("/")
-    def client_side_rendering():
-        return render_template('client-side-rendering.html')
-
-    # legacy url
-    @app.route("/client-side-rendering")
-    def client_side_rendering_legacy():
-        return redirect('/', code=302)
+    def index():
+        return render_template('index.html')
 
     @app.route("/api/settlements")
     def search_settlements():
@@ -54,38 +42,6 @@ def create_app():
             mimetype='application/json'
         )
         return response
-
-    @app.route("/random-settlement")
-    def random_settlement():
-        settlement = UaLocationsSettlement.query.order_by(func.random()).first()
-        settlement_str = str(settlement)
-        print("settlement found:")
-        print(settlement_str)
-        return settlement_str
-
-    @app.route("/render-image", methods=['post', 'get'])
-    def render_image():
-        name_regex = ''
-        settlements = []
-        settlement_ids = []
-        if request.method == 'POST':
-            name_regex = request.form.get('settlement_name_regex')  # access the data inside
-            settlements = find_settlements_by_regex(name_regex)
-
-            for s in settlements:
-                settlement_ids.append(str(s.id))
-        return render_template('render-image.html', settlements=settlements, settlement_ids=",".join(settlement_ids),
-                               settlement_name_regex=name_regex)
-
-    @app.route('/plot.png')
-    def plot_png():
-        settlement_ids_string = request.args.get("settlement_ids")
-        settlement_ids = settlement_ids_string.split(",")
-        settlements = UaLocationsSettlement.query.filter(UaLocationsSettlement.id.in_(settlement_ids)).all()
-        fig = plot_settlements(settlements)
-        output = io.BytesIO()
-        FigureCanvas(fig).print_png(output)
-        return Response(output.getvalue(), mimetype='image/png')
 
     if 'FLASK_ENV' in os.environ and os.environ['FLASK_ENV'] == 'development':
         @app.route("/locations-without-coordinates")
