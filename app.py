@@ -1,5 +1,5 @@
 import os
-
+import time
 import jsonpickle
 from flask import Flask, render_template, request, send_from_directory, send_file
 
@@ -63,6 +63,7 @@ def recreate_db_if_required():
     print("[recreate_db_if_required] Start")
     if not db_is_initialized():
         print("[recreate_db_if_required] Recreating DB")
+        start_time = time.time()
         # Add migrations if needed
         # https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
         # https://stackoverflow.com/questions/37863235/how-to-wire-up-migrations-in-flask-with-declarative-base
@@ -70,6 +71,7 @@ def recreate_db_if_required():
         save_ua_locations_from_json_to_db()
         update_settlements_with_manual_coordinates()
         flag_import_as_successful()
+        print(f"[recreate_db_if_required] DB completely initialized in {(time.time() - start_time)*1000} milliseconds")
     else:
         print("[recreate_db_if_required] DB is already initialized. Skipping initialization")
 
