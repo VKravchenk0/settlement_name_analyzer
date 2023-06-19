@@ -1,0 +1,2 @@
+LANGUAGE_UK = 'uk'
+LANGUAGE_EN = 'en'
