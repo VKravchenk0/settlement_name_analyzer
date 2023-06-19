@@ -1,9 +1,16 @@
+import time
+
+from pyuca import Collator
+
 from src.models import UaLocationsSettlement
 from sqlalchemy import and_, or_
 
+collator = Collator()
+
 
 def find_settlements_by_regex(name_regex, language='uk'):
-    print("Searching by regex " + name_regex)
+    print("[find_settlements_by_regex] start. Regex: " + name_regex)
+    search_start_time = time.time()
 
     search_field = UaLocationsSettlement.name_lower
     if language == 'en':
@@ -18,9 +25,20 @@ def find_settlements_by_regex(name_regex, language='uk'):
         .order_by(search_field) \
         .all()
 
-    print("Results found: " + str(len(settlements)))
+    print(f"[find_settlements_by_regex] Query finished in {(time.time() - search_start_time) * 1000} milliseconds")
+    print("[find_settlements_by_regex] Results found: " + str(len(settlements)))
+
     if not settlements:
-        print(f"No results found by regex {name_regex}")
+        print(f"[find_settlements_by_regex] No results found by regex {name_regex}")
+        return settlements
+
+    # both sqlite and python sorts ukrainian letters incorrectly (і/ї)
+    # attempt to fix it on the sqlite side (with collation) was done in poc/sorting_icu_collation branch,
+    # but it wasn't successful. Below is a temporary (ha-ha) solution - sorting results on a python side
+    if language == 'uk':
+        settlements.sort(key=lambda x: collator.sort_key(x.name_lower))
+
+    print(f"[find_settlements_by_regex] Search finished in {(time.time() - search_start_time) * 1000} milliseconds")
 
     return settlements
 
