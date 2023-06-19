@@ -1,3 +1,6 @@
+# from sqlalchemy.sql.operators import collate
+from sqlalchemy import collate
+
 from src.models import UaLocationsSettlement
 from sqlalchemy import and_, or_
 
@@ -15,8 +18,9 @@ def find_settlements_by_regex(name_regex, language='uk'):
             # search_field.op("~")(name_regex.lower())), for postgres
             search_field.op("regexp")(name_regex.lower())),
         UaLocationsSettlement.lat.isnot(None)) \
-        .order_by(search_field) \
+        .order_by(collate(search_field, 'tr_TR')) \
         .all()
+    # тут не працює
 
     print("Results found: " + str(len(settlements)))
     if not settlements:
@@ -31,7 +35,7 @@ def find_settlements_without_coordinates():
     settlements = UaLocationsSettlement.query \
         .filter(
         and_(
-            UaLocationsSettlement.type.not_in(['COUNTRY', 'CAPITAL_CITY', 'STATE', 'DISTRICT', 'COMMUNITY']),
+            UaLocationsSettlement.type.not_in(['COUNTRY', 'STATE', 'DISTRICT', 'COMMUNITY']),
             or_(
                 UaLocationsSettlement.lat.is_(None),
                 UaLocationsSettlement.lng.is_(None)

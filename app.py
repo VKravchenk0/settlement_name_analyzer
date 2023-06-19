@@ -14,7 +14,7 @@ from src.util import split_into_chunks_and_compress_into_archive
 def create_app():
     app = Flask(__name__, static_url_path='')
 
-    recreate_db_if_required()
+    recreate_db_if_required(app)
 
     # serving js files
     @app.route('/js/<path:path>')
@@ -59,7 +59,7 @@ def create_app():
     return app
 
 
-def recreate_db_if_required():
+def recreate_db_if_required(app):
     print("[recreate_db_if_required] Start")
     if not db_is_initialized():
         print("[recreate_db_if_required] Recreating DB")
@@ -67,7 +67,7 @@ def recreate_db_if_required():
         # Add migrations if needed
         # https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
         # https://stackoverflow.com/questions/37863235/how-to-wire-up-migrations-in-flask-with-declarative-base
-        recreate_db()
+        recreate_db(app)
         save_ua_locations_from_json_to_db()
         update_settlements_with_manual_coordinates()
         flag_import_as_successful()

@@ -15,6 +15,8 @@ class UaLocationsSettlement(Base):
     type = Column(String())
     name = Column(JSON())
     name_lower = Column(String(), nullable=False, index=True)
+    # name_lower = Column(String(collation='ukrainian'), nullable=False, index=True)
+    # https://pypi.org/project/sqlite-icu/ - подивитись, код зверху не працює
     post_code = Column(JSON())
     katottg = Column(String())
     koatuu = Column(String())
