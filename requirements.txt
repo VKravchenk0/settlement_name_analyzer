@@ -11,3 +11,4 @@ numpy==1.22.1
 SQLAlchemy==1.4.30
 SQLAlchemy-Utils==0.41.0
 Werkzeug==2.0.2
+sqlite-icu==1.0
