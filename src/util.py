@@ -44,6 +44,7 @@ def replace_latin_letters_with_cyrillic(string):
 def replace_apostrophe(string):
     return string.replace('’', "'")
 
+
 def split_into_chunks_and_compress_into_archive(result_dtos, number_of_chunks):
     splitted_list = np.array_split(result_dtos, number_of_chunks)
     inmemory_zip_file = io.BytesIO()
