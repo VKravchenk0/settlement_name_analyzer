@@ -1,12 +1,17 @@
 import time
 from src.constants import *
 
-from pyuca import Collator
-
 from src.models import UaLocationsSettlement
 from sqlalchemy import and_, or_
 
-collator = Collator()
+
+def sort_keys(s: UaLocationsSettlement):
+    print(s.name_lower)
+    result = []
+    for c in s.name_lower:
+        if c not in UA_COLLATION_IGNORE_CHARS:
+            result.append(UKR_ALPHABET_LOWER.index(c))
+    return result
 
 
 def find_settlements_by_regex(name_regex, language=LANGUAGE_UK):
@@ -37,7 +42,8 @@ def find_settlements_by_regex(name_regex, language=LANGUAGE_UK):
     # attempt to fix it on the sqlite side (with collation) was done in poc/sorting_icu_collation branch,
     # but it wasn't successful. Below is a temporary (ha-ha) solution - sorting results on a python side
     if language == LANGUAGE_UK:
-        settlements.sort(key=lambda x: collator.sort_key(x.name_lower))
+        # settlements.sort(key=lambda s: [UKR_ALPHABET_LOWER.index(c) for c in s.name_lower])
+        settlements.sort(key=sort_keys)
 
     print(f"[find_settlements_by_regex] Search finished in {(time.time() - search_start_time) * 1000} milliseconds")
 
