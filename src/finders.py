@@ -59,8 +59,4 @@ def find_settlements_without_coordinates():
 
 
 def sort_keys(s: UaLocationsSettlement):
-    result = []
-    for c in s.name_lower:
-        if c not in UA_COLLATION_IGNORE_CHARS:
-            result.append(UKR_ALPHABET_LOWER.index(c))
-    return result
+    return [UKR_ALPHABET_LOWER.index(c) for c in s.name_lower if c not in UA_COLLATION_IGNORE_CHARS]
