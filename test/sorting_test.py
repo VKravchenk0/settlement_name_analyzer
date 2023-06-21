@@ -1,27 +1,29 @@
 import unittest
 from parameterized import parameterized
 
-from src.constants import UKR_ALPHABET_LOWER
+from src.finders import sort_keys
+from src.models import UaLocationsSettlement
 
-def ind(s):
-    print(s)
-    result = []
-    for c in s:
-        result.append(UKR_ALPHABET_LOWER.index(c.lower()))
-    return result
+
+def create_dummy_settlements(input_arr):
+    return [UaLocationsSettlement(name_lower=name) for name in input_arr]
+
 
 class Test(unittest.TestCase):
 
     @parameterized.expand([
         [
-            ['іскоростень', 'Ямпіль', 'Алушта', 'Їванків', 'Інакше', 'Іванків'],
-            ['Алушта', 'Іванків', 'Інакше', 'іскоростень', 'Їванків', 'Ямпіль']
+            ['іскоростень', 'ямпіль', 'алушта', 'їванків', 'інакше', 'іванків'],
+            ['алушта', 'іванків', 'інакше', 'іскоростень', 'їванків', 'ямпіль']
         ]
     ])
-    def test_sorting(self, input_arr, expected):
-        # input_arr.sort(key=lambda word: [UKR_ALPHABET_LOWER.index(c.lower()) for c in word])
-        input_arr.sort(key=ind)
-        self.assertEqual(expected, input_arr)
+    def test_sorting(self, input_arr, expected_result):
+        input_settlements = create_dummy_settlements(input_arr)
+
+        input_settlements.sort(key=sort_keys)
+        actual_result = [s.name_lower for s in input_settlements]
+
+        self.assertEqual(expected_result, actual_result)
 
 
 if __name__ == '__main__':

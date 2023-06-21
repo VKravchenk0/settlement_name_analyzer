@@ -5,15 +5,6 @@ from src.models import UaLocationsSettlement
 from sqlalchemy import and_, or_
 
 
-def sort_keys(s: UaLocationsSettlement):
-    print(s.name_lower)
-    result = []
-    for c in s.name_lower:
-        if c not in UA_COLLATION_IGNORE_CHARS:
-            result.append(UKR_ALPHABET_LOWER.index(c))
-    return result
-
-
 def find_settlements_by_regex(name_regex, language=LANGUAGE_UK):
     print(f"[find_settlements_by_regex] start. Regex: {name_regex} Language: {language}")
     search_start_time = time.time()
@@ -39,7 +30,7 @@ def find_settlements_by_regex(name_regex, language=LANGUAGE_UK):
         return settlements
 
     # both sqlite and python sorts ukrainian letters incorrectly (і/ї)
-    # attempt to fix it on the sqlite side (with collation) was done in poc/sorting_icu_collation branch,
+    # attempt to fix it on the sqlite side (with collations) was done in poc/sorting_icu_collation branch,
     # but it wasn't successful. Below is a temporary (ha-ha) solution - sorting results on a python side
     if language == LANGUAGE_UK:
         # settlements.sort(key=lambda s: [UKR_ALPHABET_LOWER.index(c) for c in s.name_lower])
@@ -65,3 +56,11 @@ def find_settlements_without_coordinates():
         .all()
 
     return settlements
+
+
+def sort_keys(s: UaLocationsSettlement):
+    result = []
+    for c in s.name_lower:
+        if c not in UA_COLLATION_IGNORE_CHARS:
+            result.append(UKR_ALPHABET_LOWER.index(c))
+    return result
