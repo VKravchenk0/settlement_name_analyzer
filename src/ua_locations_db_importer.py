@@ -3,7 +3,7 @@ from sqlalchemy_utils import database_exists
 from src.config import DATABASE_URL
 from src.crud import save_list, save
 import json, os
-from src.database import db_session
+from src.database import db
 from datetime import datetime
 
 from src.models import UaLocationsSettlement, ImportSuccessFlag
@@ -83,7 +83,7 @@ def process_manual_coordinates_entires(json_object):
                     "lng": float(entry['lon']),
                     "coordinates_added_manually": True
             })
-            db_session.commit()
+            db.session.commit()
         #else:
             #print(f"lat and long values are absent for id {entry['id']}")
 

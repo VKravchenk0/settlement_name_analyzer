@@ -1,10 +1,9 @@
 # from sqlalchemy.dialects.sqlite import DOUBLE_PRECISION, UUID
 from sqlalchemy import Column, Integer, String, JSON, DateTime, Boolean, Float, Text
+from src.database import db
 
-from src.database import Base
 
-
-class UaLocationsSettlement(Base):
+class UaLocationsSettlement(db.Model):
     __tablename__ = 'ua_settlements'
 
     id = Column(Integer(), primary_key=True, nullable=False)
@@ -30,7 +29,7 @@ class UaLocationsSettlement(Base):
         return f"id='{self.id}', name='{self.name['uk']}', {self.lat}, {self.lng}"
 
 
-class ImportSuccessFlag(Base):
+class ImportSuccessFlag(db.Model):
     __tablename__ = 'import_success_flag'
 
     id = Column(Integer(), primary_key=True, nullable=False)
