@@ -12,14 +12,20 @@ def create_app(config_class=Config):
     app = Flask(__name__, static_url_path='')
     app.config.from_object(config_class)
 
-    db.init_app(app)
+    process_migrations(app)
+    register_blueprints(app)
 
+    return app
+
+
+def process_migrations(app):
+    db.init_app(app)
     migrate = Migrate(app, db)
     with app.app_context():
         upgrade()
 
+
+def register_blueprints(app):
     app.register_blueprint(static_files_bp)
     app.register_blueprint(api_bp)
     app.register_blueprint(rendering_bp)
-
-    return app
