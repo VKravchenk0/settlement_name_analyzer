@@ -7,7 +7,7 @@ from src.converters import convert_settlements, convert_missing_coordinates_sett
 from src.database import db
 from src.finders import find_settlements_by_regex, find_settlements_without_coordinates
 from src.util import split_into_chunks_and_compress_into_archive
-from flask_migrate import Migrate
+from flask_migrate import Migrate, upgrade
 
 
 def create_app():
@@ -21,6 +21,8 @@ def create_app():
     from src.models import UaLocationsSettlement
 
     migrate = Migrate(app, db)
+    with app.app_context():
+        upgrade()
 
     # serving js files
     @app.route('/js/<path:path>')
