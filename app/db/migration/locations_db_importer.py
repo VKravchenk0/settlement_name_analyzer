@@ -1,10 +1,10 @@
-from src.crud import save_list
+from app.db.crud import save_list
 import json, os
-from src.database import db
+from app.db.database import db
 from datetime import datetime
 
-from src.models import UaLocationsSettlement
-from src.util import replace_latin_letters_with_cyrillic, replace_apostrophe
+from app.db.models import UaLocationsSettlement
+from app.misc.util import replace_latin_letters_with_cyrillic, replace_apostrophe
 
 
 def convert_to_string_and_strip(input_value):
@@ -53,7 +53,7 @@ def convert_raw_entry_to_model(list):
     return result
 
 
-def save_ua_locations_from_json_to_db():
+def save_locations_from_json_to_db():
     print("Base locations import -> start")
     locations_list = read_json_file('./resources/ua_locations_db/ua_locations_10_11_2021.json')
     settlements = convert_raw_entry_to_model(locations_list)

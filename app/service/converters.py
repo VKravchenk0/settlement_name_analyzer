@@ -1,8 +1,7 @@
 from typing import List
 
-from src.dtos import MissingCoordinatesSettlementDTO
-from src.models import UaLocationsSettlement
-from src.responses import SettlementDTO
+from app.service.dtos import MissingCoordinatesSettlementDTO, SettlementDTO
+from app.db.models import UaLocationsSettlement
 
 
 def convert_settlements(settlements: List[UaLocationsSettlement]) -> List[SettlementDTO]:

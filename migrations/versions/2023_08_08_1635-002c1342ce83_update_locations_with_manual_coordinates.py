@@ -6,7 +6,7 @@ Create Date: 2023-08-08 16:35:10.520535
 
 """
 
-from src.ua_locations_db_importer import update_settlements_with_manual_coordinates
+from app.db.migration.locations_db_importer import update_settlements_with_manual_coordinates
 
 # revision identifiers, used by Alembic.
 revision = '002c1342ce83'

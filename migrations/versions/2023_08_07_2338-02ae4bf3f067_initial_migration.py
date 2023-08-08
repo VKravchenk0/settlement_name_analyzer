@@ -5,7 +5,7 @@ Revises:
 Create Date: 2023-08-07 23:38:51.817320
 
 """
-from src.database import db
+from app.db.database import db
 
 
 # revision identifiers, used by Alembic.

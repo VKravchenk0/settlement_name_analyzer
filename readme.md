@@ -1,7 +1,3 @@
-https://realpython.com/flask-by-example-part-1-project-setup/
-
-https://towardsdatascience.com/deploy-a-micro-flask-application-into-heroku-with-postgresql-database-d95fd0c19408
-
 ## Migrations:
 
 #### Apply migrations if db doesn't exist:
@@ -22,3 +18,9 @@ file_template = %%(year)d_%%(month).2d_%%(day).2d_%%(hour).2d%%(minute).2d-%%(re
 #### Generate empty migration:
 `flask db revision -m "Save locations to db"`
 
+## Some links:
+https://realpython.com/flask-by-example-part-1-project-setup/
+
+https://towardsdatascience.com/deploy-a-micro-flask-application-into-heroku-with-postgresql-database-d95fd0c19408
+
+https://flatlogic.com/blog/top-mapping-and-maps-api/

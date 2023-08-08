@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, JSON, DateTime, Boolean, Float, Text
-from src.database import db
+from app.db.database import db
 
 
 class UaLocationsSettlement(db.Model):
