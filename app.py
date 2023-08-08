@@ -1,20 +1,28 @@
 import os
-import time
 import jsonpickle
 from flask import Flask, render_template, request, send_from_directory, send_file
 
+from src.config import DATABASE_URL
 from src.converters import convert_settlements, convert_missing_coordinates_settlements
-from src.database import recreate_db, db_session
+from src.database import db
 from src.finders import find_settlements_by_regex, find_settlements_without_coordinates
-from src.ua_locations_db_importer import save_ua_locations_from_json_to_db, update_settlements_with_manual_coordinates, \
-    flag_import_as_successful, db_is_initialized
 from src.util import split_into_chunks_and_compress_into_archive
+from flask_migrate import Migrate, upgrade
 
 
 def create_app():
     app = Flask(__name__, static_url_path='')
 
-    recreate_db_if_required()
+    app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+    db.init_app(app)
+
+    from src.models import UaLocationsSettlement
+
+    migrate = Migrate(app, db)
+    with app.app_context():
+        upgrade()
 
     # serving js files
     @app.route('/js/<path:path>')
@@ -52,28 +60,7 @@ def create_app():
 
             return send_file(zip_file, download_name='settlements_without_coordinates.zip', as_attachment=True)
 
-    @app.teardown_appcontext
-    def shutdown_session(exception=None):
-        db_session.remove()
-
     return app
-
-
-def recreate_db_if_required():
-    print("[recreate_db_if_required] Start")
-    if not db_is_initialized():
-        print("[recreate_db_if_required] Recreating DB")
-        start_time = time.time()
-        # Add migrations if needed
-        # https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
-        # https://stackoverflow.com/questions/37863235/how-to-wire-up-migrations-in-flask-with-declarative-base
-        recreate_db()
-        save_ua_locations_from_json_to_db()
-        update_settlements_with_manual_coordinates()
-        flag_import_as_successful()
-        print(f"[recreate_db_if_required] DB completely initialized in {(time.time() - start_time)*1000} milliseconds")
-    else:
-        print("[recreate_db_if_required] DB is already initialized. Skipping initialization")
 
 
 app = create_app()
