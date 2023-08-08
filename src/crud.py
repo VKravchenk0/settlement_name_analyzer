@@ -6,6 +6,7 @@ def save(model):
     db.session.add(model)
     db.session.commit()
 
+
 def save_list(model_list):
     db.session.add_all(model_list)
     db.session.commit()

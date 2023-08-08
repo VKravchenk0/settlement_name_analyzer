@@ -1,6 +1,4 @@
-from sqlalchemy_utils import database_exists
-
-from src.crud import save_list, save
+from src.crud import save_list
 import json, os
 from src.database import db
 from datetime import datetime
