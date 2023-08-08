@@ -7,8 +7,7 @@ from src.config import DATABASE_URL
 from src.converters import convert_settlements, convert_missing_coordinates_settlements
 from src.database import db, recreate_db
 from src.finders import find_settlements_by_regex, find_settlements_without_coordinates
-from src.ua_locations_db_importer import save_ua_locations_from_json_to_db, update_settlements_with_manual_coordinates, \
-    flag_import_as_successful, db_is_initialized
+from src.ua_locations_db_importer import save_ua_locations_from_json_to_db, update_settlements_with_manual_coordinates
 from src.util import split_into_chunks_and_compress_into_archive
 from flask_migrate import Migrate
 
@@ -20,12 +19,14 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     db.init_app(app)
-    # migrate = Migrate(app, db)
 
-    from src.models import UaLocationsSettlement, ImportSuccessFlag
+    from src.models import UaLocationsSettlement
 
-    with app.app_context():
-        recreate_db_if_required()
+    # with app.app_context():
+    #     recreate_db_if_required()
+
+    migrate = Migrate(app, db)
+
 
 
     # serving js files
@@ -71,21 +72,21 @@ def create_app():
     return app
 
 
-def recreate_db_if_required():
-    print("[recreate_db_if_required] Start")
-    if not db_is_initialized():
-        print("[recreate_db_if_required] Recreating DB")
-        start_time = time.time()
-        # Add migrations if needed
-        # https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
-        # https://stackoverflow.com/questions/37863235/how-to-wire-up-migrations-in-flask-with-declarative-base
-        recreate_db()
-        save_ua_locations_from_json_to_db()
-        update_settlements_with_manual_coordinates()
-        flag_import_as_successful()
-        print(f"[recreate_db_if_required] DB completely initialized in {(time.time() - start_time)*1000} milliseconds")
-    else:
-        print("[recreate_db_if_required] DB is already initialized. Skipping initialization")
+# def recreate_db_if_required():
+#     print("[recreate_db_if_required] Start")
+#     if not db_is_initialized():
+#         print("[recreate_db_if_required] Recreating DB")
+#         start_time = time.time()
+#         # Add migrations if needed
+#         # https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
+#         # https://stackoverflow.com/questions/37863235/how-to-wire-up-migrations-in-flask-with-declarative-base
+#         recreate_db()
+#         save_ua_locations_from_json_to_db()
+#         update_settlements_with_manual_coordinates()
+#         flag_import_as_successful()
+#         print(f"[recreate_db_if_required] DB completely initialized in {(time.time() - start_time)*1000} milliseconds")
+#     else:
+#         print("[recreate_db_if_required] DB is already initialized. Skipping initialization")
 
 
 app = create_app()
