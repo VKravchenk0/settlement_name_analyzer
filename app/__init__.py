@@ -3,16 +3,14 @@ from flask import Flask
 from app.blueprints.api_bp import api_bp
 from app.blueprints.rendering_bp import rendering_bp
 from app.blueprints.static_files_bp import static_files_bp
-from app.config import DATABASE_URL
+from app.config import Config
 from app.db.database import db
 from flask_migrate import Migrate, upgrade
 
 
-def create_app():
+def create_app(config_class=Config):
     app = Flask(__name__, static_url_path='')
-
-    app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    app.config.from_object(config_class)
 
     db.init_app(app)
 
