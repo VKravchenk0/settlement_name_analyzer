@@ -1,8 +1,8 @@
 import unittest
 from parameterized import parameterized
 
-from src.finders import sort_keys
-from src.models import UaLocationsSettlement
+from app.service.finders import sort_keys
+from app.db.models import UaLocationsSettlement
 
 
 def create_dummy_settlements(input_arr):

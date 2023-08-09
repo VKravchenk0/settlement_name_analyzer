@@ -1,7 +1,7 @@
 import time
-from src.constants import *
+from app.misc.constants import *
 
-from src.models import UaLocationsSettlement
+from app.db.models import UaLocationsSettlement
 from sqlalchemy import and_, or_
 
 

@@ -1,5 +1,5 @@
 from sqlalchemy import text
-from src.database import db
+from app.db.database import db
 
 
 def save(model):
