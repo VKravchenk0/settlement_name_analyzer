@@ -1,12 +1,5 @@
--- VERSION WITH PATH
 WITH RECURSIVE settlement_hierarchy AS (
     SELECT    id,
-              name_lower,
-              parent_id,
-              '' AS path,
-              '' as path_stripped,
-              type as type_hierarchy,
-              type,
               null as state,
               null as district,
               null as community
@@ -17,19 +10,6 @@ WITH RECURSIVE settlement_hierarchy AS (
 
     SELECT
         s.id,
-        s.name_lower,
-        s.parent_id,
-        CASE settlement_hierarchy.path
-            WHEN '' THEN json_extract(s.public_name, '$.uk')
-            ELSE settlement_hierarchy.path || ', ' || json_extract(s.public_name, '$.uk')
-            END,
-        CASE s.type
-            WHEN 'STATE' THEN json_extract(s.public_name, '$.uk')
-            WHEN 'DISTRICT' THEN settlement_hierarchy.path_stripped || ', ' || json_extract(s.public_name, '$.uk')
-            ELSE settlement_hierarchy.path_stripped
-            END,
-        settlement_hierarchy.type_hierarchy || ', ' || s.type as type_hierarchy,
-        s.type,
         -- calculating state
         CASE
             WHEN s.type = 'STATE' THEN json_extract(s.public_name, '$.uk')
@@ -49,7 +29,7 @@ WITH RECURSIVE settlement_hierarchy AS (
             ELSE null
             END as community
 
-    FROM ua_settlements s,settlement_hierarchy
+    FROM ua_settlements s, settlement_hierarchy
     WHERE s.parent_id = settlement_hierarchy.id
 )
 UPDATE ua_settlements
