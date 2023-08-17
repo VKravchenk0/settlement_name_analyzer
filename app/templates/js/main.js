@@ -98,6 +98,8 @@ function addResultsToTable(settlements) {
                 <tr data-settlement-id="${settlement.id}">
                     <td>${settlement.id}</td>
                     <td>${settlement.name}</td>
+                    <td>${settlement.state}</td>
+                    <td>${settlement.district}</td>
                     <td>${settlement.latitude}</td>
                     <td>${settlement.longitude}</td>
                 </tr>
@@ -119,6 +121,7 @@ function showBubbles(result) {
           popupTemplate: function (geo, data) {
                   return `<div class="hoverinfo">
                             ${data.name}<br/>
+                            ${data.state}, ${data.district}, ${data.community}<br/>
                             id:  ${data.id}
                           </div>`;
           }
@@ -131,7 +134,7 @@ function showBubbles(result) {
 function searchSettlementsAndShowOnMap() {
 
   let nameRegex = $('#settlement-name-regex').val()
-  console.log("name regex: " + nameRegex)
+  console.log("Regex: " + nameRegex)
 
   $.ajax({
     url: "/api/settlements",
@@ -152,7 +155,6 @@ function searchSettlementsAndShowOnMap() {
 }
 
 $("#submit-btn").on("click", function(event) {
-  console.log("button click");
   searchSettlementsAndShowOnMap();
 });
 

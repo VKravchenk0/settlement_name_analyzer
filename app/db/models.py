@@ -21,6 +21,10 @@ class UaLocationsSettlement(db.Model):
     coordinates_added_manually = Column(Boolean(), nullable=False, default=False)
     parent_id = Column(Integer())
     public_name = Column(JSON())
+    state = Column(String())
+    district = Column(String())
+    community = Column(String())
+
 
     # https://dba.stackexchange.com/questions/72641/checking-whether-two-tables-have-identical-content-in-postgresql
 
