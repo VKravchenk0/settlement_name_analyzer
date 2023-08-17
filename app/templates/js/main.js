@@ -120,7 +120,8 @@ function showBubbles(result) {
     map.bubbles(result, {
           popupTemplate: function (geo, data) {
                   return `<div class="hoverinfo">
-                            ${data.name}, ${data.state}, ${data.district}, ${data.community}<br/>
+                            ${data.name}<br/>
+                            ${data.state}, ${data.district}, ${data.community}<br/>
                             id:  ${data.id}
                           </div>`;
           }
@@ -154,7 +155,6 @@ function searchSettlementsAndShowOnMap() {
 }
 
 $("#submit-btn").on("click", function(event) {
-  console.log("button click");
   searchSettlementsAndShowOnMap();
 });
 
