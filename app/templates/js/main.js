@@ -131,10 +131,8 @@ function showBubbles(result) {
     });
 }
 
-function searchSettlementsAndShowOnMap() {
-
-  let nameRegex = $('#settlement-name-regex').val()
-  console.log("Regex: " + nameRegex)
+function searchSettlementsAndShowOnMap(nameRegex) {
+  console.log("searchSettlementsAndShowOnMap start. Regex: " + nameRegex);
 
   $.ajax({
     url: "/api/settlements",
@@ -154,15 +152,25 @@ function searchSettlementsAndShowOnMap() {
 
 }
 
+function pushNewWindowState(nameRegex) {
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  urlSearchParams.set('q', encodeURIComponent(nameRegex));
+  const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
+  window.history.pushState({}, '', newUrl);
+}
+
 $("#submit-btn").on("click", function(event) {
-  searchSettlementsAndShowOnMap();
+  let nameRegex = $('#settlement-name-regex').val();
+  pushNewWindowState(nameRegex)
+  searchSettlementsAndShowOnMap(nameRegex);
 });
 
 var searchInputElement = $('#settlement-name-regex');
 
 searchInputElement.bind("enterKey",function(e){
-  console.log("pressing enter");
-  searchSettlementsAndShowOnMap();
+  let nameRegex = $('#settlement-name-regex').val();
+  pushNewWindowState(nameRegex)
+  searchSettlementsAndShowOnMap(nameRegex);
 });
 
 searchInputElement.keyup(function(e){
@@ -178,3 +186,27 @@ $('.disclaimer .examples ul li span').on("click", function(event) {
     searchInputElement.val(text);
     searchInputElement.trigger("enterKey");
 });
+
+function processInitialQuery() {
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  const encodedQuery = urlSearchParams.get('q')
+  if (encodedQuery) {
+      query = decodeURIComponent(encodedQuery);
+      searchInputElement.val(query);
+      searchInputElement.trigger("enterKey");
+  }
+}
+
+processInitialQuery()
+
+window.onpopstate = function(e) {
+    if(e.state){
+        const urlSearchParams = new URLSearchParams(window.location.search);
+        const encodedQuery = urlSearchParams.get('q')
+        if (encodedQuery) {
+            query = decodeURIComponent(encodedQuery);
+            searchInputElement.val(query);
+            searchSettlementsAndShowOnMap(query);
+        }
+    }
+};
