@@ -1,3 +1,9 @@
+const HistoryStateAction = {
+  Push: 'Push',
+  Replace: 'Replace',
+  None: 'None'
+};
+
 var map = new Datamap({
     scope: 'ukr',
     element: document.getElementById('container'),
@@ -131,14 +137,24 @@ function showBubbles(result) {
     });
 }
 
-function pushNewWindowState(nameRegex) {
-  const urlSearchParams = new URLSearchParams(window.location.search);
-  urlSearchParams.set('q', encodeURIComponent(nameRegex));
-  const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
-  window.history.pushState({}, '', newUrl);
+function changeWindowHistoryState(nameRegex, historyStateAction) {
+  if (historyStateAction &&
+       (historyStateAction === HistoryStateAction.Push || historyStateAction === HistoryStateAction.Replace)
+     ) {
+     console.log(`${historyStateAction} new window state for ${nameRegex}`)
+     const urlSearchParams = new URLSearchParams(window.location.search);
+     urlSearchParams.set('q', encodeURIComponent(nameRegex));
+     const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
+     if (historyStateAction === HistoryStateAction.Push) {
+       window.history.pushState({}, '', newUrl);
+     } else if (historyStateAction === HistoryStateAction.Replace) {
+        window.history.replaceState({}, '', newUrl);
+     }
+  }
+
 }
 
-function searchSettlementsAndShowOnMap(pushNewState = false) {
+function searchSettlementsAndShowOnMap(historyStateAction) {
   let nameRegex = $('#settlement-name-regex').val();
   console.log("searchSettlementsAndShowOnMap start. Regex: " + nameRegex);
 
@@ -146,8 +162,8 @@ function searchSettlementsAndShowOnMap(pushNewState = false) {
     return;
   }
 
-  if (pushNewState) {
-    pushNewWindowState(nameRegex)
+  if (historyStateAction) {
+    changeWindowHistoryState(nameRegex, historyStateAction)
   }
 
   $.ajax({
@@ -169,13 +185,13 @@ function searchSettlementsAndShowOnMap(pushNewState = false) {
 }
 
 $("#submit-btn").on("click", function(event) {
-  searchSettlementsAndShowOnMap(true);
+  searchSettlementsAndShowOnMap(HistoryStateAction.Push);
 });
 
 var searchInputElement = $('#settlement-name-regex');
 
 searchInputElement.bind("enterKey",function(e){
-  searchSettlementsAndShowOnMap(true);
+  searchSettlementsAndShowOnMap(HistoryStateAction.Push);
 });
 
 searchInputElement.keyup(function(e){
@@ -198,8 +214,7 @@ function processInitialQuery() {
   if (encodedQuery) {
       query = decodeURIComponent(encodedQuery);
       searchInputElement.val(query);
-      searchInputElement.trigger("enterKey");
-      searchSettlementsAndShowOnMap(true);
+      searchSettlementsAndShowOnMap(HistoryStateAction.Replace);
   }
 }
 
@@ -212,7 +227,7 @@ window.onpopstate = function(e) {
         if (encodedQuery) {
             query = decodeURIComponent(encodedQuery);
             searchInputElement.val(query);
-            searchSettlementsAndShowOnMap(false);
+            searchSettlementsAndShowOnMap(HistoryStateAction.None);
         }
     } else {
         searchInputElement.val("");
