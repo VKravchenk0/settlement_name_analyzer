@@ -208,27 +208,26 @@ $('.disclaimer .examples ul li span').on("click", function(event) {
     searchInputElement.trigger("enterKey");
 });
 
-function processInitialQuery() {
+function processUrlQuery(historyStateAction) {
   const urlSearchParams = new URLSearchParams(window.location.search);
   const encodedQuery = urlSearchParams.get('q')
   if (encodedQuery) {
       query = decodeURIComponent(encodedQuery);
       searchInputElement.val(query);
-      searchSettlementsAndShowOnMap(HistoryStateAction.Replace);
+      searchSettlementsAndShowOnMap(historyStateAction);
   }
+}
+
+function processInitialQuery() {
+  processUrlQuery(HistoryStateAction.Replace);
 }
 
 processInitialQuery()
 
+// handle history state change - browsers` 'back' and 'forward' buttons
 window.onpopstate = function(e) {
     if(e.state){
-        const urlSearchParams = new URLSearchParams(window.location.search);
-        const encodedQuery = urlSearchParams.get('q')
-        if (encodedQuery) {
-            query = decodeURIComponent(encodedQuery);
-            searchInputElement.val(query);
-            searchSettlementsAndShowOnMap(HistoryStateAction.None);
-        }
+        processUrlQuery(HistoryStateAction.None);
     } else {
         searchInputElement.val("");
         map.bubbles([]);
