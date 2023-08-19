@@ -1,3 +1,9 @@
+const HistoryStateAction = {
+  Push: 'Push',
+  Replace: 'Replace',
+  None: 'None'
+};
+
 var map = new Datamap({
     scope: 'ukr',
     element: document.getElementById('container'),
@@ -131,10 +137,34 @@ function showBubbles(result) {
     });
 }
 
-function searchSettlementsAndShowOnMap() {
+function changeWindowHistoryState(nameRegex, historyStateAction) {
+  if (historyStateAction &&
+       (historyStateAction === HistoryStateAction.Push || historyStateAction === HistoryStateAction.Replace)
+     ) {
+     console.log(`${historyStateAction} new window state for ${nameRegex}`)
+     const urlSearchParams = new URLSearchParams(window.location.search);
+     urlSearchParams.set('q', encodeURIComponent(nameRegex));
+     const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
+     if (historyStateAction === HistoryStateAction.Push) {
+       window.history.pushState({}, '', newUrl);
+     } else if (historyStateAction === HistoryStateAction.Replace) {
+        window.history.replaceState({}, '', newUrl);
+     }
+  }
 
-  let nameRegex = $('#settlement-name-regex').val()
-  console.log("Regex: " + nameRegex)
+}
+
+function searchSettlementsAndShowOnMap(historyStateAction) {
+  let nameRegex = $('#settlement-name-regex').val();
+  console.log("searchSettlementsAndShowOnMap start. Regex: " + nameRegex);
+
+  if (!nameRegex) {
+    return;
+  }
+
+  if (historyStateAction) {
+    changeWindowHistoryState(nameRegex, historyStateAction)
+  }
 
   $.ajax({
     url: "/api/settlements",
@@ -155,14 +185,13 @@ function searchSettlementsAndShowOnMap() {
 }
 
 $("#submit-btn").on("click", function(event) {
-  searchSettlementsAndShowOnMap();
+  searchSettlementsAndShowOnMap(HistoryStateAction.Push);
 });
 
 var searchInputElement = $('#settlement-name-regex');
 
 searchInputElement.bind("enterKey",function(e){
-  console.log("pressing enter");
-  searchSettlementsAndShowOnMap();
+  searchSettlementsAndShowOnMap(HistoryStateAction.Push);
 });
 
 searchInputElement.keyup(function(e){
@@ -178,3 +207,32 @@ $('.disclaimer .examples ul li span').on("click", function(event) {
     searchInputElement.val(text);
     searchInputElement.trigger("enterKey");
 });
+
+function processUrlQuery(historyStateAction) {
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  const encodedQuery = urlSearchParams.get('q')
+  if (encodedQuery) {
+      query = decodeURIComponent(encodedQuery);
+      searchInputElement.val(query);
+      searchSettlementsAndShowOnMap(historyStateAction);
+  }
+}
+
+function processInitialQuery() {
+  processUrlQuery(HistoryStateAction.Replace);
+}
+
+processInitialQuery()
+
+// handle history state change - browsers` 'back' and 'forward' buttons
+window.onpopstate = function(e) {
+    if(e.state){
+        processUrlQuery(HistoryStateAction.None);
+    } else {
+        searchInputElement.val("");
+        map.bubbles([]);
+        $('#results-table tbody').empty();
+        $('#results-table').hide();
+        $('#table-wrapper .results-number').text('');
+    }
+};
