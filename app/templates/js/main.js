@@ -142,6 +142,10 @@ function searchSettlementsAndShowOnMap(pushNewState = false) {
   let nameRegex = $('#settlement-name-regex').val();
   console.log("searchSettlementsAndShowOnMap start. Regex: " + nameRegex);
 
+  if (!nameRegex) {
+    return;
+  }
+
   if (pushNewState) {
     pushNewWindowState(nameRegex)
   }
@@ -210,5 +214,11 @@ window.onpopstate = function(e) {
             searchInputElement.val(query);
             searchSettlementsAndShowOnMap(false);
         }
+    } else {
+        searchInputElement.val("");
+        map.bubbles([]);
+        $('#results-table tbody').empty();
+        $('#results-table').hide();
+        $('#table-wrapper .results-number').text('');
     }
 };
