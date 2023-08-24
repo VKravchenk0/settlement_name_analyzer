@@ -1,6 +1,7 @@
 import io
 import time
 import zipfile
+from functools import wraps
 
 import jsonpickle
 import numpy as np
@@ -60,3 +61,20 @@ def split_into_chunks_and_compress_into_archive(result_dtos, number_of_chunks):
 
     inmemory_zip_file.seek(0)
     return inmemory_zip_file
+
+
+def timeit(func):
+    @wraps(func)
+    def timeit_wrapper(*args, **kwargs):
+        start_time = time.perf_counter()
+        result = func(*args, **kwargs)
+        end_time = time.perf_counter()
+        total_time = end_time - start_time
+        print(f'Function {func.__name__}{args} {kwargs} Took {total_time:.4f} seconds')
+        return result
+    return timeit_wrapper
+
+
+def split_list(input_list, number_of_parts):
+    k, m = divmod(len(input_list), number_of_parts)
+    return (input_list[i * k + min(i, m):(i + 1) * k + min(i + 1, m)] for i in range(number_of_parts))

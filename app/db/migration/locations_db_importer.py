@@ -1,10 +1,11 @@
+from app.config import LOCATIONS_IMPORT_BATCH_NUMBER
 from app.db.crud import save_list
 import json, os
 from app.db.database import db
 from datetime import datetime
 
 from app.db.models import UaLocationsSettlement
-from app.misc.util import replace_latin_letters_with_cyrillic, replace_apostrophe
+from app.misc.util import replace_latin_letters_with_cyrillic, replace_apostrophe, timeit, split_list
 
 
 def convert_to_string_and_strip(input_value):
@@ -53,13 +54,27 @@ def convert_raw_entry_to_model(list):
     return result
 
 
+@timeit
 def save_locations_from_json_to_db():
     print("Base locations import -> start")
     locations_list = read_json_file('./resources/ua_locations_db/ua_locations_10_11_2021.json')
+    print(f"Saving {len(locations_list)} locations")
+    if LOCATIONS_IMPORT_BATCH_NUMBER > 1:
+        batches = split_list(locations_list, LOCATIONS_IMPORT_BATCH_NUMBER)
+        print(f"Splitting locations in {LOCATIONS_IMPORT_BATCH_NUMBER} batches")
+        for batch in batches:
+            convert_and_save_list(batch)
+    else:
+        convert_and_save_list(locations_list)
+    print("Base locations import -> finished")
+    count = UaLocationsSettlement.query.count()
+    print(f"Count of records in db: {count}")
+
+
+def convert_and_save_list(locations_list):
+    print(f"Processing batch of {len(locations_list)} records")
     settlements = convert_raw_entry_to_model(locations_list)
-    print(f"Base locations import. Saving {len(settlements)} locations")
     save_list(settlements)
-    print("Base locations import -> finish")
 
 
 def update_settlements_with_manual_coordinates():
