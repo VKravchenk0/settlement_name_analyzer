@@ -2,6 +2,8 @@ import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+# Digital-ocean дроплет з 512MB RAM падав при імпорті 30000+ локацій з файлу.
+# Ця змінна вказує на скільки частин поділити файл при зчитування
 LOCATIONS_IMPORT_BATCH_NUMBER = int(os.environ.get('LOCATIONS_IMPORT_BATCH_NUMBER', 20))
 
 class Config:

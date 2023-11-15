@@ -1,10 +1,13 @@
 Бек-енд топоніміки. 
 Тримає в SQLite-базі даних інформацію про українські населені пункти, надає ендпойнт `/api/settlements` для пошуку по назві НП за регулярним виразом. 
 
+#### Головна гілка:
+`master`
+
 #### Локальний запуск:
 1. (опціонально) встановити virtualenv/virtualenvwrapper і створити venv; активувати venv
-2. pip install -r requirements/dev.txt
-3. export FLASK_ENV=development && python ./dev_starter.py
+2. `pip install -r requirements/dev.txt`
+3. `export FLASK_ENV=development && python ./dev_starter.py`
 4. Додаток доступний на http://localhost:5000
 
 #### Поточний деплоймент
@@ -14,10 +17,10 @@
 `app/__init__.py`
 
 #### Дані:
-- Дані взяти з https://github.com/Medniy2000/ua_locations. 
+- Дані взяті з https://github.com/Medniy2000/ua_locations. 
 - Міграції зроблені на Flask-Migrate/alembic, запускаються автоматично при створенні аплікейшену в `app/__init__.py`, можна також запустити вручну через `flask db upgrade`.
 - Після завершення міграцій, в папці `app` буде лежати база `settlements.db`, до якої й будуть робитись запити.
-- В першій міграції беремо незмінений json-файл з ua_locations (`ua_locations_10_11_2021.json`), завантажуємо в базу, в наступних міграціях - чистимо дані і робимо деякі маніпуляції.
+- В першій міграції створюємо схему бази, в другій - беремо незмінений json-файл з ua_locations (`ua_locations_10_11_2021.json`), завантажуємо в базу (при імпорті чистячи дані) в наступних двох - додаємо деякі дані.
 - Станом на сьогодні не всі НП в базі мають проставлені координати. Це поправимо дещо пізніше, заповнивши координати в файлах що лежать в `resources/ua_locations_db/manual_coordinates`.
 
 #### Веб-контролери:
@@ -25,7 +28,7 @@
 - `api_bp.py` - містить API для пошуку
 - `rendering_bp.py` - url який рендерить html-сторінку
 - `static_files_bp.py` - шляхи для js/css-файлів.
-- Якщо фронт-енд кастомний, то `rendering_bp.py` і `static_files_bp.py` можемо зробити доступними тільки для дев-енву, як це зроблено для `/api/locations-without-coordinates` в `api_bp.py`
+- Якщо фронт-енд буде в окремій апці, то `rendering_bp.py` і `static_files_bp.py` для проду не потрібні, і можемо зробити їх доступними тільки для дев-енву, як це зроблено для `/api/locations-without-coordinates` в `api_bp.py`
 
 #### Огляд бібліотек для роботи з файлами (щоб не загубити):
 https://flatlogic.com/blog/top-mapping-and-maps-api/
