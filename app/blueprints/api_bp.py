@@ -1,7 +1,9 @@
+import csv
 import os
+import io
 
 import jsonpickle
-from flask import Blueprint, send_file, request, Response
+from flask import Blueprint, send_file, request, Response, make_response, jsonify
 
 from app.service.converters import convert_settlements, convert_missing_coordinates_settlements
 from app.service.finders import find_settlements_by_regex, find_settlements_without_coordinates
@@ -22,6 +24,36 @@ def search_settlements():
         mimetype='application/json'
     )
     return response
+
+
+@api_bp.route("/api/settlements/export")
+def export_to_file():
+    name_regex = request.args.get("settlement_name_regex")
+    file_format = request.args.get("file_format")
+    if not file_format and (file_format not in ['json', 'csv']):
+        return f"Invalid file format {file_format}. Must be either 'json' or 'csv'", 400
+
+    settlements = find_settlements_by_regex(name_regex)
+    settlement_dtos = convert_settlements(settlements)
+
+    if file_format == 'csv':
+        si = io.StringIO()
+        cw = csv.writer(si)
+        cw.writerow(["id", "name", "lat", "lon", "region", "district", "community"])
+        for dto in settlement_dtos:
+            cw.writerow(vars(dto).values())
+        output = make_response(si.getvalue())
+        output.headers["Content-Disposition"] = "attachment; filename=export.csv"
+        output.headers["Content-type"] = "text/csv"
+        return output
+    elif file_format == 'json':
+        string_json = jsonpickle.encode(settlement_dtos, unpicklable=False, indent=2)
+
+        return Response(string_json,
+                        mimetype='application/json',
+                        headers={'Content-Disposition': 'attachment;filename=export.json'})
+
+
 
 
 if 'FLASK_ENV' in os.environ and os.environ['FLASK_ENV'] == 'development':

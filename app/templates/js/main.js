@@ -114,9 +114,12 @@ function addResultsToTable(settlements) {
         }
         initRowsHoverListeners();
         $('#results-table').show();
+        $(".export-wrapper").show();
+
 
     } else {
         $('#results-table').hide();
+        $(".export-wrapper").hide();
         $('#table-wrapper .results-number').text(`Не знайдено жодного результату`);
     }
 
@@ -234,5 +237,27 @@ window.onpopstate = function(e) {
         $('#results-table tbody').empty();
         $('#results-table').hide();
         $('#table-wrapper .results-number').text('');
+        $(".export-wrapper").hide();
     }
 };
+
+// handle export button
+$('#export-btn').click(function() {
+    let nameRegex = encodeURIComponent($('#settlement-name-regex').val());
+    let exportFormat = encodeURIComponent($('#export-format').val());
+    let redirectLocation = `${window.location.origin}/api/settlements/export?settlement_name_regex=${nameRegex}&file_format=${exportFormat}`
+    console.log("Redirecting to location:")
+    console.log(redirectLocation)
+    window.location.href = redirectLocation;
+    $.ajax({
+        url: "/api/settlements/export",
+        type: "get",
+        data: {
+          settlement_name_regex: nameRegex,
+          file_format: exportFormat
+        },
+        success: function(result) {
+          console.log("Export successful")
+        }
+      });
+});
