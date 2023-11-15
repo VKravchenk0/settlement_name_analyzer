@@ -1,26 +1,31 @@
-## Migrations:
+Бек-енд топоніміки. 
+Тримає в SQLite-базі даних інформацію про українські населені пункти, надає ендпойнт `/api/settlements` для пошуку по назві НП за регулярним виразом. 
 
-#### Apply migrations if db doesn't exist:
-`flask db upgrade`
+#### Локальний запуск:
+1. (опціонально) встановити virtualenv/virtualenvwrapper і створити venv; активувати venv
+2. pip install -r requirements/dev.txt
+3. export FLASK_ENV=development && python ./dev_starter.py
+4. Додаток доступний на http://localhost:5000
 
-#### Re-create migrations from scratch if needed:
-- Delete ./migrations
-- flask db init
-- Generate migration file (see below)
-- flask db upgrade
+#### Поточний деплоймент
+Додаток на http://134.122.66.78/ запущений на digitalocean-дроплеті через nginx + gunicorn. Зроблено по цьому [туторіалу](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-20-04). 
 
-Version file template:
-file_template = %%(year)d_%%(month).2d_%%(day).2d_%%(hour).2d%%(minute).2d-%%(rev)s_%%(slug)s
+#### Головний клас який створює аплікейшн:
+`app/__init__.py`
 
-#### Autogenerate migrations for schema changes:
-`flask db migrate -m "Initial migration"`
+#### Дані:
+- Дані взяти з https://github.com/Medniy2000/ua_locations. 
+- Міграції зроблені на Flask-Migrate/alembic, запускаються автоматично при створенні аплікейшену в `app/__init__.py`, можна також запустити вручну через `flask db upgrade`.
+- Після завершення міграцій, в папці `app` буде лежати база `settlements.db`, до якої й будуть робитись запити.
+- В першій міграції беремо незмінений json-файл з ua_locations (`ua_locations_10_11_2021.json`), завантажуємо в базу, в наступних міграціях - чистимо дані і робимо деякі маніпуляції.
+- Станом на сьогодні не всі НП в базі мають проставлені координати. Це поправимо дещо пізніше, заповнивши координати в файлах що лежать в `resources/ua_locations_db/manual_coordinates`.
 
-#### Generate empty migration:
-`flask db revision -m "Save locations to db"`
+#### Веб-контролери:
+- лежать в `app/blueprints`
+- `api_bp.py` - містить API для пошуку
+- `rendering_bp.py` - url який рендерить html-сторінку
+- `static_files_bp.py` - шляхи для js/css-файлів.
+- Якщо фронт-енд кастомний, то `rendering_bp.py` і `static_files_bp.py` можемо зробити доступними тільки для дев-енву, як це зроблено для `/api/locations-without-coordinates` в `api_bp.py`
 
-## Some links:
-https://realpython.com/flask-by-example-part-1-project-setup/
-
-https://towardsdatascience.com/deploy-a-micro-flask-application-into-heroku-with-postgresql-database-d95fd0c19408
-
+#### Огляд бібліотек для роботи з файлами (щоб не загубити):
 https://flatlogic.com/blog/top-mapping-and-maps-api/
