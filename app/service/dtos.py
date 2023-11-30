@@ -1,10 +1,10 @@
 class MissingCoordinatesSettlementDTO(object):
 
-    def __init__(self, id: int, name: str, lat: str = "", lon: str = "") -> None:
+    def __init__(self, id: int, name: str, lat: str = "", lng: str = "") -> None:
         self.id = id
-        self.name = name
+        self.name_no_copy = name
         self.lat = lat
-        self.lon = lon
+        self.lng = lng
 
 
 class SettlementDTO:
