@@ -49,6 +49,7 @@ def convert_raw_entry_to_model(list):
         settlement.lat = entry["lat"]
         settlement.parent_id = entry["parent_id"]
         settlement.public_name = process_json_entry(entry["public_name"])
+        settlement.update_file_name = "ua_locations_10_11_2021.json"
 
         result.append(settlement)
     return result
@@ -77,28 +78,31 @@ def convert_and_save_list(locations_list):
     save_list(settlements)
 
 
-def update_settlements_with_manual_coordinates():
-    dir_name = './resources/ua_locations_db/manual_coordinates'
+def execute_updates():
+    dir_name = './resources/ua_locations_db/updates'
     for filename in os.listdir(dir_name):
         file_path = os.path.join(dir_name, filename)
         json_object = read_json_file(file_path)
-        process_manual_coordinates_entires(json_object)
+        process_updated_locations(filename, json_object)
 
 
-def process_manual_coordinates_entires(json_object):
+def process_updated_locations(filename, json_object):
     for entry in json_object:
-        if entry["lat"] and entry["lon"]:
-            #print(f"lat and lon values present for id {entry['id']}")
-            UaLocationsSettlement.query.filter(UaLocationsSettlement.id == int(entry['id'])) \
-                .update({
-                    "lat": float(entry['lat']),
-                    "lng": float(entry['lon']),
-                    "coordinates_added_manually": True
-            })
-            db.session.commit()
-        #else:
-            #print(f"lat and long values are absent for id {entry['id']}")
+        if entry["lat"] and entry["lng"]:
+            settlement = db.session.query(UaLocationsSettlement).get(int(entry['id']))
 
+            if 'lat' in entry:
+                settlement.lat = float(entry['lat'])
+            if 'lng' in entry:
+                settlement.lng = float(entry['lng'])
+            if 'meta' in entry:
+                update_meta = entry['meta']
+                existing_meta_copy = dict(settlement.meta)
+                existing_meta_copy.update(update_meta)
+                settlement.meta = existing_meta_copy
+            settlement.update_file_name = filename
+            settlement.updated_at = datetime.now()
+            db.session.commit()
 
 
 def read_json_file(file_path):

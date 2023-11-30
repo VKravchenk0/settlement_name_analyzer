@@ -1,4 +1,4 @@
-"""Update locations with manual coordinates
+"""Update locations
 
 Revision ID: 002c1342ce83
 Revises: f99dc27803fb
@@ -6,7 +6,7 @@ Create Date: 2023-08-08 16:35:10.520535
 
 """
 
-from app.db.migration.locations_db_importer import update_settlements_with_manual_coordinates
+from app.db.migration.locations_db_importer import execute_updates
 
 # revision identifiers, used by Alembic.
 revision = '002c1342ce83'
@@ -16,7 +16,7 @@ depends_on = None
 
 
 def upgrade():
-    update_settlements_with_manual_coordinates()
+    execute_updates()
 
 
 def downgrade():

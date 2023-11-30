@@ -29,6 +29,6 @@ if 'FLASK_ENV' in os.environ and os.environ['FLASK_ENV'] == 'development':
     def download_locations_without_coordinates():
         settlements_without_coordinates = find_settlements_without_coordinates()
         result_dtos = convert_missing_coordinates_settlements(settlements_without_coordinates)
-        zip_file = split_into_chunks_and_compress_into_archive(result_dtos, number_of_chunks=5)
+        zip_file = split_into_chunks_and_compress_into_archive(result_dtos, number_of_chunks=1)
 
         return send_file(zip_file, download_name='settlements_without_coordinates.zip', as_attachment=True)

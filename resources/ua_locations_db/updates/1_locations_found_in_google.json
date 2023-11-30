@@ -1,0 +1,6050 @@
+[
+  {
+    "id": 30139,
+    "name_no_copy": "с. Андроники, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.8005911,
+    "lng": 32.0883752,
+    "meta": {
+      "google_maps_place_id": "ChIJ80SO4mssK0ERchRC_kM7gfc"
+    }
+  },
+  {
+    "id": 29794,
+    "name": "с. Андреківське, Селятинська громада, Вижницький р-н, Чернівецька обл.",
+    "lat": 47.801799,
+    "lng": 25.118117,
+    "meta": {
+      "google_maps_place_id": "ChIJ58sgNCB_NkcRBHJ9SLF4Sxk"
+    }
+  },
+  {
+    "id": 7766,
+    "name_no_copy": "с. Андріївка, Старобешівська громада, Кальміуський р-н, Донецька обл.",
+    "lat": 47.6573202,
+    "lng": 38.0891727,
+    "meta": {
+      "google_maps_place_id": "ChIJS7aH4rPe4EARbNvmFAmS5fo"
+    }
+  },
+  {
+    "id": 19375,
+    "name_no_copy": "с. Антоно-Ковач, Великоплосківська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 46.9426846,
+    "lng": 29.7612687,
+    "meta": {
+      "google_maps_place_id": "ChIJZc7Jhj8eyUARvmqd8tBh7Zc"
+    }
+  },
+  {
+    "id": 24073,
+    "name_no_copy": "с. Антонівці, Шумська громада, Кременецький р-н, Тернопільська обл.",
+    "lat": 50.2108139,
+    "lng": 25.9255043,
+    "meta": {
+      "google_maps_place_id": "ChIJH9VPiFe8L0cR2dv6pGTvPq8"
+    }
+  },
+  {
+    "id": 14902,
+    "name_no_copy": "м. Антрацит, Антрацитівська громада, Ровеньківський р-н, Луганська обл.",
+    "lat": 48.11995049999999,
+    "lng": 39.0897865,
+    "meta": {
+      "google_maps_place_id": "ChIJlaaTFxXK4UARNJqGcOEcabo"
+    }
+  },
+  {
+    "id": 31040,
+    "name_no_copy": "с. Антішки, Срібнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6850528,
+    "lng": 33.0529869,
+    "meta": {
+      "google_maps_place_id": "ChIJNV8ycN8AKkER4GziYPQzpEI"
+    }
+  },
+  {
+    "id": 28069,
+    "name_no_copy": "с. Анютине, Летичівська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.3265558,
+    "lng": 27.5929906,
+    "meta": {
+      "google_maps_place_id": "ChIJfaO-_YaHLUcRtmogax3kyto"
+    }
+  },
+  {
+    "id": 7481,
+    "name_no_copy": "с. Артемівка, Амвросіївська громада, Донецький р-н, Донецька обл.",
+    "lat": 47.8707562,
+    "lng": 38.6395463,
+    "meta": {
+      "google_maps_place_id": "ChIJPZvCSlsA4UARjpO8wDrxPBo"
+    }
+  },
+  {
+    "id": 22435,
+    "name_no_copy": "с. Атаманське, Буринська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.0065169,
+    "lng": 33.8069063,
+    "meta": {
+      "google_maps_place_id": "ChIJIQIPbi2EKUERTIHGk_Bo1-0"
+    }
+  },
+  {
+    "id": 6725,
+    "name_no_copy": "с. Бабакове, Васильківська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2697075,
+    "lng": 35.8025283,
+    "meta": {
+      "google_maps_place_id": "ChIJc__Ztoef3kAR_N6Kcg75YD0"
+    }
+  },
+  {
+    "id": 14430,
+    "name_no_copy": "с. Бабичівка, Великоандрусівська громада, Олександрійський р-н, Кіровоградська обл.",
+    "lat": 49.0560018,
+    "lng": 33.0357816,
+    "meta": {
+      "google_maps_place_id": "ChIJf8gfFUG20EAREkJ6J9f112Q"
+    }
+  },
+  {
+    "id": 6008,
+    "name_no_copy": "с. Байдаківка, Лихівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.6277073,
+    "lng": 33.8030378,
+    "meta": {
+      "google_maps_place_id": "ChIJr3UKdus-2kARioAwB_HPzqw"
+    }
+  },
+  {
+    "id": 5911,
+    "name_no_copy": "с. Байківка, Вишнівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.4136993,
+    "lng": 33.9522692,
+    "meta": {
+      "google_maps_place_id": "ChIJc7Y2sHtM2kAR_uXZ4nmzk7w"
+    }
+  },
+  {
+    "id": 15136,
+    "name_no_copy": "с. Бараничеве, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.7468758,
+    "lng": 38.1266289,
+    "meta": {
+      "google_maps_place_id": "ChIJnzXnzAEZIUER5rPilh9tQgs"
+    }
+  },
+  {
+    "id": 30931,
+    "name_no_copy": "с. Барбурське, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.9965303,
+    "lng": 32.2080148,
+    "meta": {
+      "google_maps_place_id": "ChIJu8kZ8zKHKkERKhO2OVUTTdo"
+    }
+  },
+  {
+    "id": 9495,
+    "name_no_copy": "с. Барвінкове, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.33055969999999,
+    "lng": 28.6340357,
+    "meta": {
+      "google_maps_place_id": "ChIJMTdZDTOEKUcREL9GL_i5a0k"
+    }
+  },
+  {
+    "id": 5536,
+    "name_no_copy": "с. Барвінок, Торчинська громада, Луцький р-н, Волинська обл.",
+    "lat": 50.8199074,
+    "lng": 24.9141257,
+    "meta": {
+      "google_maps_place_id": "ChIJAaxrC1OuJUcRJDVepCpha8o"
+    }
+  },
+  {
+    "id": 31636,
+    "name_no_copy": "с. Безиків, Тупичівська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.8131279,
+    "lng": 31.3378031,
+    "meta": {
+      "google_maps_place_id": "ChIJmfOD8QQi1UYRAMH1WFOZfoo"
+    }
+  },
+  {
+    "id": 6391,
+    "name_no_copy": "с. Бекетівка, Першотравневська громада, Нікопольський р-н, Дніпропетровська обл.",
+    "lat": 47.8599189,
+    "lng": 34.2971552,
+    "meta": {
+      "google_maps_place_id": "ChIJXaOeXcx620ARnnJtWdu9VWE"
+    }
+  },
+  {
+    "id": 18207,
+    "name_no_copy": "с. Березань, Чорноморська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.74134069999999,
+    "lng": 31.546774,
+    "meta": {
+      "google_maps_place_id": "ChIJn7Uyukh3xkAReOXgTRotZos"
+    }
+  },
+  {
+    "id": 28155,
+    "name_no_copy": "с. Березина, Наркевицька громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.4471469,
+    "lng": 24.0636958,
+    "meta": {
+      "google_maps_place_id": "ChIJy2aSP7VhOkcR7AGTWCvj4So"
+    }
+  },
+  {
+    "id": 6977,
+    "name_no_copy": "с. Березнуватка, Раївська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.24775030000001,
+    "lng": 35.6008089,
+    "meta": {
+      "google_maps_place_id": "ChIJAcA97Jwe3EARHlrQAz8VWtQ"
+    }
+  },
+  {
+    "id": 31123,
+    "name_no_copy": "с. Березовиця, Талалаївська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.8776451,
+    "lng": 33.0366517,
+    "meta": {
+      "google_maps_place_id": "ChIJsz1acvgQKkEREkzJ_XBEfnI"
+    }
+  },
+  {
+    "id": 7812,
+    "name_no_copy": "с. Березівка, Іллінівська громада, Краматорський р-н, Донецька обл.",
+    "lat": 48.3465381,
+    "lng": 37.5088829,
+    "meta": {
+      "google_maps_place_id": "ChIJd5hrvinN30ARmlJtgvZqX14"
+    }
+  },
+  {
+    "id": 29492,
+    "name_no_copy": "с. Бересняги, Бобрицька громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.7977286,
+    "lng": 31.212878,
+    "meta": {
+      "google_maps_place_id": "ChIJmaxkOo521EARFD1c7na0Tf4"
+    }
+  },
+  {
+    "id": 19347,
+    "name_no_copy": "с. Бессарабка, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.1598675,
+    "lng": 29.868061,
+    "meta": {
+      "google_maps_place_id": "ChIJz7F-ekEvyUARULXwIuFSuiI"
+    }
+  },
+  {
+    "id": 30141,
+    "name_no_copy": "с. Бешківка, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.6775741,
+    "lng": 32.2836054,
+    "meta": {
+      "google_maps_place_id": "ChIJuQlupdgmK0ERMCFbuEWneSs"
+    }
+  },
+  {
+    "id": 9789,
+    "name_no_copy": "с. Бобрицька Болярка, Барашівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.6362775,
+    "lng": 28.0223715,
+    "meta": {
+      "google_maps_place_id": "ChIJtdz_BE1VKUcRLBZDnjGilMY"
+    }
+  },
+  {
+    "id": 30143,
+    "name_no_copy": "с. Богдалівка, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.8278929,
+    "lng": 32.5035038,
+    "meta": {
+      "google_maps_place_id": "ChIJ6dzPwPY7K0ERTsw4hV03Iv8"
+    }
+  },
+  {
+    "id": 21644,
+    "name_no_copy": "с. Богушівка, Млинівська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.5859882,
+    "lng": 25.7227313,
+    "meta": {
+      "google_maps_place_id": "ChIJwWQaeTB8L0cRoAo6v0zy2LY"
+    }
+  },
+  {
+    "id": 5815,
+    "name_no_copy": "с. Болтишка, Божедарівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2357897,
+    "lng": 34.1782891,
+    "meta": {
+      "google_maps_place_id": "ChIJ0X0rvgSl20AR2NCeIruBAGQ"
+    }
+  },
+  {
+    "id": 2959,
+    "name_no_copy": "с-ще Бондаренкове, Маломаяцька громада, Ялтинський р-н, Автономна Республіка Крим обл.",
+    "lat": 44.6097898,
+    "lng": 34.3737067,
+    "meta": {
+      "google_maps_place_id": "ChIJV5hW_Yo160ARZspPGV9BEts"
+    }
+  },
+  {
+    "id": 7133,
+    "name_no_copy": "с. Бондарне, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.7416106,
+    "lng": 37.9425084,
+    "meta": {
+      "google_maps_place_id": "ChIJL-0kRJvy30ARNLv3fUUaWJI"
+    }
+  },
+  {
+    "id": 30677,
+    "name_no_copy": "с. Борисове, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.5632221,
+    "lng": 33.0654647,
+    "meta": {
+      "google_maps_place_id": "ChIJaWR6wnGoK0ERqGMLBOIZFDw"
+    }
+  },
+  {
+    "id": 8668,
+    "name_no_copy": "с. Борок, Коростишівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.3085923,
+    "lng": 29.2141739,
+    "meta": {
+      "google_maps_place_id": "ChIJMTTRi1OdLEcRzr_Yf8OrOQU"
+    }
+  },
+  {
+    "id": 31071,
+    "name_no_copy": "с. Боротьба, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6886368,
+    "lng": 31.9267019,
+    "meta": {
+      "google_maps_place_id": "ChIJVwytKEKe1UARpFypQ_Fqls0"
+    }
+  },
+  {
+    "id": 30900,
+    "name_no_copy": "с. Боханів, Варвинська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.4126893,
+    "lng": 32.8983425,
+    "meta": {
+      "google_maps_place_id": "ChIJ89wkAioK1kARuN0djQtqnA8"
+    }
+  },
+  {
+    "id": 22529,
+    "name_no_copy": "с. Боцманів, Кролевецька громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.53859380000001,
+    "lng": 33.2959726,
+    "meta": {
+      "google_maps_place_id": "ChIJxWJudCWlK0ER5DTrER9fvhA"
+    }
+  },
+  {
+    "id": 21630,
+    "name_no_copy": "с. Боцянівка, Мирогощанська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.4166581,
+    "lng": 25.9746645,
+    "meta": {
+      "google_maps_place_id": "ChIJQe6Tpc2fL0cRSEnTL8B6Hzg"
+    }
+  },
+  {
+    "id": 31366,
+    "name_no_copy": "с. Боярівка, Козелецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 50.968826,
+    "lng": 31.1578246,
+    "meta": {
+      "google_maps_place_id": "ChIJT6zh4uZO1UARctMDeBDY-do"
+    }
+  },
+  {
+    "id": 30832,
+    "name_no_copy": "с. Брониви, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.3156031,
+    "lng": 32.4407175,
+    "meta": {
+      "google_maps_place_id": "ChIJKyUTV5Op1EYRzB9y-vbZg6g"
+    }
+  },
+  {
+    "id": 22087,
+    "name_no_copy": "с. Брюшків, Костопільська громада, Рівненський р-н, Рівненська обл.",
+    "lat": 51.0416236,
+    "lng": 26.4244748,
+    "meta": {
+      "google_maps_place_id": "ChIJjapRks6yKEcRCNuwIc6Cegg"
+    }
+  },
+  {
+    "id": 22598,
+    "name_no_copy": "с. Бувалине, Новослобідська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.4008131,
+    "lng": 34.1636581,
+    "meta": {
+      "google_maps_place_id": "ChIJ9RDCPQNgKUERNqcIah8eyXA"
+    }
+  },
+  {
+    "id": 8863,
+    "name_no_copy": "с. Буглаки, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6983487,
+    "lng": 29.0076737,
+    "meta": {
+      "google_maps_place_id": "ChIJ1Urdm5CXK0cR7qHpA5MvCag"
+    }
+  },
+  {
+    "id": 30425,
+    "name_no_copy": "с. Буглаки, Бобровицька громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.7539416,
+    "lng": 31.647508,
+    "meta": {
+      "google_maps_place_id": "ChIJl9BaVXxy1UARcmsFnR0Rhls"
+    }
+  },
+  {
+    "id": 23711,
+    "name_no_copy": "с. Бугор, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.032283,
+    "lng": 33.9744119,
+    "meta": {
+      "google_maps_place_id": "ChIJH2gFja96LEERQP2bQt-mzck"
+    }
+  },
+  {
+    "id": 9434,
+    "name_no_copy": "с. Буда-Голубієвичі, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.071237,
+    "lng": 29.4534067,
+    "meta": {
+      "google_maps_place_id": "ChIJ6WEKpQNOKkcRkl1pjUaGlyA"
+    }
+  },
+  {
+    "id": 9753,
+    "name_no_copy": "с. Будисько, Баранівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.2326506,
+    "lng": 27.7410993,
+    "meta": {
+      "google_maps_place_id": "ChIJz8zZNZYmLEcRZGAz9d7rlsE"
+    }
+  },
+  {
+    "id": 9724,
+    "name_no_copy": "с. Будницьке, Чоповицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 50.9215049,
+    "lng": 28.9798561,
+    "meta": {
+      "google_maps_place_id": "ChIJieaWD_-3K0cR6u6P7rghksA"
+    }
+  },
+  {
+    "id": 7952,
+    "name_no_copy": "с. Бузинівка, Олександрівська громада, Краматорський р-н, Донецька обл.",
+    "lat": 48.6321209,
+    "lng": 36.7625083,
+    "meta": {
+      "google_maps_place_id": "ChIJS6XitGQC30ARRvGSjM_CKzE"
+    }
+  },
+  {
+    "id": 17794,
+    "name_no_copy": "с. Бузоварове, Веселинівська громада, Вознесенський р-н, Миколаївська обл.",
+    "lat": 47.3654555,
+    "lng": 31.4325336,
+    "meta": {
+      "google_maps_place_id": "ChIJP7ol47Niz0ARHv1fQzwhoxI"
+    }
+  },
+  {
+    "id": 17987,
+    "name_no_copy": "с. Бузькі Пороги, Прибузька громада, Вознесенський р-н, Миколаївська обл.",
+    "lat": 47.8611797,
+    "lng": 31.1176018,
+    "meta": {
+      "google_maps_place_id": "ChIJnY_pKvGwz0ARqut2LZtjjik"
+    }
+  },
+  {
+    "id": 22867,
+    "name_no_copy": "с. Буймерівка, Чернеччинська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.2812636,
+    "lng": 34.8086752,
+    "meta": {
+      "google_maps_place_id": "ChIJ-Q4uijEXKEERcDsJ3920GlA"
+    }
+  },
+  {
+    "id": 9033,
+    "name_no_copy": "с. Буймир, Станишівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.2202297,
+    "lng": 28.9483391,
+    "meta": {
+      "google_maps_place_id": "ChIJJbANDgmGLEcR0kHpwD3xqYM"
+    }
+  },
+  {
+    "id": 30902,
+    "name_no_copy": "с. Булавівщина, Варвинська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.5199653,
+    "lng": 32.7975283,
+    "meta": {
+      "google_maps_place_id": "ChIJBYF6d6fk1UARPtuxLMceP2U"
+    }
+  },
+  {
+    "id": 18253,
+    "name_no_copy": "с. Булацелове, Благодатненська громада, Первомайський р-н, Миколаївська обл.",
+    "lat": 47.9860425,
+    "lng": 31.109089,
+    "meta": {
+      "google_maps_place_id": "ChIJ64wCWoa1z0AR8GAZ73TAxZw"
+    }
+  },
+  {
+    "id": 9435,
+    "name_no_copy": "с. Булів, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.1728087,
+    "lng": 29.0417436,
+    "meta": {
+      "google_maps_place_id": "ChIJsyo06NYzKkcRdgDED3YngKc"
+    }
+  },
+  {
+    "id": 19033,
+    "name_no_copy": "с. Бурлача Балка, Чорноморська громада, Одеський р-н, Одеська обл.",
+    "lat": 46.3425607,
+    "lng": 30.6619673,
+    "meta": {
+      "google_maps_place_id": "ChIJWaTR9PTLx0AR1GjXDdqb8OE"
+    }
+  },
+  {
+    "id": 23507,
+    "name_no_copy": "с. Бурчак, Миколаївська громада, Сумський р-н, Сумська обл.",
+    "lat": 51.03745989999999,
+    "lng": 34.5675087,
+    "meta": {
+      "google_maps_place_id": "ChIJRdVxBVkOKUERAs-xWoxzfko"
+    }
+  },
+  {
+    "id": 22800,
+    "name_no_copy": "с. Бурячиха, Комишанська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.2709203,
+    "lng": 34.57651329999999,
+    "meta": {
+      "google_maps_place_id": "ChIJd7OrVFoiKEER5Epwrlmj7Ro"
+    }
+  },
+  {
+    "id": 17612,
+    "name_no_copy": "с. Бурячки, Казанківська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.6107053,
+    "lng": 32.9653137,
+    "meta": {
+      "google_maps_place_id": "ChIJ92b4ECIoxUARQP8ku2ICg-E"
+    }
+  },
+  {
+    "id": 29493,
+    "name_no_copy": "с. Бучак, Бобрицька громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.8647804,
+    "lng": 31.4334443,
+    "meta": {
+      "google_maps_place_id": "ChIJyVAo4GBt1EARYLGLmJqYijA"
+    }
+  },
+  {
+    "id": 30661,
+    "name_no_copy": "с. Бідин, Талалаївська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.9838902,
+    "lng": 32.0053513,
+    "meta": {
+      "google_maps_place_id": "ChIJ8-dQE2KCKkEROEBhCN5_6v8"
+    }
+  },
+  {
+    "id": 6658,
+    "name_no_copy": "с. Білозерське, Юр'ївська громада, Павлоградський р-н, Дніпропетровська обл.",
+    "lat": 48.866952,
+    "lng": 35.8299873,
+    "meta": {
+      "google_maps_place_id": "ChIJPXjMU1Up2UAR7k38TYdBTgs"
+    }
+  },
+  {
+    "id": 8666,
+    "name_no_copy": "с. Більківці, Коростишівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.36347929999999,
+    "lng": 28.9773902,
+    "meta": {
+      "google_maps_place_id": "ChIJ20pwCgaALEcRCoIf3mOzD3U"
+    }
+  },
+  {
+    "id": 6860,
+    "name_no_copy": "с. Біляківка, Межівська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.1866535,
+    "lng": 36.8771411,
+    "meta": {
+      "google_maps_place_id": "ChIJca4YGhVq3kARJt-r6_qzeCs"
+    }
+  },
+  {
+    "id": 3037,
+    "name_no_copy": "с. В'язовиця, Іллінецька громада, Вінницький р-н, Вінницька обл.",
+    "lat": 49.0452072,
+    "lng": 29.1302156,
+    "meta": {
+      "google_maps_place_id": "ChIJ51YXqoGk0kARQrLttCtXHVg"
+    }
+  },
+  {
+    "id": 19348,
+    "name_no_copy": "с. Вакарське, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.059659,
+    "lng": 29.9337348,
+    "meta": {
+      "google_maps_place_id": "ChIJRZD6_57YyEAR0BIbwEoPtnQ"
+    }
+  },
+  {
+    "id": 8777,
+    "name_no_copy": "с. Валки, Новоборівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.694456,
+    "lng": 28.5891488,
+    "meta": {
+      "google_maps_place_id": "ChIJpzA4N8XtK0cRpq3cyNesFa0"
+    }
+  },
+  {
+    "id": 15448,
+    "name_no_copy": "с. Валуйки, Шульгинська громада, Старобільський р-н, Луганська обл.",
+    "lat": 49.0894853,
+    "lng": 38.80662410000001,
+    "meta": {
+      "google_maps_place_id": "ChIJFz8WsNwkIEERoNkZoPo3PEo"
+    }
+  },
+  {
+    "id": 6661,
+    "name_no_copy": "с. Варламівка, Юр'ївська громада, Павлоградський р-н, Дніпропетровська обл.",
+    "lat": 48.80610309999999,
+    "lng": 36.079544,
+    "meta": {
+      "google_maps_place_id": "ChIJd1ue-Z3W3kARkL8xA8FHKcE"
+    }
+  },
+  {
+    "id": 23712,
+    "name_no_copy": "с. Василець, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.030297,
+    "lng": 33.8909929,
+    "meta": {
+      "google_maps_place_id": "ChIJdSZJmgZ7LEERlHrcOIfXXXY"
+    }
+  },
+  {
+    "id": 21110,
+    "name_no_copy": "с. Васильці, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.7529119,
+    "lng": 34.7579047,
+    "meta": {
+      "google_maps_place_id": "ChIJLbjPGyoZ2EARZNHN9kFCHak"
+    }
+  },
+  {
+    "id": 23753,
+    "name_no_copy": "с. Василівське, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.2772436,
+    "lng": 33.4881287,
+    "meta": {
+      "google_maps_place_id": "ChIJQ17RmkWRLEER6Ci8KqZ75Do"
+    }
+  },
+  {
+    "id": 9436,
+    "name_no_copy": "с. Васьківці, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.1121823,
+    "lng": 29.3877974,
+    "meta": {
+      "google_maps_place_id": "ChIJb_Y03sNOKkcR_MvT5b-O-eo"
+    }
+  },
+  {
+    "id": 31043,
+    "name_no_copy": "с. Васюків, Срібнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6739751,
+    "lng": 33.0694516,
+    "meta": {
+      "google_maps_place_id": "ChIJaXPnAvEAKkER4qFnUiyKFsk"
+    }
+  },
+  {
+    "id": 23508,
+    "name_no_copy": "с. Васюківщина, Миколаївська громада, Сумський р-н, Сумська обл.",
+    "lat": 50.976198,
+    "lng": 34.6699674,
+    "meta": {
+      "google_maps_place_id": "ChIJu4qjIsgFKUER3ML-XmVzjeQ"
+    }
+  },
+  {
+    "id": 9681,
+    "name_no_copy": "с. Велень, Ушомирська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 50.973023,
+    "lng": 28.4487786,
+    "meta": {
+      "google_maps_place_id": "ChIJcRMZYrTYK0cRfAftskZf9tI"
+    }
+  },
+  {
+    "id": 16547,
+    "name_no_copy": "с. Велика Хвороща, Новокалинівська громада, Самбірський р-н, Львівська обл.",
+    "lat": 49.5238403,
+    "lng": 23.5166072,
+    "meta": {
+      "google_maps_place_id": "ChIJZUWr8EqrO0cRiujNrBvFGVI"
+    }
+  },
+  {
+    "id": 8728,
+    "name_no_copy": "с. Великобраталівське, Любарська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 49.9997642,
+    "lng": 27.9141847,
+    "meta": {
+      "google_maps_place_id": "ChIJ6fGlWaM1LEcRki6o6bRJLPA"
+    }
+  },
+  {
+    "id": 13780,
+    "name_no_copy": "с. Великодрюкове, Бобринецька громада, Кропивницький р-н, Кіровоградська обл.",
+    "lat": 48.0777648,
+    "lng": 32.0496161,
+    "meta": {
+      "google_maps_place_id": "ChIJyVcDfLgC0EARIDubGSVu9Ec"
+    }
+  },
+  {
+    "id": 9437,
+    "name_no_copy": "с. Великі Міньки, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.0908804,
+    "lng": 29.3093708,
+    "meta": {
+      "google_maps_place_id": "ChIJWyipB_FLKkcRiBarbpaL7z4"
+    }
+  },
+  {
+    "id": 9792,
+    "name_no_copy": "с. Верби, Барашівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.6511971,
+    "lng": 27.9570289,
+    "meta": {
+      "google_maps_place_id": "ChIJG-2_98pUKUcRDCsPd6g3trQ"
+    }
+  },
+  {
+    "id": 26778,
+    "name_no_copy": "с. Вереміївка, Високопільська громада, Бериславський р-н, Херсонська обл.",
+    "lat": 47.4045509,
+    "lng": 33.574012,
+    "meta": {
+      "google_maps_place_id": "ChIJHW5rQ2-wxEARRLtqDmFXr3Y"
+    }
+  },
+  {
+    "id": 11556,
+    "name_no_copy": "с. Верхньодрагунське, Смирновська громада, Пологівський р-н, Запорізька обл.",
+    "lat": 47.3022943,
+    "lng": 36.4412801,
+    "meta": {
+      "google_maps_place_id": "ChIJM5sofgx_50ARlniSUy3HjT8"
+    }
+  },
+  {
+    "id": 9507,
+    "name_no_copy": "с. Верхня Рудня, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.5635691,
+    "lng": 28.5262211,
+    "meta": {
+      "google_maps_place_id": "ChIJTVmg7h6VKUcR6s5Luy6T5fQ"
+    }
+  },
+  {
+    "id": 7080,
+    "name_no_copy": "с. Вершина, Бахмутська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.51951469999999,
+    "lng": 38.115284,
+    "meta": {
+      "google_maps_place_id": "ChIJJw2411Hg30ARnXByf8Z5F9U"
+    }
+  },
+  {
+    "id": 7352,
+    "name_no_copy": "с. Весела Долина, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.2117496,
+    "lng": 38.4307349,
+    "meta": {
+      "google_maps_place_id": "ChIJQU63PodC4EARMvXSunCMy0U"
+    }
+  },
+  {
+    "id": 30360,
+    "name_no_copy": "с. Веселівка, Батуринська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 48.6151624,
+    "lng": 29.8622529,
+    "meta": {
+      "google_maps_place_id": "ChIJGfK40PCLzUARgBgmCEXsgrg"
+    }
+  },
+  {
+    "id": 31286,
+    "name_no_copy": "с. Вир, Добрянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.9158537,
+    "lng": 30.9604698,
+    "meta": {
+      "google_maps_place_id": "ChIJAzhUeRwE1UYROO_9FdSXAvA"
+    }
+  },
+  {
+    "id": 15138,
+    "name_no_copy": "с. Високе, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.8342464,
+    "lng": 38.2505619,
+    "meta": {
+      "google_maps_place_id": "ChIJL9K3ZXsWIUERoAtGayVqEdE"
+    }
+  },
+  {
+    "id": 6394,
+    "name_no_copy": "с. Високопіль, Першотравневська громада, Нікопольський р-н, Дніпропетровська обл.",
+    "lat": 47.8456071,
+    "lng": 34.2899351,
+    "meta": {
+      "google_maps_place_id": "ChIJH2_jHCVl20AR_qa4hW5_CQc"
+    }
+  },
+  {
+    "id": 24322,
+    "name_no_copy": "с. Вишеньки, Золотниківська громада, Тернопільський р-н, Тернопільська обл.",
+    "lat": 49.2261739,
+    "lng": 25.4477119,
+    "meta": {
+      "google_maps_place_id": "ChIJRWmUKbNUMEcReEUC6Bu9g4U"
+    }
+  },
+  {
+    "id": 5965,
+    "name_no_copy": "с. Вишневе, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.498189,
+    "lng": 34.4156769,
+    "meta": {
+      "google_maps_place_id": "ChIJg0KO267P20AR5KI6-2ZEAHQ"
+    }
+  },
+  {
+    "id": 9754,
+    "name_no_copy": "с. Вишнівка, Баранівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.3622607,
+    "lng": 27.5546152,
+    "meta": {
+      "google_maps_place_id": "ChIJF4vEXuWYLkcRgpNDGONfODA"
+    }
+  },
+  {
+    "id": 11165,
+    "name_no_copy": "с. Вовче, Кирилівська громада, Мелітопольський р-н, Запорізька обл.",
+    "lat": 46.4686586,
+    "lng": 35.1723481,
+    "meta": {
+      "google_maps_place_id": "ChIJqQuVKTwo6EARIkjhd3cSaPA"
+    }
+  },
+  {
+    "id": 7882,
+    "name_no_copy": "с. Вовчий Яр, Лиманська громада, Краматорський р-н, Донецька обл.",
+    "lat": 49.2017299,
+    "lng": 37.6627087,
+    "meta": {
+      "google_maps_place_id": "ChIJ-a_xqJKFIEER3Eshg9iuVjs"
+    }
+  },
+  {
+    "id": 22425,
+    "name_no_copy": "с. Вовчик, Бочечківська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.3542085,
+    "lng": 33.4651708,
+    "meta": {
+      "google_maps_place_id": "ChIJRxZXf4nJK0ERdjQfMl-acis"
+    }
+  },
+  {
+    "id": 7813,
+    "name_no_copy": "с. Водяне Друге, Іллінівська громада, Краматорський р-н, Донецька обл.",
+    "lat": 48.3395484,
+    "lng": 37.5101224,
+    "meta": {
+      "google_maps_place_id": "ChIJQxfrIy3N30ARfutmb7vRTa8"
+    }
+  },
+  {
+    "id": 9646,
+    "name_no_copy": "с. Возлякове, Словечанська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.2104899,
+    "lng": 28.30199,
+    "meta": {
+      "google_maps_place_id": "ChIJL7q4CiF3KUcR1CtTiGiRJLk"
+    }
+  },
+  {
+    "id": 17560,
+    "name_no_copy": "с. Волна, Володимирівська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.5776816,
+    "lng": 32.9685191,
+    "meta": {
+      "google_maps_place_id": "ChIJpZGPZxjYxEAREGHFnu4Ra7A"
+    }
+  },
+  {
+    "id": 6012,
+    "name_no_copy": "с. Володимирівка, Лихівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.6131247,
+    "lng": 33.8384205,
+    "meta": {
+      "google_maps_place_id": "ChIJ2Rv7WzM52kAREsslGP2D6h0"
+    }
+  },
+  {
+    "id": 16570,
+    "name_no_copy": "с. Волянка, Ралівська громада, Самбірський р-н, Львівська обл.",
+    "lat": 49.4107587,
+    "lng": 23.1711139,
+    "meta": {
+      "google_maps_place_id": "ChIJb5Mo67GwO0cR2Fpbw-rV_hg"
+    }
+  },
+  {
+    "id": 6733,
+    "name_no_copy": "с. Воронізьке, Васильківська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2554857,
+    "lng": 35.7367738,
+    "meta": {
+      "google_maps_place_id": "ChIJa76SSeAf3EARIr2IMdXJUBs"
+    }
+  },
+  {
+    "id": 23302,
+    "name_no_copy": "с. Воропай, Краснопільська громада, Сумський р-н, Сумська обл.",
+    "lat": 50.832118,
+    "lng": 35.2106053,
+    "meta": {
+      "google_maps_place_id": "ChIJgdJ2bbzxKEERdAhBswzyEnc"
+    }
+  },
+  {
+    "id": 22897,
+    "name_no_copy": "с. Всадки, Чупахівська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.3891071,
+    "lng": 34.6124517,
+    "meta": {
+      "google_maps_place_id": "ChIJAUv3G_I7KEERgvGdBh7NY24"
+    }
+  },
+  {
+    "id": 7346,
+    "name_no_copy": "м. Вуглегірськ, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.3115536,
+    "lng": 38.2778412,
+    "meta": {
+      "google_maps_place_id": "ChIJqVKlI3Ru4EAR9ygd-Huv1tM"
+    }
+  },
+  {
+    "id": 11056,
+    "name_no_copy": "с. Вівчарне, Павлівська громада, Запорізький р-н, Запорізька обл.",
+    "lat": 48.0540356,
+    "lng": 35.5627839,
+    "meta": {
+      "google_maps_place_id": "ChIJ3cqFqCw83EARpEKB4O_qZmQ"
+    }
+  },
+  {
+    "id": 8866,
+    "name_no_copy": "с. Вівче, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6325344,
+    "lng": 29.0102958,
+    "meta": {
+      "google_maps_place_id": "ChIJexDReiSaK0cR5rkGC1adNXE"
+    }
+  },
+  {
+    "id": 19083,
+    "name_no_copy": "с. Відрада, Балтська громада, Подільський р-н, Одеська обл.",
+    "lat": 47.8693294,
+    "lng": 29.5503579,
+    "meta": {
+      "google_maps_place_id": "ChIJwTQnIC8kzEARByY5nWNAnYA"
+    }
+  },
+  {
+    "id": 6325,
+    "name_no_copy": "с. Вільне Життя, Софіївська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 48.0694005,
+    "lng": 34.093245,
+    "meta": {
+      "google_maps_place_id": "ChIJNYtFWDcK20AReGI1klD-0a8"
+    }
+  },
+  {
+    "id": 17958,
+    "name_no_copy": "с. Вільний Яр, Олександрівська громада, Вознесенський р-н, Миколаївська обл.",
+    "lat": 47.7609083,
+    "lng": 31.438029,
+    "meta": {
+      "google_maps_place_id": "ChIJy04SbP2Wz0ARxLfrIn4slKI"
+    }
+  },
+  {
+    "id": 9439,
+    "name_no_copy": "с. Вільхова, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.3574801,
+    "lng": 29.3704703,
+    "meta": {
+      "google_maps_place_id": "ChIJBfdWzyY-KkcRxie3Y2M83jk"
+    }
+  },
+  {
+    "id": 27865,
+    "name_no_copy": "с. Вільшани, Волочиська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.5986379,
+    "lng": 26.261635,
+    "meta": {
+      "google_maps_place_id": "ChIJK13Mn8PeMUcRKEkRSJu9QIE"
+    }
+  },
+  {
+    "id": 21114,
+    "name_no_copy": "с. Гаврилки, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.7035698,
+    "lng": 34.851001,
+    "meta": {
+      "google_maps_place_id": "ChIJnRoFo4gX2EAR2oYpbYZnmCs"
+    }
+  },
+  {
+    "id": 30682,
+    "name_no_copy": "с. Галичівка, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.52739330000001,
+    "lng": 32.819042,
+    "meta": {
+      "google_maps_place_id": "ChIJz9pyFW8BK0ER-DPLFKI3cjQ"
+    }
+  },
+  {
+    "id": 23303,
+    "name_no_copy": "с. Гапонівка, Краснопільська громада, Сумський р-н, Сумська обл.",
+    "lat": 50.67792379999999,
+    "lng": 35.1162925,
+    "meta": {
+      "google_maps_place_id": "ChIJG9sFPAxfKEERMGuFQzDkXv4"
+    }
+  },
+  {
+    "id": 30308,
+    "name_no_copy": "с. Гапішківка, Сосницька громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.51865489999999,
+    "lng": 32.5597562,
+    "meta": {
+      "google_maps_place_id": "ChIJTVH8uOziKkERrsmE6chUZ4g"
+    }
+  },
+  {
+    "id": 30428,
+    "name_no_copy": "с. Гарт, Бобровицька громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.6742401,
+    "lng": 31.4982665,
+    "meta": {
+      "google_maps_place_id": "ChIJCTdx7xAS1UARLAlKVuwjBdc"
+    }
+  },
+  {
+    "id": 31221,
+    "name_no_copy": "с. Гасичівка, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 52.0148832,
+    "lng": 31.7768111,
+    "meta": {
+      "google_maps_place_id": "ChIJb9KPVonE1EYR-KlRv-h59SM"
+    }
+  },
+  {
+    "id": 30836,
+    "name_no_copy": "с. Гаті, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.2390662,
+    "lng": 32.4044527,
+    "meta": {
+      "google_maps_place_id": "ChIJMUi73BOs1EYRgp0sS9HeKOc"
+    }
+  },
+  {
+    "id": 27551,
+    "name_no_copy": "с. Гелетина, Китайгородська громада, Кам'янець-Подільський р-н, Хмельницька обл.",
+    "lat": 48.71044819999999,
+    "lng": 26.8060866,
+    "meta": {
+      "google_maps_place_id": "ChIJrf3mbgWxM0cR0B7ma7sspnM"
+    }
+  },
+  {
+    "id": 18072,
+    "name_no_copy": "с. Глибоке, Коблівська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.6896505,
+    "lng": 31.2788573,
+    "meta": {
+      "google_maps_place_id": "ChIJoW_xbwNtxkAR0uGyGa6rEKI"
+    }
+  },
+  {
+    "id": 30248,
+    "name_no_copy": "с. Глибокий Ріг, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.8979689,
+    "lng": 32.1168584,
+    "meta": {
+      "google_maps_place_id": "ChIJA6R2sMgyK0ERgH776e7HUpg"
+    }
+  },
+  {
+    "id": 31126,
+    "name_no_copy": "с. Глинське, Талалаївська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.9423446,
+    "lng": 32.9893988,
+    "meta": {
+      "google_maps_place_id": "ChIJh3BEHQsUKkERXh_nOK_D4iE"
+    }
+  },
+  {
+    "id": 29494,
+    "name_no_copy": "с. Глинча, Бобрицька громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.8391847,
+    "lng": 31.3770821,
+    "meta": {
+      "google_maps_place_id": "ChIJO5iEN_dy1EARgmfVFWRnZ08"
+    }
+  },
+  {
+    "id": 21115,
+    "name_no_copy": "с. Глоби, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.6888132,
+    "lng": 34.8157598,
+    "meta": {
+      "google_maps_place_id": "ChIJacu47QYY2EARllp-sZqRKP8"
+    }
+  },
+  {
+    "id": 15140,
+    "name": "с. Глотівка, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.790529,
+    "lng": 38.085257,
+    "meta": {
+      "google_maps_place_id": "ChIJo6PESqIiIUER3Pm2DSFgRMI"
+    }
+  },
+  {
+    "id": 28224,
+    "name_no_copy": "с. Глушковецьке, Солобковецька громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.1310368,
+    "lng": 26.901743,
+    "meta": {
+      "google_maps_place_id": "ChIJw7GxBgo-MkcRnH7rwJnvl6o"
+    }
+  },
+  {
+    "id": 5694,
+    "name_no_copy": "с. Голубинівка, Святовасилівська громада, Дніпровський р-н, Дніпропетровська обл.",
+    "lat": 48.18122839999999,
+    "lng": 34.4511678,
+    "meta": {
+      "google_maps_place_id": "ChIJKeXZO3uX20ARBjk-m1SF_SQ"
+    }
+  },
+  {
+    "id": 14675,
+    "name_no_copy": "м. Голубівка, Кадіївська громада, Алчевський р-н, Луганська обл.",
+    "lat": 48.6354729,
+    "lng": 38.6373936,
+    "meta": {
+      "google_maps_place_id": "ChIJp5wRFXoC4EARiGCwC_FR2I8"
+    }
+  },
+  {
+    "id": 6668,
+    "name_no_copy": "с. Голубівське, Юр'ївська громада, Павлоградський р-н, Дніпропетровська обл.",
+    "lat": 48.876548,
+    "lng": 35.8374214,
+    "meta": {
+      "google_maps_place_id": "ChIJwyW4nFkp2UAR0gVsQxqtC8s"
+    }
+  },
+  {
+    "id": 9442,
+    "name_no_copy": "с. Голубієвичі, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.0841231,
+    "lng": 29.411862,
+    "meta": {
+      "google_maps_place_id": "ChIJNxHYD31OKkcR8qMby99a-Hk"
+    }
+  },
+  {
+    "id": 21117,
+    "name_no_copy": "с. Гонтарі, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.7686513,
+    "lng": 34.7118685,
+    "meta": {
+      "google_maps_place_id": "ChIJQ-2zOx0f2EARCLRkqhUyXf0"
+    }
+  },
+  {
+    "id": 21647,
+    "name_no_copy": "с. Гончариха, Млинівська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.514759,
+    "lng": 25.7953481,
+    "meta": {
+      "google_maps_place_id": "ChIJm0dxFE14L0cRHPJ5JZEOGcs"
+    }
+  },
+  {
+    "id": 24326,
+    "name_no_copy": "с. Гончарки, Золотниківська громада, Тернопільський р-н, Тернопільська обл.",
+    "lat": 49.33142549999999,
+    "lng": 25.4188251,
+    "meta": {
+      "google_maps_place_id": "ChIJ5b-H6QZSMEcRjPBroW5vwHY"
+    }
+  },
+  {
+    "id": 15269,
+    "name_no_copy": "с. Гончарове, Біловодська громада, Старобільський р-н, Луганська обл.",
+    "lat": 49.2355019,
+    "lng": 39.4304667,
+    "meta": {
+      "google_maps_place_id": "ChIJhTFPdgl9H0ERSBrHoKMHeo4"
+    }
+  },
+  {
+    "id": 19164,
+    "name_no_copy": "с. Гор'ївка, Куяльницька громада, Подільський р-н, Одеська обл.",
+    "lat": 47.6087378,
+    "lng": 29.6495587,
+    "meta": {
+      "google_maps_place_id": "ChIJQwCTbe2kzkARltHvXPNUG9E"
+    }
+  },
+  {
+    "id": 28076,
+    "name_no_copy": "с. Горбасів, Летичівська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.41268669999999,
+    "lng": 27.5489992,
+    "meta": {
+      "google_maps_place_id": "ChIJIxnA-CiJLUcRZJm_KYchSJs"
+    }
+  },
+  {
+    "id": 17470,
+    "name_no_copy": "с. Горожене, Баштанська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.4534241,
+    "lng": 32.4956644,
+    "meta": {
+      "google_maps_place_id": "ChIJfe_jWWoaxUARxu56TLjkw4M"
+    }
+  },
+  {
+    "id": 21034,
+    "name_no_copy": "с. Грабівщина, Михайлівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.2346273,
+    "lng": 34.8732459,
+    "meta": {
+      "google_maps_place_id": "ChIJLyMlhI-t2UARTtQKYjdaZNU"
+    }
+  },
+  {
+    "id": 22735,
+    "name_no_copy": "с. Градське, Боромлянська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.723731,
+    "lng": 34.9442233,
+    "meta": {
+      "google_maps_place_id": "ChIJIeIVBCxYKEERBPEMV8QcbB8"
+    }
+  },
+  {
+    "id": 6013,
+    "name_no_copy": "с. Грамівка, Лихівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.6422648,
+    "lng": 33.7644865,
+    "meta": {
+      "google_maps_place_id": "ChIJswi7FWo-2kAR0kh8sTgCesc"
+    }
+  },
+  {
+    "id": 4078,
+    "name_no_copy": "с. Гранітне, Брацлавська громада, Тульчинський р-н, Вінницька обл.",
+    "lat": 48.8544905,
+    "lng": 28.9992382,
+    "meta": {
+      "google_maps_place_id": "ChIJ8RgknNFdzUARxH7TySifOSU"
+    }
+  },
+  {
+    "id": 19165,
+    "name_no_copy": "с. Грекове Друге, Куяльницька громада, Подільський р-н, Одеська обл.",
+    "lat": 47.6650261,
+    "lng": 29.7286929,
+    "meta": {
+      "google_maps_place_id": "ChIJmWffM92izkAR6rYyKo0hfI8"
+    }
+  },
+  {
+    "id": 17579,
+    "name_no_copy": "с. Гречанівка, Горохівська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 46.9368747,
+    "lng": 32.8123811,
+    "meta": {
+      "google_maps_place_id": "ChIJ5Z3yC51oxEARcMIpLI_G-Gk"
+    }
+  },
+  {
+    "id": 22537,
+    "name_no_copy": "с. Грибаньове, Кролевецька громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.6191769,
+    "lng": 33.3286214,
+    "meta": {
+      "google_maps_place_id": "ChIJwVoVwbqjK0ERYj5MkKelUcA"
+    }
+  },
+  {
+    "id": 8867,
+    "name_no_copy": "с. Гришківка, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.5654298,
+    "lng": 29.0594207,
+    "meta": {
+      "google_maps_place_id": "ChIJLXOJRpGcK0cRhFByU-NvK7c"
+    }
+  },
+  {
+    "id": 7354,
+    "name_no_copy": "с-ще Грозне, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.2936432,
+    "lng": 38.3105043,
+    "meta": {
+      "google_maps_place_id": "ChIJaYaSCpBu4EARwrOpsYQ49xM"
+    }
+  },
+  {
+    "id": 5821,
+    "name_no_copy": "с. Грузинівка, Божедарівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.20263019999999,
+    "lng": 34.0806797,
+    "meta": {
+      "google_maps_place_id": "ChIJnVIXG_-l20ARbFmYpiOj7bo"
+    }
+  },
+  {
+    "id": 22900,
+    "name_no_copy": "с. Грунька, Чупахівська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.4745485,
+    "lng": 34.6288287,
+    "meta": {
+      "google_maps_place_id": "ChIJ_0j_uxQ4KEERmvJMYbL-MKQ"
+    }
+  },
+  {
+    "id": 19355,
+    "name_no_copy": "с. Грушка, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.1436938,
+    "lng": 29.6440147,
+    "meta": {
+      "google_maps_place_id": "ChIJRdPVlL07yUARNL94uaFor8Y"
+    }
+  },
+  {
+    "id": 6068,
+    "name_no_copy": "с. Грушуватка, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3542496,
+    "lng": 33.7909237,
+    "meta": {
+      "google_maps_place_id": "ChIJSZu7L69R2kARE6HCqX1aYFk"
+    }
+  },
+  {
+    "id": 7040,
+    "name_no_copy": "с. Грякувате, Славгородська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2224417,
+    "lng": 35.2969493,
+    "meta": {
+      "google_maps_place_id": "ChIJlwoU6XoP3EARTDIUEN_UNbo"
+    }
+  },
+  {
+    "id": 21587,
+    "name_no_copy": "с. Гусари, Козинська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.2185835,
+    "lng": 25.4589233,
+    "meta": {
+      "google_maps_place_id": "ChIJZVFMK8KML0cRhPXX4zEW7ZY"
+    }
+  },
+  {
+    "id": 30685,
+    "name_no_copy": "с. Гута, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.619779,
+    "lng": 32.8488548,
+    "meta": {
+      "google_maps_place_id": "ChIJNWQk-JgFK0ERIAoFUOJoqJ4"
+    }
+  },
+  {
+    "id": 27458,
+    "name_no_copy": "с. Гута-Блищанівська, Дунаєвецька громада, Кам'янець-Подільський р-н, Хмельницька обл.",
+    "lat": 48.7794885,
+    "lng": 26.8324481,
+    "meta": {
+      "google_maps_place_id": "ChIJscAvVX6zM0cRfOYVUQyW1kY"
+    }
+  },
+  {
+    "id": 9795,
+    "name_no_copy": "с. Гута-Бобрицька, Барашівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.651584,
+    "lng": 28.157384,
+    "meta": {
+      "google_maps_place_id": "ChIJ2VX6ifr-K0cRVNz6aLy9aQs"
+    }
+  },
+  {
+    "id": 9248,
+    "name_no_copy": "с. Гута-Добринь, Іршанська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 50.71078379999999,
+    "lng": 28.7523076,
+    "meta": {
+      "google_maps_place_id": "ChIJt1zK4KmUK0cRbkgEogLyhlA"
+    }
+  },
+  {
+    "id": 9727,
+    "name_no_copy": "с. Гутянське, Чоповицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 50.9096268,
+    "lng": 28.9712604,
+    "meta": {
+      "google_maps_place_id": "ChIJwyMF_gi4K0cRrIhL2Np2XRQ"
+    }
+  },
+  {
+    "id": 19353,
+    "name_no_copy": "с. Гірське, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 46.96996840000001,
+    "lng": 29.93070479999999,
+    "meta": {
+      "google_maps_place_id": "ChIJ35Qd6T3eyEAR71wXrGi3eiU"
+    }
+  },
+  {
+    "id": 7355,
+    "name_no_copy": "с-ще Данилове, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.2213824,
+    "lng": 38.4644885,
+    "meta": {
+      "google_maps_place_id": "ChIJZX3YmmxC4EARBIKh_nzQMOI"
+    }
+  },
+  {
+    "id": 23049,
+    "name_no_copy": "с. Дараганове, Недригайлівська громада, Роменський р-н, Сумська обл.",
+    "lat": 50.91135939999999,
+    "lng": 33.8995616,
+    "meta": {
+      "google_maps_place_id": "ChIJRYspvmWQKUERzGbXJQHSEns"
+    }
+  },
+  {
+    "id": 29582,
+    "name_no_copy": "с. Деменці, Медведівська громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.2131154,
+    "lng": 32.2661474,
+    "meta": {
+      "google_maps_place_id": "ChIJ-RbwFzkl0UARtPem3br91kQ"
+    }
+  },
+  {
+    "id": 6069,
+    "name_no_copy": "с. Демурино-Варварівка, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2581284,
+    "lng": 33.6852322,
+    "meta": {
+      "google_maps_place_id": "ChIJ-S500-BV2kAR6ARxll37nPE"
+    }
+  },
+  {
+    "id": 31224,
+    "name_no_copy": "с. День-Добрий, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.9773138,
+    "lng": 31.2905899,
+    "meta": {
+      "google_maps_place_id": "ChIJOaxKjKzj1EYRQMO6e0F-WAw"
+    }
+  },
+  {
+    "id": 9759,
+    "name_no_copy": "с. Деревищина, Баранівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.2858837,
+    "lng": 27.4307677,
+    "meta": {
+      "google_maps_place_id": "ChIJBTt89vmaLkcRNFEhO5Lik0g"
+    }
+  },
+  {
+    "id": 30214,
+    "name_no_copy": "с. Дерепівка, Менська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.3972882,
+    "lng": 31.9368056,
+    "meta": {
+      "google_maps_place_id": "ChIJ1xqq8i_HKkERECs8EBqKPi4"
+    }
+  },
+  {
+    "id": 7883,
+    "name_no_copy": "с. Дерилове, Лиманська громада, Краматорський р-н, Донецька обл.",
+    "lat": 49.0665035,
+    "lng": 37.7294996,
+    "meta": {
+      "google_maps_place_id": "ChIJI5Ms4kN-IEERTohlzfKaNC0"
+    }
+  },
+  {
+    "id": 8647,
+    "name_no_copy": "с. Дехтярка, Квітнева громада, Житомирський р-н, Житомирська обл.",
+    "lat": 49.97758779999999,
+    "lng": 29.6965735,
+    "meta": {
+      "google_maps_place_id": "ChIJEZCZOpOyLEcRsHIZXK0y5O4"
+    }
+  },
+  {
+    "id": 24835,
+    "name_no_copy": "с. Дзвенигород, Мельнице-Подільська громада, Чортківський р-н, Тернопільська обл.",
+    "lat": 48.5433574,
+    "lng": 26.2827831,
+    "meta": {
+      "google_maps_place_id": "ChIJR7TZ3kHpM0cROqO-XxdpuCM"
+    }
+  },
+  {
+    "id": 24836,
+    "name_no_copy": "с. Дзвинячка, Мельнице-Подільська громада, Чортківський р-н, Тернопільська обл.",
+    "lat": 48.5807744,
+    "lng": 26.2505572,
+    "meta": {
+      "google_maps_place_id": "ChIJTwwojlvoM0cRVMMPHrMhAA4"
+    }
+  },
+  {
+    "id": 31076,
+    "name_no_copy": "с. Димирівка, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6990389,
+    "lng": 31.9399287,
+    "meta": {
+      "google_maps_place_id": "ChIJE8u1LXCe1UARsFxpjrayTNU"
+    }
+  },
+  {
+    "id": 14706,
+    "name_no_copy": "м. Довжанськ, Довжанська громада, Довжанський р-н, Луганська обл.",
+    "lat": 48.0764807,
+    "lng": 39.6707123,
+    "meta": {
+      "google_maps_place_id": "ChIJmRA0_Jnn4UARLgj1RrbDWNA"
+    }
+  },
+  {
+    "id": 2183,
+    "name_no_copy": "с. Дозорне, Чорнопільська громада, Білогірський р-н, Автономна Республіка Крим обл.",
+    "lat": 45.0209053,
+    "lng": 34.7011332,
+    "meta": {
+      "google_maps_place_id": "ChIJhw3dq8wI60ARzgX8JyDmVkk"
+    }
+  },
+  {
+    "id": 7675,
+    "name_no_copy": "с. Доля, Докучаєвська громада, Кальміуський р-н, Донецька обл.",
+    "lat": 47.87413,
+    "lng": 37.7193497,
+    "meta": {
+      "google_maps_place_id": "ChIJFS7yQOK94EARAKGrdZavoJs"
+    }
+  },
+  {
+    "id": 7536,
+    "name_no_copy": "м. Донецьк, Донецька громада, Донецький р-н, Донецька обл.",
+    "lat": 48.015883,
+    "lng": 37.80285,
+    "meta": {
+      "google_maps_place_id": "ChIJLZqRAJWQ4EARhG-Fxf1eMzY"
+    }
+  },
+  {
+    "id": 9871,
+    "name_no_copy": "с. Дорогань, Довбиська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.3263606,
+    "lng": 27.9152455,
+    "meta": {
+      "google_maps_place_id": "ChIJKUdk4-wYLEcRav6gxyHo6Nc"
+    }
+  },
+  {
+    "id": 8870,
+    "name_no_copy": "с. Дорогунь, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6126449,
+    "lng": 29.0936933,
+    "meta": {
+      "google_maps_place_id": "ChIJY32DW_-bK0cRokLDDMYvxvQ"
+    }
+  },
+  {
+    "id": 23714,
+    "name_no_copy": "с. Дорошенкове, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.0659806,
+    "lng": 33.8365562,
+    "meta": {
+      "google_maps_place_id": "ChIJfdwJL5F8LEERJ9-RY2HEX7Y"
+    }
+  },
+  {
+    "id": 31308,
+    "name_no_copy": "с. Драчівщина, Іванівська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.2898316,
+    "lng": 31.3738174,
+    "meta": {
+      "google_maps_place_id": "ChIJcXgyaOesKkERkO5EEIPVUEY"
+    }
+  },
+  {
+    "id": 30686,
+    "name_no_copy": "с. Дрібці, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.33413849999999,
+    "lng": 32.974428,
+    "meta": {
+      "google_maps_place_id": "ChIJd2oOmzFSKkERLGgre8EgoHo"
+    }
+  },
+  {
+    "id": 7041,
+    "name_no_copy": "с. Дубо-Осокорівка, Славгородська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.22651279999999,
+    "lng": 35.3397792,
+    "meta": {
+      "google_maps_place_id": "ChIJzR6qEnsF3EARgMBti0zdYvg"
+    }
+  },
+  {
+    "id": 7140,
+    "name_no_copy": "с. Дубово-Василівка, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.6506268,
+    "lng": 37.9261032,
+    "meta": {
+      "google_maps_place_id": "ChIJn0ZuXrHu30ARqk_ihgVJP-0"
+    }
+  },
+  {
+    "id": 31451,
+    "name_no_copy": "с. Духанки, Любецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.62353419999999,
+    "lng": 30.8621668,
+    "meta": {
+      "google_maps_place_id": "ChIJw1YBWVps1UYRxMOGZYSXUNI"
+    }
+  },
+  {
+    "id": 5969,
+    "name_no_copy": "с. Діброва, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2805226,
+    "lng": 34.4326091,
+    "meta": {
+      "google_maps_place_id": "ChIJkXgQ6GC-20ARtDtRGO5HUEY"
+    }
+  },
+  {
+    "id": 30840,
+    "name_no_copy": "с. Жаданівка, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.9866488,
+    "lng": 32.5687531,
+    "meta": {
+      "google_maps_place_id": "ChIJ96y6CCNGK0ERrMgTr_2IvSc"
+    }
+  },
+  {
+    "id": 23668,
+    "name_no_copy": "с. Жалківщина, Березівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 51.8278853,
+    "lng": 33.9704565,
+    "meta": {
+      "google_maps_place_id": "ChIJ5xiN11-KK0ERHNNJoFp0WEU"
+    }
+  },
+  {
+    "id": 22605,
+    "name_no_copy": "с. Жари, Новослобідська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.2591613,
+    "lng": 33.9726884,
+    "meta": {
+      "google_maps_place_id": "ChIJs6DYt119KUERkLi5Cl1ByMQ"
+    }
+  },
+  {
+    "id": 31564,
+    "name_no_copy": "с. Жилин Млинок, Остерська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.037384,
+    "lng": 30.9445902,
+    "meta": {
+      "google_maps_place_id": "ChIJMZWJIA-zKkcRQP0AQ6uFaDM"
+    }
+  },
+  {
+    "id": 6380,
+    "name_no_copy": "с. Жмерине, Мирівська громада, Нікопольський р-н, Дніпропетровська обл.",
+    "lat": 47.7213139,
+    "lng": 34.9045691,
+    "meta": {
+      "google_maps_place_id": "ChIJr-7P0W6M3EAR3OgBjhbRvyM"
+    }
+  },
+  {
+    "id": 22774,
+    "name_no_copy": "с. Жолоби, Грунська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.22041280000001,
+    "lng": 34.6843275,
+    "meta": {
+      "google_maps_place_id": "ChIJYQYZWhEZKEERBOFeNFR2Ecw"
+    }
+  },
+  {
+    "id": 31131,
+    "name_no_copy": "с. Жолобок, Талалаївська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.8432873,
+    "lng": 33.1031976,
+    "meta": {
+      "google_maps_place_id": "ChIJRQGp7pIaKkER8Dm93lBggJM"
+    }
+  },
+  {
+    "id": 30253,
+    "name_no_copy": "с. Журавок, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.8763619,
+    "lng": 31.6893214,
+    "meta": {
+      "google_maps_place_id": "ChIJtaks5bzZ1EYRNPen9Wp1PhE"
+    }
+  },
+  {
+    "id": 21118,
+    "name_no_copy": "с. Забаряни, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.69198129999999,
+    "lng": 34.6644746,
+    "meta": {
+      "google_maps_place_id": "ChIJoWYvcYAh2EARoK7EWUpBUqY"
+    }
+  },
+  {
+    "id": 21699,
+    "name_no_copy": "с. Завалля, Підлозцівська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.5712585,
+    "lng": 25.4552949,
+    "meta": {
+      "google_maps_place_id": "ChIJl1VEqBmCJUcRMHViaUd8E38"
+    }
+  },
+  {
+    "id": 9449,
+    "name_no_copy": "с. Заводне, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.1104831,
+    "lng": 29.4251015,
+    "meta": {
+      "google_maps_place_id": "ChIJ3_KPJlZOKkcRQr1OP4CsXlY"
+    }
+  },
+  {
+    "id": 30254,
+    "name_no_copy": "с. Загребельна Слобода, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.9263905,
+    "lng": 31.8945258,
+    "meta": {
+      "google_maps_place_id": "ChIJI1hDWdHR1EYRmnywNrnQc9o"
+    }
+  },
+  {
+    "id": 11646,
+    "name_no_copy": "с. Загір'я-Кукільницьке, Більшівцівська громада, Івано-Франківський р-н, Івано-Франківська обл.",
+    "lat": 49.2140603,
+    "lng": 24.8133945,
+    "meta": {
+      "google_maps_place_id": "ChIJwxOfT4CMMEcRUq1vQ02lSaQ"
+    }
+  },
+  {
+    "id": 22802,
+    "name_no_copy": "с. Закаблуки, Комишанська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.2643212,
+    "lng": 34.5355157,
+    "meta": {
+      "google_maps_place_id": "ChIJk1_ShMsjKEERZBO6K6w23g4"
+    }
+  },
+  {
+    "id": 15921,
+    "name_no_copy": "с. Закривець, Бібрська громада, Львівський р-н, Львівська обл.",
+    "lat": 49.55703219999999,
+    "lng": 24.3969838,
+    "meta": {
+      "google_maps_place_id": "ChIJXTyvDkaFOkcRVkfmD88ZLSc"
+    }
+  },
+  {
+    "id": 30156,
+    "name_no_copy": "с. Заляддя, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.74914820000001,
+    "lng": 32.6145007,
+    "meta": {
+      "google_maps_place_id": "ChIJ3eS4SMYXK0ERegcWocSzP7g"
+    }
+  },
+  {
+    "id": 7141,
+    "name_no_copy": "с. Залізнянське, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.70169749999999,
+    "lng": 37.9396946,
+    "meta": {
+      "google_maps_place_id": "ChIJVa_IZMbt30AR3CJDL1X_s0I"
+    }
+  },
+  {
+    "id": 31229,
+    "name_no_copy": "с. Залісся, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.85871179999999,
+    "lng": 31.2627992,
+    "meta": {
+      "google_maps_place_id": "ChIJb-NcX88e1UYRQnorydoOEq8"
+    }
+  },
+  {
+    "id": 5781,
+    "name_no_copy": "с. Заорілля, Царичанська громада, Дніпровський р-н, Дніпропетровська обл.",
+    "lat": 49.1064914,
+    "lng": 34.612216,
+    "meta": {
+      "google_maps_place_id": "ChIJJ-H93YK82UAROqatcwO9zG0"
+    }
+  },
+  {
+    "id": 7282,
+    "name_no_copy": "с. Запорізьке, Мирненська громада, Волноваський р-н, Донецька обл.",
+    "lat": 47.3822171,
+    "lng": 37.6557002,
+    "meta": {
+      "google_maps_place_id": "ChIJCTHEUbko50ARlAvqLrTe4w8"
+    }
+  },
+  {
+    "id": 31081,
+    "name_no_copy": "с. Зарудка, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.5866398,
+    "lng": 32.0053295,
+    "meta": {
+      "google_maps_place_id": "ChIJIyqWHoWi1UARIMl260Zy2Hk"
+    }
+  },
+  {
+    "id": 12681,
+    "name_no_copy": "с. Затиша, Узинська громада, Білоцерківський р-н, Київська обл.",
+    "lat": 49.9310673,
+    "lng": 30.4423706,
+    "meta": {
+      "google_maps_place_id": "ChIJWY9KMoVh00ARTGfJeg83kkw"
+    }
+  },
+  {
+    "id": 31082,
+    "name_no_copy": "с. Заудаївське, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6557435,
+    "lng": 32.47602620000001,
+    "meta": {
+      "google_maps_place_id": "ChIJgwhqukuN1UARhBRNMy30mPg"
+    }
+  },
+  {
+    "id": 23215,
+    "name_no_copy": "с. Зацарне, Бездрицька громада, Сумський р-н, Сумська обл.",
+    "lat": 50.904156,
+    "lng": 35.0099333,
+    "meta": {
+      "google_maps_place_id": "ChIJTy59BJz8KEERfMQiw_a84Og"
+    }
+  },
+  {
+    "id": 6992,
+    "name_no_copy": "с. Заяче, Раївська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.1566731,
+    "lng": 35.59918040000001,
+    "meta": {
+      "google_maps_place_id": "ChIJ22Mkg2UY3EAR4Hj8NYAXBT0"
+    }
+  },
+  {
+    "id": 4947,
+    "name_no_copy": "с. Заіванове, Забродівська громада, Ковельський р-н, Волинська обл.",
+    "lat": 51.6196759,
+    "lng": 24.5914257,
+    "meta": {
+      "google_maps_place_id": "ChIJJ-PSaV6lJkcRAn5Uc4tOznE"
+    }
+  },
+  {
+    "id": 21689,
+    "name_no_copy": "с. Зборів, Острожецька громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.6329596,
+    "lng": 25.5910103,
+    "meta": {
+      "google_maps_place_id": "ChIJX9njrOiGJUcRDA_Alizby5M"
+    }
+  },
+  {
+    "id": 24839,
+    "name_no_copy": "с. Збручанське, Мельнице-Подільська громада, Чортківський р-н, Тернопільська обл.",
+    "lat": 48.6640656,
+    "lng": 26.2725574,
+    "meta": {
+      "google_maps_place_id": "ChIJRf-9mNDcM0cRypr5w5TnHG8"
+    }
+  },
+  {
+    "id": 27871,
+    "name_no_copy": "с. Збручівка, Волочиська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.6502217,
+    "lng": 26.2702809,
+    "meta": {
+      "google_maps_place_id": "ChIJ4zzV96jYMUcRghEYGWEaKUU"
+    }
+  },
+  {
+    "id": 10790,
+    "name_no_copy": "с. Зелена Балка, Великобілозерська громада, Василівський р-н, Запорізька обл.",
+    "lat": 47.2410541,
+    "lng": 34.5264798,
+    "meta": {
+      "google_maps_place_id": "ChIJzSQkE0wzw0ARJEzPmqvYsb8"
+    }
+  },
+  {
+    "id": 19087,
+    "name_no_copy": "с. Зелений Гай, Балтська громада, Подільський р-н, Одеська обл.",
+    "lat": 47.91835870000001,
+    "lng": 29.3831257,
+    "meta": {
+      "google_maps_place_id": "ChIJnZzhHq47zEARGgVj453QSsQ"
+    }
+  },
+  {
+    "id": 30845,
+    "name_no_copy": "с. Зоря, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.27397,
+    "lng": 33.1030809,
+    "meta": {
+      "google_maps_place_id": "ChIJdXddk3-kLEERGtJ67ctxkog"
+    }
+  },
+  {
+    "id": 11681,
+    "name_no_copy": "с. Зруб, Букачівська громада, Івано-Франківський р-н, Івано-Франківська обл.",
+    "lat": 49.2534462,
+    "lng": 24.3987313,
+    "meta": {
+      "google_maps_place_id": "ChIJzTgM5ZKCMEcRNAM7Zf_H6AQ"
+    }
+  },
+  {
+    "id": 9762,
+    "name_no_copy": "с. Зрубок, Баранівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.3631738,
+    "lng": 27.5183622,
+    "meta": {
+      "google_maps_place_id": "ChIJSX9tpVOYLkcR1OykIfKQr7w"
+    }
+  },
+  {
+    "id": 9873,
+    "name_no_copy": "с. Зятинець, Довбиська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.338563,
+    "lng": 27.9167005,
+    "meta": {
+      "google_maps_place_id": "ChIJhecFk-AYLEcR_BHQs0pP6FU"
+    }
+  },
+  {
+    "id": 30949,
+    "name_no_copy": "с. Зінченкове, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.8123048,
+    "lng": 32.5974363,
+    "meta": {
+      "google_maps_place_id": "ChIJUWzoV6F1KkERdHrV91jswvI"
+    }
+  },
+  {
+    "id": 15072,
+    "name_no_copy": "с. Калинова Балка, Лозно-Олександрівська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.7483683,
+    "lng": 38.5699882,
+    "meta": {
+      "google_maps_place_id": "ChIJjaW_inQMIUERhI6JWIwMomI"
+    }
+  },
+  {
+    "id": 30848,
+    "name_no_copy": "с. Калинівське, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.26868529999999,
+    "lng": 32.4192517,
+    "meta": {
+      "google_maps_place_id": "ChIJ04J8VOGr1EYRGOOjdDbTfGg"
+    }
+  },
+  {
+    "id": 5974,
+    "name_no_copy": "с. Кам'янчани, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.36903820000001,
+    "lng": 34.2882181,
+    "meta": {
+      "google_maps_place_id": "ChIJpwl_TI6320ARnBOQAkbOKOw"
+    }
+  },
+  {
+    "id": 5697,
+    "name_no_copy": "с. Карайкове, Святовасилівська громада, Дніпровський р-н, Дніпропетровська обл.",
+    "lat": 48.1482821,
+    "lng": 34.4157387,
+    "meta": {
+      "google_maps_place_id": "ChIJQScO77aZ20ARLljV-CNwqXw"
+    }
+  },
+  {
+    "id": 30849,
+    "name_no_copy": "с. Карасі, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1862727,
+    "lng": 32.9812088,
+    "meta": {
+      "google_maps_place_id": "ChIJzTlxJ0ynLEER8BYuAUC72eM"
+    }
+  },
+  {
+    "id": 19358,
+    "name_no_copy": "с. Кардамичеве, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 46.96141799999999,
+    "lng": 29.9141481,
+    "meta": {
+      "google_maps_place_id": "ChIJrzCr0yDeyEARaPitqVgByKE"
+    }
+  },
+  {
+    "id": 21119,
+    "name_no_copy": "с. Карнаухи, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.6985792,
+    "lng": 34.8570753,
+    "meta": {
+      "google_maps_place_id": "ChIJbbKwgIwX2EARgtu7vwJTuag"
+    }
+  },
+  {
+    "id": 23758,
+    "name_no_copy": "с. Карпеченкове, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.2993014,
+    "lng": 33.5852741,
+    "meta": {
+      "google_maps_place_id": "ChIJfaA02U2SLEER8kkXX1odTO4"
+    }
+  },
+  {
+    "id": 31233,
+    "name_no_copy": "с. Картовецьке, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.8719593,
+    "lng": 31.4285334,
+    "meta": {
+      "google_maps_place_id": "ChIJ8UZ1tBQg1UYRcnbNOqYO3dE"
+    }
+  },
+  {
+    "id": 4179,
+    "name_no_copy": "с. Касянівка, Томашпільська громада, Тульчинський р-н, Вінницька обл.",
+    "lat": 48.618963,
+    "lng": 28.6600627,
+    "meta": {
+      "google_maps_place_id": "ChIJ7Qk9pLQ-zUAR3sNyRfyWIFM"
+    }
+  },
+  {
+    "id": 18095,
+    "name_no_copy": "с. Каталине, Куцурубська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.7658442,
+    "lng": 31.8651824,
+    "meta": {
+      "google_maps_place_id": "ChIJk4yert_UxUARFpujpzuHB4I"
+    }
+  },
+  {
+    "id": 6332,
+    "name_no_copy": "с. Катерино-Наталівка, Софіївська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 48.0238538,
+    "lng": 34.1702224,
+    "meta": {
+      "google_maps_place_id": "ChIJMZyx-c9020AR5MEgwydRKog"
+    }
+  },
+  {
+    "id": 10791,
+    "name_no_copy": "с. Качкарівка, Великобілозерська громада, Василівський р-н, Запорізька обл.",
+    "lat": 47.2736653,
+    "lng": 34.5825912,
+    "meta": {
+      "google_maps_place_id": "ChIJ_-qJ6V3M3EARlk8W7pg8g4Q"
+    }
+  },
+  {
+    "id": 30953,
+    "name_no_copy": "с. Киколи, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.8208598,
+    "lng": 32.2595045,
+    "meta": {
+      "google_maps_place_id": "ChIJj571hOyG1UARLKYxx8Or8h4"
+    }
+  },
+  {
+    "id": 9804,
+    "name_no_copy": "с. Киселівка, Барашівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.6315624,
+    "lng": 28.0834627,
+    "meta": {
+      "google_maps_place_id": "ChIJ_9C4S5P_K0cREtjdF8ujsmc"
+    }
+  },
+  {
+    "id": 17990,
+    "name_no_copy": "с. Київ, Прибузька громада, Вознесенський р-н, Миколаївська обл.",
+    "lat": 50.4501,
+    "lng": 30.5234,
+    "meta": {
+      "google_maps_place_id": "ChIJBUVa4U7P1EAR_kYBF9IxSXY"
+    }
+  },
+  {
+    "id": 31647,
+    "name_no_copy": "м. Київ",
+    "lat": 50.4501,
+    "lng": 30.5234,
+    "meta": {
+      "google_maps_place_id": "ChIJBUVa4U7P1EAR_kYBF9IxSXY"
+    }
+  },
+  {
+    "id": 6995,
+    "name_no_copy": "с. Київське, Раївська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.1340184,
+    "lng": 35.5870532,
+    "meta": {
+      "google_maps_place_id": "ChIJy9CKmgMY3EAREgeqdtAno-M"
+    }
+  },
+  {
+    "id": 4671,
+    "name_no_copy": "с. Кладнів, Устилузька громада, Володимир-Волинський р-н, Волинська обл.",
+    "lat": 51.0328321,
+    "lng": 23.953304,
+    "meta": {
+      "google_maps_place_id": "ChIJI0eEtlZ6JEcRvmzoAf1rkGM"
+    }
+  },
+  {
+    "id": 5628,
+    "name_no_copy": "с. Кладнів, Новоолександрівська громада, Дніпровський р-н, Дніпропетровська обл.",
+    "lat": 51.0328321,
+    "lng": 23.953304,
+    "meta": {
+      "google_maps_place_id": "ChIJI0eEtlZ6JEcRvmzoAf1rkGM"
+    }
+  },
+  {
+    "id": 8874,
+    "name": "с. Клен, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.675163,
+    "lng": 28.894855,
+    "meta": {
+      "google_maps_place_id": "ChIJQZiCecqWK0cRDkG0HqWTCbw"
+    }
+  },
+  {
+    "id": 30599,
+    "name_no_copy": "с. Кленове, Макіївська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.7225283,
+    "lng": 31.8629338,
+    "meta": {
+      "google_maps_place_id": "ChIJExpcI9t11UARhFdHyoM4A-Q"
+    }
+  },
+  {
+    "id": 23057,
+    "name_no_copy": "с. Клин, Недригайлівська громада, Роменський р-н, Сумська обл.",
+    "lat": 50.8886336,
+    "lng": 33.9440251,
+    "meta": {
+      "google_maps_place_id": "ChIJ_9xe4seQKUERShwM1m14KvQ"
+    }
+  },
+  {
+    "id": 15150,
+    "name_no_copy": "с. Клинуватка, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.8054634,
+    "lng": 38.2552346,
+    "meta": {
+      "google_maps_place_id": "ChIJ4WcPa-YWIUER-h70v_TBCdY"
+    }
+  },
+  {
+    "id": 4999,
+    "name_no_copy": "с. Кличковичі, Луківська громада, Ковельський р-н, Волинська обл.",
+    "lat": 51.1546646,
+    "lng": 24.4869195,
+    "meta": {
+      "google_maps_place_id": "ChIJO23O2ZU_JEcRPi4h0z4nQ5Q"
+    }
+  },
+  {
+    "id": 31452,
+    "name_no_copy": "с. Клонів, Любецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.6455098,
+    "lng": 30.7563679,
+    "meta": {
+      "google_maps_place_id": "ChIJE8pHUWxy1UYRXi8ISSwC9q8"
+    }
+  },
+  {
+    "id": 27539,
+    "name_no_copy": "с. Княгинин, Кам'янець-Подільська громада, Кам'янець-Подільський р-н, Хмельницька обл.",
+    "lat": 48.6107321,
+    "lng": 26.4675882,
+    "meta": {
+      "google_maps_place_id": "ChIJY_X-hPfAM0cRUuuqwe5eEs4"
+    }
+  },
+  {
+    "id": 6174,
+    "name_no_copy": "с. Ковалеве, Девладівська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 48.1508289,
+    "lng": 33.7933597,
+    "meta": {
+      "google_maps_place_id": "ChIJd0zo2hoB20ARfrLSaF8WVbc"
+    }
+  },
+  {
+    "id": 27937,
+    "name_no_copy": "с. Ковалівка, Городоцька громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.29913579999999,
+    "lng": 26.6511534,
+    "meta": {
+      "google_maps_place_id": "ChIJRR-6IP4dMkcR9KBHK0Eyp8A"
+    }
+  },
+  {
+    "id": 9692,
+    "name_no_copy": "с. Ковалівщина, Ушомирська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 50.8018712,
+    "lng": 28.6764805,
+    "meta": {
+      "google_maps_place_id": "ChIJRY5lM_LpK0cR4oTbN4Z4krQ"
+    }
+  },
+  {
+    "id": 8680,
+    "name_no_copy": "с. Козак, Коростишівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.3416858,
+    "lng": 28.9695394,
+    "meta": {
+      "google_maps_place_id": "ChIJS560kmOALEcRzIxTmjPudaA"
+    }
+  },
+  {
+    "id": 3170,
+    "name_no_copy": "с. Козаківка, Немирівська громада, Вінницький р-н, Вінницька обл.",
+    "lat": 49.0301568,
+    "lng": 28.7518132,
+    "meta": {
+      "google_maps_place_id": "ChIJnyx_NGKq0kAR9v-T22cB6BY"
+    }
+  },
+  {
+    "id": 6825,
+    "name_no_copy": "с. Козачий Гай, Зайцівська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.4106129,
+    "lng": 35.633585,
+    "meta": {
+      "google_maps_place_id": "ChIJFfwCVWqv3kARWHYWGNMvpsU"
+    }
+  },
+  {
+    "id": 30851,
+    "name_no_copy": "с. Козилівщина, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.9487057,
+    "lng": 32.7051388,
+    "meta": {
+      "google_maps_place_id": "ChIJC8kVnkBBK0ERqGQZ-F4Vapk"
+    }
+  },
+  {
+    "id": 17620,
+    "name_no_copy": "с. Козлівка, Казанківська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.8338062,
+    "lng": 33.0038401,
+    "meta": {
+      "google_maps_place_id": "ChIJgcRU0yPS2kARfpposobzqQo"
+    }
+  },
+  {
+    "id": 9653,
+    "name_no_copy": "с. Козулі, Словечанська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.4648252,
+    "lng": 28.3749519,
+    "meta": {
+      "google_maps_place_id": "ChIJd5xOwOuXKUcRnh4PmBeqpLY"
+    }
+  },
+  {
+    "id": 18306,
+    "name_no_copy": "с. Коломіївка, Кам'яномостівська громада, Первомайський р-н, Миколаївська обл.",
+    "lat": 47.9437509,
+    "lng": 30.7029561,
+    "meta": {
+      "google_maps_place_id": "ChIJAd8ynOZPzkARIu7aoFdp5MY"
+    }
+  },
+  {
+    "id": 16452,
+    "name_no_copy": "с. Колонія, Бісковицька громада, Самбірський р-н, Львівська обл.",
+    "lat": 49.64636360000001,
+    "lng": 23.1816753,
+    "meta": {
+      "google_maps_place_id": "ChIJ9wt3w5agO0cRqkY_azOUcGA"
+    }
+  },
+  {
+    "id": 10777,
+    "name_no_copy": "с. Коновалова, Василівська громада, Василівський р-н, Запорізька обл.",
+    "lat": 47.4933536,
+    "lng": 35.5390884,
+    "meta": {
+      "google_maps_place_id": "ChIJqS7uKD8E3UARKPl_5AJ925A"
+    }
+  },
+  {
+    "id": 30436,
+    "name_no_copy": "с. Коношівка, Бобровицька громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.8056954,
+    "lng": 31.2825205,
+    "meta": {
+      "google_maps_place_id": "ChIJ1SIqn3k_1UARPFBJox1fu3c"
+    }
+  },
+  {
+    "id": 22877,
+    "name_no_copy": "с. Корабельське, Чернеччинська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.3194944,
+    "lng": 35.0096152,
+    "meta": {
+      "google_maps_place_id": "ChIJieHyc4oSKEERHCAxJCkJR_c"
+    }
+  },
+  {
+    "id": 9527,
+    "name_no_copy": "с. Кораки, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.4882449,
+    "lng": 28.6106059,
+    "meta": {
+      "google_maps_place_id": "ChIJSRRUGjKSKUcRRsRwEtTfryo"
+    }
+  },
+  {
+    "id": 22455,
+    "name_no_copy": "с. Коренівка, Буринська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.1090218,
+    "lng": 33.6281108,
+    "meta": {
+      "google_maps_place_id": "ChIJtXeO-l8pKkEROk9sVBIIrek"
+    }
+  },
+  {
+    "id": 3571,
+    "name_no_copy": "с-ще Коржів, Райгородська громада, Гайсинський р-н, Вінницька обл.",
+    "lat": 48.8583867,
+    "lng": 29.0087703,
+    "meta": {
+      "google_maps_place_id": "ChIJo4yF6nhezUARvCrXRLKY5SQ"
+    }
+  },
+  {
+    "id": 30955,
+    "name_no_copy": "с. Коршаки, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.8089867,
+    "lng": 32.2134182,
+    "meta": {
+      "google_maps_place_id": "ChIJSZ-ILxaE1UARXqDfM5fcsGc"
+    }
+  },
+  {
+    "id": 23716,
+    "name_no_copy": "с. Косинське, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.04362889999999,
+    "lng": 33.794761,
+    "meta": {
+      "google_maps_place_id": "ChIJF214vGd8LEERsIVWC9wKtlQ"
+    }
+  },
+  {
+    "id": 9918,
+    "name_no_copy": "с. Косяк, Ємільчинська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.946374,
+    "lng": 28.0223068,
+    "meta": {
+      "google_maps_place_id": "ChIJced-rv1CKUcRkoNxZOSbwsU"
+    }
+  },
+  {
+    "id": 21616,
+    "name_no_copy": "с. Коти, Крупецька громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.1999451,
+    "lng": 25.4386546,
+    "meta": {
+      "google_maps_place_id": "ChIJwZ1KbTTzL0cRFiF0pz9WqUo"
+    }
+  },
+  {
+    "id": 15153,
+    "name_no_copy": "с. Кошелівка, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.7369954,
+    "lng": 38.0226865,
+    "meta": {
+      "google_maps_place_id": "ChIJ6-cqaFUfIUERnmDuzZr6DpA"
+    }
+  },
+  {
+    "id": 30665,
+    "name_no_copy": "с. Кравчиха, Талалаївська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.8908338,
+    "lng": 32.041538,
+    "meta": {
+      "google_maps_place_id": "ChIJexF4dOZ-1UARUqMwJAvXVMc"
+    }
+  },
+  {
+    "id": 11408,
+    "name_no_copy": "с. Красногірське, Гуляйпільська громада, Пологівський р-н, Запорізька обл.",
+    "lat": 47.817286,
+    "lng": 36.3525575,
+    "meta": {
+      "google_maps_place_id": "ChIJ4QIiAxLD3UARmHo6IoIaauY"
+    }
+  },
+  {
+    "id": 5011,
+    "name_no_copy": "с. Краснодуб'я, Люблинецька громада, Ковельський р-н, Волинська обл.",
+    "lat": 51.2508695,
+    "lng": 24.5045761,
+    "meta": {
+      "google_maps_place_id": "ChIJFepbJDcWJEcRTIc6j5qpFhQ"
+    }
+  },
+  {
+    "id": 7142,
+    "name_no_copy": "с. Краснополівка, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.7310609,
+    "lng": 38.0473258,
+    "meta": {
+      "google_maps_place_id": "ChIJD9sEZJvx30ARkD3jD5nhPNs"
+    }
+  },
+  {
+    "id": 8781,
+    "name_no_copy": "с. Краснорічка, Новоборівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6044515,
+    "lng": 28.5906362,
+    "meta": {
+      "google_maps_place_id": "ChIJdxz-iDzzK0cRJnvll4exZ70"
+    }
+  },
+  {
+    "id": 23759,
+    "name_no_copy": "с. Красноярське, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.2436992,
+    "lng": 33.4150867,
+    "meta": {
+      "google_maps_place_id": "ChIJFY6jpbSQLEERHNxpw3N5ijM"
+    }
+  },
+  {
+    "id": 6072,
+    "name_no_copy": "с. Красноіванівка, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3558789,
+    "lng": 33.7310076,
+    "meta": {
+      "google_maps_place_id": "ChIJJ1E8JP5Q2kARgJBwSnoF8lM"
+    }
+  },
+  {
+    "id": 30853,
+    "name_no_copy": "с. Красні Лози, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.2063553,
+    "lng": 32.3562747,
+    "meta": {
+      "google_maps_place_id": "ChIJDREOUMSt1EYRTGWjT1RB4pQ"
+    }
+  },
+  {
+    "id": 31568,
+    "name_no_copy": "с. Крені, Остерська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 50.95115209999999,
+    "lng": 30.9609326,
+    "meta": {
+      "google_maps_place_id": "ChIJk8CloeNK1UARTlC6ppObDXc"
+    }
+  },
+  {
+    "id": 30261,
+    "name_no_copy": "с. Крестопівщина, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.9182082,
+    "lng": 31.7164239,
+    "meta": {
+      "google_maps_place_id": "ChIJ11wY1zDa1EYRdgQUCP0Ee9c"
+    }
+  },
+  {
+    "id": 30854,
+    "name_no_copy": "с. Кривуша, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1832112,
+    "lng": 32.681389,
+    "meta": {
+      "google_maps_place_id": "ChIJZwMRjrhWK0ERSj4aKx31EMM"
+    }
+  },
+  {
+    "id": 12219,
+    "name_no_copy": "с. Кринички, Матеївецька громада, Коломийський р-н, Івано-Франківська обл.",
+    "lat": 48.5203216,
+    "lng": 25.2365813,
+    "meta": {
+      "google_maps_place_id": "ChIJ6VzYKdM0MUcRhPHq4d0G4mA"
+    }
+  },
+  {
+    "id": 30855,
+    "name_no_copy": "с. Кринички, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.2519236,
+    "lng": 32.4761334,
+    "meta": {
+      "google_maps_place_id": "ChIJfwrNsHWr1EYRkhMxoUWTaIA"
+    }
+  },
+  {
+    "id": 28207,
+    "name_no_copy": "с. Кринцілів, Сатанівська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.2275165,
+    "lng": 26.2035329,
+    "meta": {
+      "google_maps_place_id": "ChIJLfVIaWORMUcRNFSghtTonGI"
+    }
+  },
+  {
+    "id": 30856,
+    "name_no_copy": "с. Криульки, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1882928,
+    "lng": 32.9273184,
+    "meta": {
+      "google_maps_place_id": "ChIJaw7XbZ1YK0ERkOO1qXP44cU"
+    }
+  },
+  {
+    "id": 31087,
+    "name_no_copy": "с. Кроти, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.5632214,
+    "lng": 32.2336952,
+    "meta": {
+      "google_maps_place_id": "ChIJC9eWScmV1UARsBe6bPhiQn0"
+    }
+  },
+  {
+    "id": 17621,
+    "name_no_copy": "с. Кротівка, Казанківська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.8809542,
+    "lng": 32.973487,
+    "meta": {
+      "google_maps_place_id": "ChIJu3w0YkbO2kARAMo9WrT7tWc"
+    }
+  },
+  {
+    "id": 31501,
+    "name_no_copy": "с. Кругле, Михайло-Коцюбинська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.5245342,
+    "lng": 31.0839274,
+    "meta": {
+      "google_maps_place_id": "ChIJSbVbQmBB1UYRqPkZPmJfmjQ"
+    }
+  },
+  {
+    "id": 14646,
+    "name_no_copy": "с-ще Круглик, Алчевська громада, Алчевський р-н, Луганська обл.",
+    "lat": 48.34238,
+    "lng": 38.5054602,
+    "meta": {
+      "google_maps_place_id": "ChIJF2SGXcEU4EARoEFaoqV7ncA"
+    }
+  },
+  {
+    "id": 9733,
+    "name_no_copy": "с. Крушники, Чоповицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 50.8063316,
+    "lng": 29.0745002,
+    "meta": {
+      "google_maps_place_id": "ChIJo8OXQ4C7K0cR1v7Lnzg7ndc"
+    }
+  },
+  {
+    "id": 15534,
+    "name_no_copy": "с. Кряківка, Щастинська громада, Щастинський р-н, Луганська обл.",
+    "lat": 48.76616910000001,
+    "lng": 38.91286729999999,
+    "meta": {
+      "google_maps_place_id": "ChIJv7VL6FDwH0ERBvjXB56uiGE"
+    }
+  },
+  {
+    "id": 22456,
+    "name_no_copy": "с. Кубракове, Буринська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.0459666,
+    "lng": 33.8663101,
+    "meta": {
+      "google_maps_place_id": "ChIJic806PGDKUERHGHt8QkQeEw"
+    }
+  },
+  {
+    "id": 30160,
+    "name_no_copy": "с. Кугуки, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.7390039,
+    "lng": 32.2608819,
+    "meta": {
+      "google_maps_place_id": "ChIJRWYphOYlK0ERFP3Bp-wSPaw"
+    }
+  },
+  {
+    "id": 22805,
+    "name_no_copy": "с. Кударі, Комишанська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.2980266,
+    "lng": 34.548318,
+    "meta": {
+      "google_maps_place_id": "ChIJQ4HO63IjKEERlOhn--FfBuI"
+    }
+  },
+  {
+    "id": 23762,
+    "name_no_copy": "с. Кудоярове, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.2911198,
+    "lng": 33.6013968,
+    "meta": {
+      "google_maps_place_id": "ChIJmRWBxkOSLEERYk16oHPmgiw"
+    }
+  },
+  {
+    "id": 24841,
+    "name_no_copy": "с. Кудринці, Мельнице-Подільська громада, Чортківський р-н, Тернопільська обл.",
+    "lat": 48.61618929999999,
+    "lng": 26.2814445,
+    "meta": {
+      "google_maps_place_id": "ChIJaWazi53CM0cRrVbYpjC7loQ"
+    }
+  },
+  {
+    "id": 6275,
+    "name_no_copy": "с. Курганка, Новолатівська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 47.8164069,
+    "lng": 33.0874988,
+    "meta": {
+      "google_maps_place_id": "ChIJLyzSW1TR2kAR0tq1OT6MYbk"
+    }
+  },
+  {
+    "id": 30262,
+    "name_no_copy": "с. Куропіївка, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.6976759,
+    "lng": 31.9821131,
+    "meta": {
+      "google_maps_place_id": "ChIJ1WaVgsLVKkERrGuq_SaDBhs"
+    }
+  },
+  {
+    "id": 31053,
+    "name_no_copy": "с. Кути, Срібнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6441236,
+    "lng": 32.8912407,
+    "meta": {
+      "google_maps_place_id": "ChIJr0h2kgH51UARlvoB3zazFqo"
+    }
+  },
+  {
+    "id": 30692,
+    "name_no_copy": "с. Кучі, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.4642355,
+    "lng": 32.9983251,
+    "meta": {
+      "google_maps_place_id": "ChIJMVcBBqKrK0ER3Zbb2QT9sn4"
+    }
+  },
+  {
+    "id": 23673,
+    "name_no_copy": "с. Кушкине, Березівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 51.7119621,
+    "lng": 33.5397235,
+    "meta": {
+      "google_maps_place_id": "ChIJT-T5gAOaK0ERUlC3fQ754Zw"
+    }
+  },
+  {
+    "id": 31088,
+    "name_no_copy": "с. Ладівщина, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6099307,
+    "lng": 32.1432292,
+    "meta": {
+      "google_maps_place_id": "ChIJ4WHF6wyX1UARYMSNYSsCqjU"
+    }
+  },
+  {
+    "id": 30222,
+    "name_no_copy": "с. Лазарівка, Менська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.4995071,
+    "lng": 31.8431224,
+    "meta": {
+      "google_maps_place_id": "ChIJmfcFxibPKkERbiBwIGCG16U"
+    }
+  },
+  {
+    "id": 9923,
+    "name_no_copy": "с. Лебідь, Ємільчинська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.9081783,
+    "lng": 28.0414914,
+    "meta": {
+      "google_maps_place_id": "ChIJje-yorJcKUcR3LOP5jq77oM"
+    }
+  },
+  {
+    "id": 9531,
+    "name_no_copy": "с. Левковицький Млинок, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.41427590000001,
+    "lng": 28.4610588,
+    "meta": {
+      "google_maps_place_id": "ChIJ3zVxZgWaKUcRMuVZV-0ppZo"
+    }
+  },
+  {
+    "id": 31137,
+    "name_no_copy": "с. Левівщина, Талалаївська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.9870418,
+    "lng": 33.0212986,
+    "meta": {
+      "google_maps_place_id": "ChIJQWFgL7AVKkER5Hj_X4z_vyo"
+    }
+  },
+  {
+    "id": 11130,
+    "name_no_copy": "с. Лемешинське, Широківська громада, Запорізький р-н, Запорізька обл.",
+    "lat": 48.0131234,
+    "lng": 35.0307422,
+    "meta": {
+      "google_maps_place_id": "ChIJTYTLWalx3EARZNT1qjh9PSY"
+    }
+  },
+  {
+    "id": 31293,
+    "name_no_copy": "с. Лизунова Рудня, Добрянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.9311418,
+    "lng": 30.9380995,
+    "meta": {
+      "google_maps_place_id": "ChIJWeFFILcG1UYRhkQ65ofEPXA"
+    }
+  },
+  {
+    "id": 5915,
+    "name_no_copy": "с. Ликошине, Вишнівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.5310768,
+    "lng": 33.8538592,
+    "meta": {
+      "google_maps_place_id": "ChIJ5a3o2e1H2kARbIrO9wWgTkQ"
+    }
+  },
+  {
+    "id": 18017,
+    "name_no_copy": "с. Лиманське, Березанська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.8000443,
+    "lng": 31.4335914,
+    "meta": {
+      "google_maps_place_id": "ChIJSxZha1d0xkAR0BqD4FJ9-7U"
+    }
+  },
+  {
+    "id": 7403,
+    "name_no_copy": "смт Лиманчук, Сніжнянська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.0152695,
+    "lng": 38.8236621,
+    "meta": {
+      "google_maps_place_id": "ChIJ7_1HV6ay4UARDPdikAy868E"
+    }
+  },
+  {
+    "id": 30546,
+    "name_no_copy": "с. Линівка, Комарівська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 51.3381418,
+    "lng": 32.2853026,
+    "meta": {
+      "google_maps_place_id": "ChIJ1QGWki7sKkERvMSP_SsUg94"
+    }
+  },
+  {
+    "id": 7143,
+    "name_no_copy": "с. Липівка, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.7815248,
+    "lng": 37.8675594,
+    "meta": {
+      "google_maps_place_id": "ChIJP6gZ72yN30ARisJS6K7mDFs"
+    }
+  },
+  {
+    "id": 30264,
+    "name_no_copy": "с. Липівка, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 52.1080682,
+    "lng": 31.8592355,
+    "meta": {
+      "google_maps_place_id": "ChIJV-8pj8zA1EYRQArWConNBvg"
+    }
+  },
+  {
+    "id": 9459,
+    "name_no_copy": "с. Листвинівка, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.0852575,
+    "lng": 29.2882289,
+    "meta": {
+      "google_maps_place_id": "ChIJ2YQXk5RLKkcR2sviIce9TsA"
+    }
+  },
+  {
+    "id": 21701,
+    "name_no_copy": "с. Лихачівка, Підлозцівська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.5534808,
+    "lng": 25.3772841,
+    "meta": {
+      "google_maps_place_id": "ChIJGYR1tmF4JUcRSL3E2I3mfQI"
+    }
+  },
+  {
+    "id": 15535,
+    "name_no_copy": "с. Лобачеве, Щастинська громада, Щастинський р-н, Луганська обл.",
+    "lat": 48.6669166,
+    "lng": 39.1267772,
+    "meta": {
+      "google_maps_place_id": "ChIJaxwoeBboH0ERBDIehiYOmMw"
+    }
+  },
+  {
+    "id": 17624,
+    "name_no_copy": "с. Лозове, Казанківська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.6741405,
+    "lng": 32.9319497,
+    "meta": {
+      "google_maps_place_id": "ChIJwQ_bTFspxUARInILwwZY2Ic"
+    }
+  },
+  {
+    "id": 31055,
+    "name_no_copy": "с. Лозове, Срібнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6675575,
+    "lng": 33.0051218,
+    "meta": {
+      "google_maps_place_id": "ChIJa0dlF7IAKkERDnrj0ENlric"
+    }
+  },
+  {
+    "id": 5916,
+    "name_no_copy": "с. Лозуватка, Вишнівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.0643366,
+    "lng": 33.2956359,
+    "meta": {
+      "google_maps_place_id": "ChIJg5Xk5krm2kAR0hD-RKcnyEQ"
+    }
+  },
+  {
+    "id": 15536,
+    "name_no_copy": "с. Лопаскине, Щастинська громада, Щастинський р-н, Луганська обл.",
+    "lat": 48.675148,
+    "lng": 39.0274052,
+    "meta": {
+      "google_maps_place_id": "ChIJ0cDq4iHmH0ERNLL16woNOeA"
+    }
+  },
+  {
+    "id": 30860,
+    "name_no_copy": "с. Лосевочка, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.9709131,
+    "lng": 32.6385465,
+    "meta": {
+      "google_maps_place_id": "ChIJC_KGfY1GK0ERsKlyb0Qxpg0"
+    }
+  },
+  {
+    "id": 6749,
+    "name_no_copy": "с. Луб'янці, Васильківська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2038592,
+    "lng": 35.7418283,
+    "meta": {
+      "google_maps_place_id": "ChIJa1gr3rYh3EAR-B8XY1twpvQ"
+    }
+  },
+  {
+    "id": 30224,
+    "name_no_copy": "с. Луки, Менська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.3974595,
+    "lng": 32.1875961,
+    "meta": {
+      "google_maps_place_id": "ChIJy70I25npKkERQo4Zf0fY2Ao"
+    }
+  },
+  {
+    "id": 8783,
+    "name_no_copy": "с. Луковець, Новоборівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.740162,
+    "lng": 28.4307113,
+    "meta": {
+      "google_maps_place_id": "ChIJLd-kv3LlK0cRpA5qtmZVSGM"
+    }
+  },
+  {
+    "id": 30164,
+    "name_no_copy": "с. Луковець, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.708243,
+    "lng": 32.3011163,
+    "meta": {
+      "google_maps_place_id": "ChIJY5pE7JomK0ER6qaM6mKWuJE"
+    }
+  },
+  {
+    "id": 31507,
+    "name_no_copy": "с. Льгівка, Михайло-Коцюбинська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.51895099999999,
+    "lng": 31.1128341,
+    "meta": {
+      "google_maps_place_id": "ChIJGVA5bVRB1UYRRGFy-oykVV8"
+    }
+  },
+  {
+    "id": 16427,
+    "name_no_copy": "с. Льопи, Щирецька громада, Львівський р-н, Львівська обл.",
+    "lat": 49.63425770000001,
+    "lng": 23.7713274,
+    "meta": {
+      "google_maps_place_id": "ChIJP7ZnNfD7OkcR_m7DCYIDK6k"
+    }
+  },
+  {
+    "id": 23765,
+    "name_no_copy": "с. Любахове, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.2857484,
+    "lng": 33.5270638,
+    "meta": {
+      "google_maps_place_id": "ChIJ0fGu8NiTLEERKsqh5pS81AA"
+    }
+  },
+  {
+    "id": 6178,
+    "name_no_copy": "с. Любе, Девладівська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 48.171231,
+    "lng": 33.8456166,
+    "meta": {
+      "google_maps_place_id": "ChIJ2ao6DrwA20ARkqWP-wrz47U"
+    }
+  },
+  {
+    "id": 31238,
+    "name_no_copy": "с. Лютіж, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.9036244,
+    "lng": 31.4280964,
+    "meta": {
+      "google_maps_place_id": "ChIJi5c7GAng1EYR7GmCf2vKTNE"
+    }
+  },
+  {
+    "id": 22961,
+    "name_no_copy": "с. Лікарівщина, Вільшанська громада, Роменський р-н, Сумська обл.",
+    "lat": 50.7961918,
+    "lng": 34.0968935,
+    "meta": {
+      "google_maps_place_id": "ChIJoY-bvLS9KUERdo6uZWXhbFA"
+    }
+  },
+  {
+    "id": 30364,
+    "name_no_copy": "с. Лісова Поляна, Батуринська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 51.3798263,
+    "lng": 32.9322774,
+    "meta": {
+      "google_maps_place_id": "ChIJc9Nbwn9UKkEROIAz1CYca68"
+    }
+  },
+  {
+    "id": 6999,
+    "name_no_copy": "с. Мажари, Раївська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.1731133,
+    "lng": 35.5549297,
+    "meta": {
+      "google_maps_place_id": "ChIJYTJjQ7AZ3EAROLYjVdR7wGs"
+    }
+  },
+  {
+    "id": 31202,
+    "name_no_copy": "с. Мажугівка, Гончарівська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.39759710000001,
+    "lng": 31.0954413,
+    "meta": {
+      "google_maps_place_id": "ChIJoTZL95Ra1UYRPBdA8QvNz_k"
+    }
+  },
+  {
+    "id": 30864,
+    "name_no_copy": "с. Максимихине, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1806938,
+    "lng": 32.94678740000001,
+    "meta": {
+      "google_maps_place_id": "ChIJ1Qz0taBYK0ERDij6rTQSqjU"
+    }
+  },
+  {
+    "id": 7292,
+    "name_no_copy": "с-ще Маловодне, Мирненська громада, Волноваський р-н, Донецька обл.",
+    "lat": 47.3685357,
+    "lng": 37.6764711,
+    "meta": {
+      "google_maps_place_id": "ChIJNSXsII8o50ARFM5L7mmjJus"
+    }
+  },
+  {
+    "id": 5980,
+    "name_no_copy": "с. Маломихайлівка, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2554928,
+    "lng": 34.4357427,
+    "meta": {
+      "google_maps_place_id": "ChIJJ3I3XeC920ARXMRfJ4wrsSI"
+    }
+  },
+  {
+    "id": 5981,
+    "name_no_copy": "с. Малярщина, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3627993,
+    "lng": 34.3399312,
+    "meta": {
+      "google_maps_place_id": "ChIJhcdML2u420AR-stBVRRh5BM"
+    }
+  },
+  {
+    "id": 9538,
+    "name_no_copy": "с. Малі Мошки, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.2749524,
+    "lng": 28.873718,
+    "meta": {
+      "google_maps_place_id": "ChIJl33bStwoKkcRFhFtRZMWAFA"
+    }
+  },
+  {
+    "id": 15760,
+    "name_no_copy": "с. Мамчурі, Заболотцівська громада, Золочівський р-н, Львівська обл.",
+    "lat": 50.0954692,
+    "lng": 24.9593664,
+    "meta": {
+      "google_maps_place_id": "ChIJZYxToP1QJUcROhxdZfdIH24"
+    }
+  },
+  {
+    "id": 21659,
+    "name_no_copy": "с. Мантин, Млинівська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.533021,
+    "lng": 25.6007642,
+    "meta": {
+      "google_maps_place_id": "ChIJXeDawe9_L0cRSCn3F4JLFOs"
+    }
+  },
+  {
+    "id": 22881,
+    "name_no_copy": "с. Манчичі, Чернеччинська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.32603719999999,
+    "lng": 34.9735072,
+    "meta": {
+      "google_maps_place_id": "ChIJc1O4kVQSKEERghlXB4o1To8"
+    }
+  },
+  {
+    "id": 30865,
+    "name_no_copy": "с. Марс, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1586879,
+    "lng": 32.7387058,
+    "meta": {
+      "google_maps_place_id": "ChIJdf2S30lXK0EROu7N4CjCTRM"
+    }
+  },
+  {
+    "id": 26948,
+    "name_no_copy": "с. Мартівка, Іванівська громада, Генічеський р-н, Херсонська обл.",
+    "lat": 46.5703435,
+    "lng": 34.6353328,
+    "meta": {
+      "google_maps_place_id": "ChIJk5odQL_0wkARTK_5wJvFFfg"
+    }
+  },
+  {
+    "id": 23311,
+    "name_no_copy": "с. Марченки, Краснопільська громада, Сумський р-н, Сумська обл.",
+    "lat": 50.906337,
+    "lng": 35.0727743,
+    "meta": {
+      "google_maps_place_id": "ChIJuXrSqMvkKEERMEbAlVtQlgE"
+    }
+  },
+  {
+    "id": 23674,
+    "name_no_copy": "с. Масензівка, Березівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 51.8498852,
+    "lng": 34.0241537,
+    "meta": {
+      "google_maps_place_id": "ChIJqxZU1m91LEEResDolWzKGIY"
+    }
+  },
+  {
+    "id": 15076,
+    "name_no_copy": "с. Маслакове, Лозно-Олександрівська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.8463605,
+    "lng": 38.6492974,
+    "meta": {
+      "google_maps_place_id": "ChIJ2cojYrFzIUERlhxDXqf38us"
+    }
+  },
+  {
+    "id": 15158,
+    "name_no_copy": "с. Маслівка, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.9470857,
+    "lng": 38.5865173,
+    "meta": {
+      "google_maps_place_id": "ChIJNVEqKuduIUERTJA3wmRmbWs"
+    }
+  },
+  {
+    "id": 23717,
+    "name_no_copy": "с. Микитське, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.0420129,
+    "lng": 34.0934544,
+    "meta": {
+      "google_maps_place_id": "ChIJFyNZfK1vLEERzjkJl1PnQoY"
+    }
+  },
+  {
+    "id": 5849,
+    "name_no_copy": "с-ще Милорадівка, Божедарівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.1994887,
+    "lng": 33.9582568,
+    "meta": {
+      "google_maps_place_id": "ChIJ_ZdyZwup20ARZu2jSXkA1bk"
+    }
+  },
+  {
+    "id": 5982,
+    "name_no_copy": "с. Мирне, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.321243,
+    "lng": 34.2753007,
+    "meta": {
+      "google_maps_place_id": "ChIJQWlSbfO520AR3n_Op6xkokU"
+    }
+  },
+  {
+    "id": 6020,
+    "name_no_copy": "с. Миронівка, Лихівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 47.7878946,
+    "lng": 34.0665752,
+    "meta": {
+      "google_maps_place_id": "ChIJXYYFP61p20ARxiLdeiTy2Qc"
+    }
+  },
+  {
+    "id": 4935,
+    "name_no_copy": "с. Мислина, Дубівська громада, Ковельський р-н, Волинська обл.",
+    "lat": 51.31229889999999,
+    "lng": 24.6662043,
+    "meta": {
+      "google_maps_place_id": "ChIJE9v0OKojJEcRAMNSplAoOJA"
+    }
+  },
+  {
+    "id": 24844,
+    "name_no_copy": "с. Михалків, Мельнице-Подільська громада, Чортківський р-н, Тернопільська обл.",
+    "lat": 48.6271532,
+    "lng": 26.0850614,
+    "meta": {
+      "google_maps_place_id": "ChIJqd779MTgM0cRRpEOqnEyhfg"
+    }
+  },
+  {
+    "id": 8659,
+    "name_no_copy": "с. Мишерине, Корнинська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.1571888,
+    "lng": 29.4867442,
+    "meta": {
+      "google_maps_place_id": "ChIJ4wy7EVOhLEcRUiDrnrwGxLw"
+    }
+  },
+  {
+    "id": 30268,
+    "name_no_copy": "с. Мишине, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.927901,
+    "lng": 32.0475751,
+    "meta": {
+      "google_maps_place_id": "ChIJQZyY_6jN1EYRfMcFBslLQxs"
+    }
+  },
+  {
+    "id": 9540,
+    "name_no_copy": "с. Мишковичі, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.3397546,
+    "lng": 28.6504164,
+    "meta": {
+      "google_maps_place_id": "ChIJFXPuRcWFKUcRlkrX3QCEmDQ"
+    }
+  },
+  {
+    "id": 30270,
+    "name_no_copy": "с. Млинок, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.9927517,
+    "lng": 31.9942432,
+    "meta": {
+      "google_maps_place_id": "ChIJnfCzDs7O1EYRYDQk6yvKzG8"
+    }
+  },
+  {
+    "id": 7498,
+    "name_no_copy": "с. Мокроєланчик, Амвросіївська громада, Донецький р-н, Донецька обл.",
+    "lat": 47.7029324,
+    "lng": 38.49748,
+    "meta": {
+      "google_maps_place_id": "ChIJ26KwzZMb4UARtpU8X2buWCc"
+    }
+  },
+  {
+    "id": 22777,
+    "name_no_copy": "с. Молодецьке, Грунська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.3233298,
+    "lng": 34.6421507,
+    "meta": {
+      "google_maps_place_id": "ChIJ49wpujw9KEER4ghC30y9xzs"
+    }
+  },
+  {
+    "id": 24521,
+    "name_no_copy": "с. Молохів, Саранчуківська громада, Тернопільський р-н, Тернопільська обл.",
+    "lat": 49.3531518,
+    "lng": 24.8865651,
+    "meta": {
+      "google_maps_place_id": "ChIJz4UHqERhMEcRHiDNck0T4Mw"
+    }
+  },
+  {
+    "id": 8877,
+    "name_no_copy": "с. Морогівка, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6467646,
+    "lng": 29.1034989,
+    "meta": {
+      "google_maps_place_id": "ChIJAQxWTyOZK0cR6v-I5CpEVOY"
+    }
+  },
+  {
+    "id": 22563,
+    "name_no_copy": "с. Мостище, Кролевецька громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.5922016,
+    "lng": 33.4058391,
+    "meta": {
+      "google_maps_place_id": "ChIJHSKY4M68K0ERotOSTr9bOec"
+    }
+  },
+  {
+    "id": 30696,
+    "name_no_copy": "с. Мохове, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.4887885,
+    "lng": 32.7073571,
+    "meta": {
+      "google_maps_place_id": "ChIJR-xjRfL9KkERpDsZuIF0SFI"
+    }
+  },
+  {
+    "id": 9040,
+    "name_no_copy": "с. Мошківка, Станишівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.1712758,
+    "lng": 28.9966499,
+    "meta": {
+      "google_maps_place_id": "ChIJlzaD7pePLEcRUANJGDq_xt4"
+    }
+  },
+  {
+    "id": 9700,
+    "name_no_copy": "с. Мошківка, Ушомирська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 50.79222590000001,
+    "lng": 28.4261226,
+    "meta": {
+      "google_maps_place_id": "ChIJbfviEybkK0cRoGDKFGQgzMs"
+    }
+  },
+  {
+    "id": 23483,
+    "name_no_copy": "с. Мукіївка, Миколаївська громада, Сумський р-н, Сумська обл.",
+    "lat": 50.8238803,
+    "lng": 34.2791203,
+    "meta": {
+      "google_maps_place_id": "ChIJw1AzwcKkKUERIrkic34YgBI"
+    }
+  },
+  {
+    "id": 19361,
+    "name_no_copy": "с. Муратове, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.1085539,
+    "lng": 29.7231086,
+    "meta": {
+      "google_maps_place_id": "ChIJRxf7k6QkyUARGvmdcuVyfKs"
+    }
+  },
+  {
+    "id": 7088,
+    "name_no_copy": "с. Мідна Руда, Бахмутська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.5518991,
+    "lng": 38.2047185,
+    "meta": {
+      "google_maps_place_id": "ChIJZdrxwzvi30ARpP-0o978kRE"
+    }
+  },
+  {
+    "id": 25240,
+    "name_no_copy": "с. Мірошниківка, Коломацька громада, Богодухівський р-н, Харківська обл.",
+    "lat": 49.7486577,
+    "lng": 35.2776798,
+    "meta": {
+      "google_maps_place_id": "ChIJK0-2u9ty2EARCAEnR-b7s-E"
+    }
+  },
+  {
+    "id": 30269,
+    "name_no_copy": "с. Містки, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 52.01058399999999,
+    "lng": 32.044901,
+    "meta": {
+      "google_maps_place_id": "ChIJiecLDULJ1EYRhAQBR0eHsSo"
+    }
+  },
+  {
+    "id": 14647,
+    "name_no_copy": "с-ще Міус, Алчевська громада, Алчевський р-н, Луганська обл.",
+    "lat": 48.286399,
+    "lng": 38.5454414,
+    "meta": {
+      "google_maps_place_id": "ChIJw3DeSB9A4EARjJZvaTNl0fQ"
+    }
+  },
+  {
+    "id": 30870,
+    "name_no_copy": "с. Набережне, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.20394539999999,
+    "lng": 32.3931254,
+    "meta": {
+      "google_maps_place_id": "ChIJnfclFa6t1EYRBLsPASbPvcU"
+    }
+  },
+  {
+    "id": 23519,
+    "name_no_copy": "с. Над'ярне, Миколаївська громада, Сумський р-н, Сумська обл.",
+    "lat": 51.0355888,
+    "lng": 34.6499364,
+    "meta": {
+      "google_maps_place_id": "ChIJ6xZPSOoPKUERPF8vaJVVMcs"
+    }
+  },
+  {
+    "id": 7045,
+    "name_no_copy": "с. Надеждине, Славгородська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2049989,
+    "lng": 35.543118,
+    "meta": {
+      "google_maps_place_id": "ChIJ4VhEpmMZ3EAREvjuglpyaYI"
+    }
+  },
+  {
+    "id": 4721,
+    "name_no_copy": "с. Надрічне, Камінь-Каширська громада, Камінь-Каширський р-н, Волинська обл.",
+    "lat": 51.4930718,
+    "lng": 25.2866978,
+    "meta": {
+      "google_maps_place_id": "ChIJLehfo3qIJkcRwLIkt5WqcQg"
+    }
+  },
+  {
+    "id": 15043,
+    "name_no_copy": "с. Надія, Коломийчиська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.3704603,
+    "lng": 37.9259954,
+    "meta": {
+      "google_maps_place_id": "ChIJi1Fe-L7zIEERuLEGTzHcf-k"
+    }
+  },
+  {
+    "id": 9464,
+    "name_no_copy": "с. Недашківка, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.0528685,
+    "lng": 29.4837012,
+    "meta": {
+      "google_maps_place_id": "ChIJ0864VSBSKkcRDu9tYq1v894"
+    }
+  },
+  {
+    "id": 30698,
+    "name_no_copy": "с. Некрите, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.5797683,
+    "lng": 33.1994227,
+    "meta": {
+      "google_maps_place_id": "ChIJPXjQaICmK0ER2fUizKuXbP8"
+    }
+  },
+  {
+    "id": 23069,
+    "name_no_copy": "с. Нелени, Недригайлівська громада, Роменський р-н, Сумська обл.",
+    "lat": 50.9562866,
+    "lng": 33.690549,
+    "meta": {
+      "google_maps_place_id": "ChIJbWkkNdqIKUERkAa2yvm-_2E"
+    }
+  },
+  {
+    "id": 22809,
+    "name_no_copy": "с. Неплатине, Комишанська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.314743,
+    "lng": 34.563799,
+    "meta": {
+      "google_maps_place_id": "ChIJGXfh4kYjKEERcp0XMFTjmd0"
+    }
+  },
+  {
+    "id": 6073,
+    "name_no_copy": "с. Нерудсталь, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3767809,
+    "lng": 33.7442173,
+    "meta": {
+      "google_maps_place_id": "ChIJ74qjQGhQ2kARMC5NIiAmMdk"
+    }
+  },
+  {
+    "id": 30995,
+    "name": "с. Нетягівщина, Линовицька громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.485198,
+    "lng": 32.32703,
+    "meta": {
+      "google_maps_place_id": "ChIJJ-04czDA1UAR1HCXopHHLXU"
+    }
+  },
+  {
+    "id": 29798,
+    "name_no_copy": "с. Нижній Яловець, Селятинська громада, Вижницький р-н, Чернівецька обл.",
+    "lat": 47.8573647,
+    "lng": 25.0036494,
+    "meta": {
+      "google_maps_place_id": "ChIJvW7SECR9NkcRiVx9uX6l7hw"
+    }
+  },
+  {
+    "id": 30169,
+    "name_no_copy": "с. Нова Буда, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.7093832,
+    "lng": 32.0546961,
+    "meta": {
+      "google_maps_place_id": "ChIJ34VzZuYpK0ERLB18HHdxDR0"
+    }
+  },
+  {
+    "id": 24523,
+    "name_no_copy": "с. Нова Гребля, Саранчуківська громада, Тернопільський р-н, Тернопільська обл.",
+    "lat": 50.5833223,
+    "lng": 29.88445489999999,
+    "meta": {
+      "google_maps_place_id": "ChIJee1b_tg9K0cRPubydmaD784"
+    }
+  },
+  {
+    "id": 30996,
+    "name_no_copy": "с. Нова Гребля, Линовицька громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.4156925,
+    "lng": 32.4667395,
+    "meta": {
+      "google_maps_place_id": "ChIJe_xUs93C1UARHNyzRXEbauk"
+    }
+  },
+  {
+    "id": 31388,
+    "name_no_copy": "с. Нова Гребля, Козелецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 50.9862756,
+    "lng": 31.3616731,
+    "meta": {
+      "google_maps_place_id": "ChIJoRmd7Shb1UAR5o2DWKy5l9U"
+    }
+  },
+  {
+    "id": 30170,
+    "name_no_copy": "с. Нова Гуринівка, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.7313963,
+    "lng": 32.290448,
+    "meta": {
+      "google_maps_place_id": "ChIJQSAkudElK0ERjs7NzWFhWxI"
+    }
+  },
+  {
+    "id": 7089,
+    "name_no_copy": "с. Нова Кам'янка, Бахмутська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.6654235,
+    "lng": 38.1388916,
+    "meta": {
+      "google_maps_place_id": "ChIJx-850Mf630ARsHbNIuXIY2Q"
+    }
+  },
+  {
+    "id": 8879,
+    "name_no_copy": "с. Нова Мар'янівка, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6448064,
+    "lng": 28.8607056,
+    "meta": {
+      "google_maps_place_id": "ChIJpfThcg2RK0cRmE4Z_TTyYJc"
+    }
+  },
+  {
+    "id": 30960,
+    "name_no_copy": "с. Нова Ольшана, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.7251359,
+    "lng": 32.4813303,
+    "meta": {
+      "google_maps_place_id": "ChIJGXXtLH-M1UAR8FIG8dIo8zk"
+    }
+  },
+  {
+    "id": 31294,
+    "name_no_copy": "с. Нова Папірня, Добрянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 52.0229109,
+    "lng": 30.9572583,
+    "meta": {
+      "google_maps_place_id": "ChIJ5fK_vR8A1UYR6DGBr5ZgIKE"
+    }
+  },
+  {
+    "id": 30368,
+    "name_no_copy": "с. Нове Полісся, Батуринська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 51.3980979,
+    "lng": 32.9116866,
+    "meta": {
+      "google_maps_place_id": "ChIJa4nqwvJUKkERktsXpof6acQ"
+    }
+  },
+  {
+    "id": 28715,
+    "name_no_copy": "с. Новий Кривин, Нетішинська громада, Шепетівський р-н, Хмельницька обл.",
+    "lat": 50.3842741,
+    "lng": 26.700953,
+    "meta": {
+      "google_maps_place_id": "ChIJy20hS178LkcRqrO_Ww81x1Q"
+    }
+  },
+  {
+    "id": 19378,
+    "name_no_copy": "с. Новоантонівка, Великоплосківська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.0535163,
+    "lng": 29.7503366,
+    "meta": {
+      "google_maps_place_id": "ChIJr7bK38sjyUARTlT8uYp0u90"
+    }
+  },
+  {
+    "id": 15453,
+    "name_no_copy": "с. Новоастраханське, Шульгинська громада, Старобільський р-н, Луганська обл.",
+    "lat": 49.1223988,
+    "lng": 38.7425204,
+    "meta": {
+      "google_maps_place_id": "ChIJ-yVk_AA7IEER9m2tb7eGaNY"
+    }
+  },
+  {
+    "id": 10916,
+    "name_no_copy": "с. Новобойківське, Комишуваська громада, Запорізький р-н, Запорізька обл.",
+    "lat": 47.6313121,
+    "lng": 35.4744524,
+    "meta": {
+      "google_maps_place_id": "ChIJ0yCq82NV3EARmm2t4L2GWaM"
+    }
+  },
+  {
+    "id": 6785,
+    "name_no_copy": "с. Новогеоргіївка, Великомихайлівська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 47.8698688,
+    "lng": 36.5652322,
+    "meta": {
+      "google_maps_place_id": "ChIJr2H9kLTg3UARGJ2KNixGlc8"
+    }
+  },
+  {
+    "id": 17478,
+    "name_no_copy": "с. Новогорожене, Баштанська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.47925009999999,
+    "lng": 32.5263341,
+    "meta": {
+      "google_maps_place_id": "ChIJy47M6u4ZxUAR7j74RpYozMo"
+    }
+  },
+  {
+    "id": 27317,
+    "name_no_copy": "с. Новодмитрівка, Білозерська громада, Херсонський р-н, Херсонська обл.",
+    "lat": 46.6041771,
+    "lng": 32.313104,
+    "meta": {
+      "google_maps_place_id": "ChIJaVCDvJEfxEARnFgld29DfAI"
+    }
+  },
+  {
+    "id": 5983,
+    "name_no_copy": "с. Новокалинівка, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2783155,
+    "lng": 34.3893822,
+    "meta": {
+      "google_maps_place_id": "ChIJU-atJZm-20ARJFC3qJIRz44"
+    }
+  },
+  {
+    "id": 11435,
+    "name_no_copy": "с. Новокам'янка, Комиш-Зорянська громада, Пологівський р-н, Запорізька обл.",
+    "lat": 47.309456,
+    "lng": 36.7093059,
+    "meta": {
+      "google_maps_place_id": "ChIJ49csCYZw50ARqHGXqSm2goU"
+    }
+  },
+  {
+    "id": 28095,
+    "name_no_copy": "с. Новомиколаївка, Летичівська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.42500889999999,
+    "lng": 27.8432816,
+    "meta": {
+      "google_maps_place_id": "ChIJESLc-S6DLUcRjuxPA3Asq8Q"
+    }
+  },
+  {
+    "id": 5836,
+    "name_no_copy": "с. Новомилорадівка, Божедарівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2379142,
+    "lng": 34.0215946,
+    "meta": {
+      "google_maps_place_id": "ChIJQ4M6IcOu20AROPlTdAZnFsI"
+    }
+  },
+  {
+    "id": 6475,
+    "name_no_copy": "с. Новомихайлівка, Томаківська громада, Нікопольський р-н, Дніпропетровська обл.",
+    "lat": 47.7493048,
+    "lng": 34.9288072,
+    "meta": {
+      "google_maps_place_id": "ChIJpQHCyOqL3EARmuAdz15yMq0"
+    }
+  },
+  {
+    "id": 7027,
+    "name_no_copy": "с. Новопавлоградське, Роздорська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.3967114,
+    "lng": 35.6806269,
+    "meta": {
+      "google_maps_place_id": "ChIJh16wjJSl3kARupskF-3pn-Q"
+    }
+  },
+  {
+    "id": 15078,
+    "name_no_copy": "с. Новопокровка, Лозно-Олександрівська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.7546084,
+    "lng": 38.7673303,
+    "meta": {
+      "google_maps_place_id": "ChIJe_CxtVh1IUERDL-09KtMJYA"
+    }
+  },
+  {
+    "id": 7980,
+    "name_no_copy": "с. Новопригоже, Олександрівська громада, Краматорський р-н, Донецька обл.",
+    "lat": 48.7852082,
+    "lng": 36.7657875,
+    "meta": {
+      "google_maps_place_id": "ChIJZRVQsxQa30AR8oyBTBTvFXs"
+    }
+  },
+  {
+    "id": 6898,
+    "name_no_copy": "с. Новопричепилівка, Миколаївська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.4241783,
+    "lng": 36.3581235,
+    "meta": {
+      "google_maps_place_id": "ChIJm7-bWp_y3kARKB55Zyoqw60"
+    }
+  },
+  {
+    "id": 7898,
+    "name_no_copy": "с. Новосадове, Лиманська громада, Краматорський р-н, Донецька обл.",
+    "lat": 49.1262407,
+    "lng": 37.9687707,
+    "meta": {
+      "google_maps_place_id": "ChIJiUfa1ZBkIEERyN76uPWpOCw"
+    }
+  },
+  {
+    "id": 6956,
+    "name_no_copy": "с. Новоскелювате, Покровська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 47.93703499999999,
+    "lng": 36.189846,
+    "meta": {
+      "google_maps_place_id": "ChIJFR477rjR3UARpBxWpB2b9UM"
+    }
+  },
+  {
+    "id": 9548,
+    "name_no_copy": "с. Новосілки, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.2406449,
+    "lng": 28.9374333,
+    "meta": {
+      "google_maps_place_id": "ChIJf94QdfouKkcRCiDaxeHb_vg"
+    }
+  },
+  {
+    "id": 6757,
+    "name_no_copy": "с. Новотерсянське, Васильківська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.0704413,
+    "lng": 35.97663,
+    "meta": {
+      "google_maps_place_id": "ChIJdfprT7Au3EARHi3MDG5f7vU"
+    }
+  },
+  {
+    "id": 6074,
+    "name_no_copy": "с. Новоіванівка, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.0445422,
+    "lng": 33.5216429,
+    "meta": {
+      "google_maps_place_id": "ChIJDcS_rhHi2kARuCQ5gWvaEXM"
+    }
+  },
+  {
+    "id": 9467,
+    "name_no_copy": "с. Ноздрище, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.2401546,
+    "lng": 29.1815512,
+    "meta": {
+      "google_maps_place_id": "ChIJe0slOAU6KkcRNvPLuwxW3wk"
+    }
+  },
+  {
+    "id": 15285,
+    "name_no_copy": "с. Ноздрівка, Біловодська громада, Старобільський р-н, Луганська обл.",
+    "lat": 49.0174229,
+    "lng": 39.665475,
+    "meta": {
+      "google_maps_place_id": "ChIJGeMQ_wx1H0ERmiyjtqzLER4"
+    }
+  },
+  {
+    "id": 30701,
+    "name_no_copy": "с. Нориця, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.4814119,
+    "lng": 32.7872508,
+    "meta": {
+      "google_maps_place_id": "ChIJezQi4dsBK0EReoMUCF7GRpg"
+    }
+  },
+  {
+    "id": 22566,
+    "name_no_copy": "с. Ніжинське, Кролевецька громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.61494159999999,
+    "lng": 33.3603489,
+    "meta": {
+      "google_maps_place_id": "ChIJfwgulBujK0ERTCRDeSlRCPE"
+    }
+  },
+  {
+    "id": 23718,
+    "name_no_copy": "с. Об'єднане, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.0514804,
+    "lng": 34.0737438,
+    "meta": {
+      "google_maps_place_id": "ChIJmXmYjqNvLEERXExg0mAyYlo"
+    }
+  },
+  {
+    "id": 7048,
+    "name_no_copy": "с. Обоянівське, Славгородська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.14087019999999,
+    "lng": 35.3655619,
+    "meta": {
+      "google_maps_place_id": "ChIJw007vgoR3EARpnd8erowdcw"
+    }
+  },
+  {
+    "id": 11417,
+    "name_no_copy": "с. Обратне, Гуляйпільська громада, Пологівський р-н, Запорізька обл.",
+    "lat": 47.8238742,
+    "lng": 36.5433726,
+    "meta": {
+      "google_maps_place_id": "ChIJXfsTO6vn3UARbD7aduaUzP8"
+    }
+  },
+  {
+    "id": 30228,
+    "name_no_copy": "с. Овчарівка, Менська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.412807,
+    "lng": 32.2686628,
+    "meta": {
+      "google_maps_place_id": "ChIJqdFmhufoKkERPOOR8l4w_t8"
+    }
+  },
+  {
+    "id": 30962,
+    "name_no_copy": "с. Однольків, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.7392689,
+    "lng": 32.5499194,
+    "meta": {
+      "google_maps_place_id": "ChIJpVXwQBiL1UARQAwCk6zsNMw"
+    }
+  },
+  {
+    "id": 17483,
+    "name_no_copy": "с. Одрадне, Баштанська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.42603,
+    "lng": 32.3187887,
+    "meta": {
+      "google_maps_place_id": "ChIJT7rzaBYOxUARJqXZsV50AiI"
+    }
+  },
+  {
+    "id": 23677,
+    "name_no_copy": "с. Одрадне, Березівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 51.805532,
+    "lng": 33.9680358,
+    "meta": {
+      "google_maps_place_id": "ChIJF9vubx2LK0ERJPSj8BUWJCA"
+    }
+  },
+  {
+    "id": 9877,
+    "name_no_copy": "с. Ожгів, Довбиська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.2988306,
+    "lng": 27.9136375,
+    "meta": {
+      "google_maps_place_id": "ChIJ9YUkP4AiLEcRIotfmmFNIJk"
+    }
+  },
+  {
+    "id": 30172,
+    "name_no_copy": "с. Озереди, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.7798349,
+    "lng": 32.3772236,
+    "meta": {
+      "google_maps_place_id": "ChIJbecLitAkK0ERKNT6LO-FjPg"
+    }
+  },
+  {
+    "id": 15162,
+    "name_no_copy": "с. Озеро, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.9326273,
+    "lng": 38.5773243,
+    "meta": {
+      "google_maps_place_id": "ChIJNQpjuZJuIUERJJyKXr4tepo"
+    }
+  },
+  {
+    "id": 23318,
+    "name_no_copy": "с. Окіп, Краснопільська громада, Сумський р-н, Сумська обл.",
+    "lat": 50.8466661,
+    "lng": 35.2887417,
+    "meta": {
+      "google_maps_place_id": "ChIJO_NjBf3tKEER_qf-4e5p3ss"
+    }
+  },
+  {
+    "id": 19380,
+    "name_no_copy": "с. Олег, Великоплосківська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 46.9257138,
+    "lng": 29.7462654,
+    "meta": {
+      "google_maps_place_id": "ChIJNcLP0QseyUARpp2tq-63mzU"
+    }
+  },
+  {
+    "id": 5837,
+    "name_no_copy": "с. Олександрівка, Божедарівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.5128317,
+    "lng": 35.2331142,
+    "meta": {
+      "google_maps_place_id": "ChIJE9VUZCZX2UARokFuRM6aBxM"
+    }
+  },
+  {
+    "id": 7349,
+    "name_no_copy": "смт Оленівка, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 47.82987,
+    "lng": 37.6485943,
+    "meta": {
+      "google_maps_place_id": "ChIJ0WfuUqy-4EARhyqJfY541dU"
+    }
+  },
+  {
+    "id": 2983,
+    "name_no_copy": "с-ще Олива, Фороська громада, Ялтинський р-н, Автономна Республіка Крим обл.",
+    "lat": 44.4073698,
+    "lng": 33.8510369,
+    "meta": {
+      "google_maps_place_id": "ChIJXTeLzerClEARrPl5UxAX9w4"
+    }
+  },
+  {
+    "id": 7350,
+    "name_no_copy": "смт Ольховатка, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.2394039,
+    "lng": 38.4021451,
+    "meta": {
+      "google_maps_place_id": "ChIJzSLKx6Jp4EARXjXTXDz6s4E"
+    }
+  },
+  {
+    "id": 8684,
+    "name_no_copy": "с. Онишпіль, Коростишівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.2149946,
+    "lng": 29.308614,
+    "meta": {
+      "google_maps_place_id": "ChIJX3TCqcSeLEcR2MMIS7R6U-U"
+    }
+  },
+  {
+    "id": 9470,
+    "name_no_copy": "с. Оржів, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.2868034,
+    "lng": 28.9952802,
+    "meta": {
+      "google_maps_place_id": "ChIJu58J3IMlKkcRfHd6Hbqcuhg"
+    }
+  },
+  {
+    "id": 11080,
+    "name_no_copy": "с. Орлівське, Петро-Михайлівська громада, Запорізький р-н, Запорізька обл.",
+    "lat": 48.09017069999999,
+    "lng": 35.0889043,
+    "meta": {
+      "google_maps_place_id": "ChIJ-XifqhJz3EARyjBK4JAIMrk"
+    }
+  },
+  {
+    "id": 15537,
+    "name_no_copy": "с. Оріхове-Донецьке, Щастинська громада, Щастинський р-н, Луганська обл.",
+    "lat": 48.7693521,
+    "lng": 38.8012728,
+    "meta": {
+      "google_maps_place_id": "ChIJ_a4G-6nwH0ERHPVlpcKNnZ4"
+    }
+  },
+  {
+    "id": 9471,
+    "name_no_copy": "с. Осика, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.0840974,
+    "lng": 29.3652547,
+    "meta": {
+      "google_maps_place_id": "ChIJMafKuyZMKkcRlkHJWScwPp4"
+    }
+  },
+  {
+    "id": 5387,
+    "name_no_copy": "с. Острови, Колківська громада, Луцький р-н, Волинська обл.",
+    "lat": 51.0742184,
+    "lng": 25.6910294,
+    "meta": {
+      "google_maps_place_id": "ChIJxyX_p83lJUcRxt14iU9ndQc"
+    }
+  },
+  {
+    "id": 22964,
+    "name_no_copy": "с. П'ятидуб, Вільшанська громада, Роменський р-н, Сумська обл.",
+    "lat": 50.7913554,
+    "lng": 34.104826,
+    "meta": {
+      "google_maps_place_id": "ChIJIYm0V0i8KUER9BMjDPih-M0"
+    }
+  },
+  {
+    "id": 17949,
+    "name_no_copy": "с. П'ятихатки, Новомар'ївська громада, Вознесенський р-н, Миколаївська обл.",
+    "lat": 46.9158002,
+    "lng": 31.6154571,
+    "meta": {
+      "google_maps_place_id": "ChIJfzeH5GXcxUARlsFVL-c6e4g"
+    }
+  },
+  {
+    "id": 19193,
+    "name_no_copy": "с. Падрецеве, Куяльницька громада, Подільський р-н, Одеська обл.",
+    "lat": 47.7167229,
+    "lng": 29.3040551,
+    "meta": {
+      "google_maps_place_id": "ChIJ-bfpazEazEARfKeO2CfmSvQ"
+    }
+  },
+  {
+    "id": 7149,
+    "name_no_copy": "с. Пазено, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.7664808,
+    "lng": 37.9748274,
+    "meta": {
+      "google_maps_place_id": "ChIJD4y4XwLz30ARDE_bTmFjUv8"
+    }
+  },
+  {
+    "id": 23719,
+    "name_no_copy": "с. Палащенкове, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.0453931,
+    "lng": 33.8354063,
+    "meta": {
+      "google_maps_place_id": "ChIJzXgN5oN8LEERyn9FcBVDoLc"
+    }
+  },
+  {
+    "id": 27890,
+    "name_no_copy": "с. Пальчинці, Волочиська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.6825352,
+    "lng": 26.2668769,
+    "meta": {
+      "google_maps_place_id": "ChIJh-qhlxEnLkcRUPTptKxHFN4"
+    }
+  },
+  {
+    "id": 14098,
+    "name_no_copy": "с. Паращине Поле, Первозванівська громада, Кропивницький р-н, Кіровоградська обл.",
+    "lat": 48.43451719999999,
+    "lng": 32.2058123,
+    "meta": {
+      "google_maps_place_id": "ChIJEZpIGw5q0EARytUqwRoJKC8"
+    }
+  },
+  {
+    "id": 15047,
+    "name_no_copy": "с. Паталахівка, Коломийчиська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.4035743,
+    "lng": 38.0073847,
+    "meta": {
+      "google_maps_place_id": "ChIJRyPy6y_xIEERxslupBnCF3s"
+    }
+  },
+  {
+    "id": 27557,
+    "name_no_copy": "с. Патринці, Китайгородська громада, Кам'янець-Подільський р-н, Хмельницька обл.",
+    "lat": 48.6396574,
+    "lng": 26.8570159,
+    "meta": {
+      "google_maps_place_id": "ChIJr3y2tIqvM0cRikP05E4Zy1g"
+    }
+  },
+  {
+    "id": 5989,
+    "name_no_copy": "с. Первозванівка, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3057281,
+    "lng": 34.3543323,
+    "meta": {
+      "google_maps_place_id": "ChIJWy9kFke520ARfq4NEhRw8PY"
+    }
+  },
+  {
+    "id": 14677,
+    "name_no_copy": "м. Первомайськ, Кадіївська громада, Алчевський р-н, Луганська обл.",
+    "lat": 48.6289793,
+    "lng": 38.549778,
+    "meta": {
+      "google_maps_place_id": "ChIJJUzheLED4EAR4Pwu6gvTcu0"
+    }
+  },
+  {
+    "id": 6761,
+    "name_no_copy": "с. Перевальське, Васильківська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.1329664,
+    "lng": 35.9866987,
+    "meta": {
+      "google_maps_place_id": "ChIJM6luVUUo3EARMPpEt_Clp8I"
+    }
+  },
+  {
+    "id": 21976,
+    "name_no_copy": "с. Перелисянка, Деражненська громада, Рівненський р-н, Рівненська обл.",
+    "lat": 50.9684949,
+    "lng": 26.051431,
+    "meta": {
+      "google_maps_place_id": "ChIJvXfKAb5XL0cR3gmPQMtK1QE"
+    }
+  },
+  {
+    "id": 11344,
+    "name_no_copy": "с. Перемога, Якимівська громада, Мелітопольський р-н, Запорізька обл.",
+    "lat": 46.6733395,
+    "lng": 35.2481072,
+    "meta": {
+      "google_maps_place_id": "ChIJ8fV7-TmiwkARDHo7BY5T88c"
+    }
+  },
+  {
+    "id": 31248,
+    "name_no_copy": "с. Перерост, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.882059,
+    "lng": 31.31274,
+    "meta": {
+      "google_maps_place_id": "ChIJ1xu5U1Ee1UYR8DUGoHTwJqk"
+    }
+  },
+  {
+    "id": 11081,
+    "name_no_copy": "с. Перун, Петро-Михайлівська громада, Запорізький р-н, Запорізька обл.",
+    "lat": 48.0906369,
+    "lng": 35.0996983,
+    "meta": {
+      "google_maps_place_id": "ChIJWTGsXBFz3EARClcvBrXiS9E"
+    }
+  },
+  {
+    "id": 23487,
+    "name_no_copy": "с. Перше Травня, Миколаївська громада, Сумський р-н, Сумська обл.",
+    "lat": 51.1646316,
+    "lng": 34.7161769,
+    "meta": {
+      "google_maps_place_id": "ChIJEfWH8Y8WKUERJoCEozxP0bY"
+    }
+  },
+  {
+    "id": 23646,
+    "name_no_copy": "с. Перше Травня, Хотінська громада, Сумський р-н, Сумська обл.",
+    "lat": 51.1646316,
+    "lng": 34.7161769,
+    "meta": {
+      "google_maps_place_id": "ChIJEfWH8Y8WKUERJoCEozxP0bY"
+    }
+  },
+  {
+    "id": 23679,
+    "name_no_copy": "с. Перше Травня, Березівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 51.80455569999999,
+    "lng": 34.014308,
+    "meta": {
+      "google_maps_place_id": "ChIJSY3eitGKK0ERkjDaZSSmr_M"
+    }
+  },
+  {
+    "id": 7923,
+    "name_no_copy": "с. Першомар'ївка, Миколаївська громада, Краматорський р-н, Донецька обл.",
+    "lat": 48.73451559999999,
+    "lng": 37.7043176,
+    "meta": {
+      "google_maps_place_id": "ChIJpxVLO_eT30ARjNmIWCCnzHY"
+    }
+  },
+  {
+    "id": 31336,
+    "name_no_copy": "с. Петрове, Киселівська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.5592698,
+    "lng": 31.6496673,
+    "meta": {
+      "google_maps_place_id": "ChIJpzm6Wkkz1UYR5mUMy6CtbT8"
+    }
+  },
+  {
+    "id": 17644,
+    "name_no_copy": "с. Петрово-Висунське, Казанківська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.6474518,
+    "lng": 32.9549031,
+    "meta": {
+      "google_maps_place_id": "ChIJub29Z6YpxUAREDqx5WJjj54"
+    }
+  },
+  {
+    "id": 17946,
+    "name_no_copy": "с. Петрівка Друга, Новомар'ївська громада, Вознесенський р-н, Миколаївська обл.",
+    "lat": 48.0461323,
+    "lng": 31.6996729,
+    "meta": {
+      "google_maps_place_id": "ChIJRfLwN2Lnz0ARBiB0WtsxMI8"
+    }
+  },
+  {
+    "id": 27892,
+    "name_no_copy": "с. Петрівщина, Волочиська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.6291501,
+    "lng": 26.2893699,
+    "meta": {
+      "google_maps_place_id": "ChIJc4_XmDjfMUcRxoIaa59x0u8"
+    }
+  },
+  {
+    "id": 22886,
+    "name_no_copy": "с. Пилівка, Чернеччинська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.2288825,
+    "lng": 34.790435,
+    "meta": {
+      "google_maps_place_id": "ChIJ9W34DkAaKEERPNpfJYpvk6U"
+    }
+  },
+  {
+    "id": 8101,
+    "name_no_copy": "с. Пищевик, Сартанська громада, Маріупольський р-н, Донецька обл.",
+    "lat": 47.2418147,
+    "lng": 37.7930568,
+    "meta": {
+      "google_maps_place_id": "ChIJQXPzipXb5kARKDXDGT-nP1Q"
+    }
+  },
+  {
+    "id": 31469,
+    "name_no_copy": "с. Пищики, Любецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.7160708,
+    "lng": 30.7060738,
+    "meta": {
+      "google_maps_place_id": "ChIJtfWQR6h01UYRrqhc5mLdb9E"
+    }
+  },
+  {
+    "id": 22778,
+    "name_no_copy": "с. Пластюки, Грунська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.278271,
+    "lng": 34.6583762,
+    "meta": {
+      "google_maps_place_id": "ChIJjZ4EbQwYKEERtg0M_8w5XZs"
+    }
+  },
+  {
+    "id": 7124,
+    "name_no_copy": "с. Платонівка, Сіверська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.8972336,
+    "lng": 38.0181953,
+    "meta": {
+      "google_maps_place_id": "ChIJh-XzV4J1IEERSAT046q2e_g"
+    }
+  },
+  {
+    "id": 19366,
+    "name_no_copy": "с. Платонівка, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.06588199999999,
+    "lng": 29.7232864,
+    "meta": {
+      "google_maps_place_id": "ChIJBfXMNKgjyUARmGOaKguz4jo"
+    }
+  },
+  {
+    "id": 30450,
+    "name_no_copy": "с. Плуг, Бобровицька громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.698477,
+    "lng": 31.5134341,
+    "meta": {
+      "google_maps_place_id": "ChIJWVgSZl4S1UARQNdNvcfa99o"
+    }
+  },
+  {
+    "id": 6363,
+    "name_no_copy": "с. Подидар, Широківська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 47.66094469999999,
+    "lng": 33.3987528,
+    "meta": {
+      "google_maps_place_id": "ChIJw-5z8vMy20ARENLrq833sgI"
+    }
+  },
+  {
+    "id": 6150,
+    "name_no_copy": "с. Подове, Гречаноподівська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 47.7402367,
+    "lng": 33.4942524,
+    "meta": {
+      "google_maps_place_id": "ChIJS423vjgw20ARKgJIXR53khU"
+    }
+  },
+  {
+    "id": 8615,
+    "name_no_copy": "с. Подолянці, Вільшанська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.0204502,
+    "lng": 28.1024726,
+    "meta": {
+      "google_maps_place_id": "ChIJn2X1fiNJLEcR3XibDmBv_a8"
+    }
+  },
+  {
+    "id": 31060,
+    "name_no_copy": "с. Поетин, Срібнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6324049,
+    "lng": 32.873204,
+    "meta": {
+      "google_maps_place_id": "ChIJZ1LFfgn51UARQKDTFh6VOw4"
+    }
+  },
+  {
+    "id": 9618,
+    "name_no_copy": "с. Покровське, Олевська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.3493168,
+    "lng": 27.579161,
+    "meta": {
+      "google_maps_place_id": "ChIJbUtH5pH9KEcRWDX3kx0YPpM"
+    }
+  },
+  {
+    "id": 12907,
+    "name_no_copy": "с. Покровське, Великодимерська громада, Броварський р-н, Київська обл.",
+    "lat": 50.5867361,
+    "lng": 31.0786609,
+    "meta": {
+      "google_maps_place_id": "ChIJKxdtNe4h1UARzD7MicMPOek"
+    }
+  },
+  {
+    "id": 23073,
+    "name_no_copy": "с. Польове, Недригайлівська громада, Роменський р-н, Сумська обл.",
+    "lat": 50.9585284,
+    "lng": 33.7399674,
+    "meta": {
+      "google_maps_place_id": "ChIJkV4DFUiPKUER5FEApNlvO8U"
+    }
+  },
+  {
+    "id": 23770,
+    "name_no_copy": "с. Поліське, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.2322554,
+    "lng": 33.7420794,
+    "meta": {
+      "google_maps_place_id": "ChIJnfKKkwmMLEERPCGhNzTTV-w"
+    }
+  },
+  {
+    "id": 5595,
+    "name_no_copy": "с. Помазанівка, Ляшківська громада, Дніпровський р-н, Дніпропетровська обл.",
+    "lat": 49.0241403,
+    "lng": 34.4925106,
+    "meta": {
+      "google_maps_place_id": "ChIJB6Z5Sq6X2UARRo0IOZ52GlA"
+    }
+  },
+  {
+    "id": 7053,
+    "name_no_copy": "с. Попове, Славгородська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2089662,
+    "lng": 35.2828561,
+    "meta": {
+      "google_maps_place_id": "ChIJqftYPQwP3EARUOVJ7P5CS9w"
+    }
+  },
+  {
+    "id": 6880,
+    "name_no_copy": "с. Попутне, Межівська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2846284,
+    "lng": 36.6577015,
+    "meta": {
+      "google_maps_place_id": "ChIJiWtEiU1n3kARGB2ziFxMPFE"
+    }
+  },
+  {
+    "id": 7351,
+    "name_no_copy": "смт Прибережне, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.261143,
+    "lng": 38.31721340000001,
+    "meta": {
+      "google_maps_place_id": "ChIJ5cXuBNRo4EARkDdBmCuvbdA"
+    }
+  },
+  {
+    "id": 8882,
+    "name_no_copy": "с. Прибуток, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6111787,
+    "lng": 29.0679502,
+    "meta": {
+      "google_maps_place_id": "ChIJqeyhfuWbK0cRnEysf5SYgRU"
+    }
+  },
+  {
+    "id": 9563,
+    "name_no_copy": "с. Привар, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.32906639999999,
+    "lng": 29.1703538,
+    "meta": {
+      "google_maps_place_id": "ChIJ627o9qE8KkcRGo0gQ2tfw0g"
+    }
+  },
+  {
+    "id": 19383,
+    "name_no_copy": "с. Привілля, Великоплосківська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.0544847,
+    "lng": 29.7726179,
+    "meta": {
+      "google_maps_place_id": "ChIJa8ybv9kjyUARJow8ulJdfbM"
+    }
+  },
+  {
+    "id": 30278,
+    "name_no_copy": "с. Привільне, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.6703684,
+    "lng": 31.9536074,
+    "meta": {
+      "google_maps_place_id": "ChIJjaWvLCzUKkER1MMDjr9bSNY"
+    }
+  },
+  {
+    "id": 31110,
+    "name_no_copy": "с. Приозерне, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6182842,
+    "lng": 32.1207992,
+    "meta": {
+      "google_maps_place_id": "ChIJr17YtnyX1UARYo2VxqkdmjI"
+    }
+  },
+  {
+    "id": 4872,
+    "name_no_copy": "с. Приріччя, Вишнівська громада, Ковельський р-н, Волинська обл.",
+    "lat": 51.121759,
+    "lng": 23.9006145,
+    "meta": {
+      "google_maps_place_id": "ChIJcR3EP6t3JEcRoKJT1zY1u9U"
+    }
+  },
+  {
+    "id": 15021,
+    "name_no_copy": "с. Приходьківка, Білокуракинська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.6259113,
+    "lng": 38.9097332,
+    "meta": {
+      "google_maps_place_id": "ChIJJQHnkC6jIUERfvb5liOOur8"
+    }
+  },
+  {
+    "id": 15186,
+    "name_no_copy": "с. Причепилівка, Гірська громада, Сєвєродонецький р-н, Луганська обл.",
+    "lat": 48.7565886,
+    "lng": 38.6904732,
+    "meta": {
+      "google_maps_place_id": "ChIJZfkOuAT5H0ERnhkQuzD254U"
+    }
+  },
+  {
+    "id": 21287,
+    "name_no_copy": "с. Прокопівка, Решетилівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.5912757,
+    "lng": 34.0874771,
+    "meta": {
+      "google_maps_place_id": "ChIJSWeEOfCC10ARRJ1Gr9SGUyc"
+    }
+  },
+  {
+    "id": 31029,
+    "name_no_copy": "с. Проліски, Парафіївська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.8460475,
+    "lng": 32.7101691,
+    "meta": {
+      "google_maps_place_id": "ChIJw13LOVpzKkERDkl4vkVo-Pc"
+    }
+  },
+  {
+    "id": 31516,
+    "name_no_copy": "с. Прохорів, Михайло-Коцюбинська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.3078276,
+    "lng": 30.6480274,
+    "meta": {
+      "google_maps_place_id": "ChIJQYTAPxOfKkcRpnX_uuOZ-Zk"
+    }
+  },
+  {
+    "id": 21693,
+    "name_no_copy": "с. Підгай, Острожецька громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.6719906,
+    "lng": 25.6167035,
+    "meta": {
+      "google_maps_place_id": "ChIJ2fjO7TiGJUcRaPB6UuARON4"
+    }
+  },
+  {
+    "id": 31396,
+    "name_no_copy": "с. Пізнє, Козелецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 50.8454717,
+    "lng": 31.0900397,
+    "meta": {
+      "google_maps_place_id": "ChIJCXFxgYs31UARigfUddtye6g"
+    }
+  },
+  {
+    "id": 6965,
+    "name_no_copy": "с. Піщане, Покровська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 49.7528781,
+    "lng": 31.8253722,
+    "meta": {
+      "google_maps_place_id": "ChIJybPwMNQc1EARTch6LLRwBQM"
+    }
+  },
+  {
+    "id": 30876,
+    "name_no_copy": "с. Ракути, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1759473,
+    "lng": 32.776389,
+    "meta": {
+      "google_maps_place_id": "ChIJibooH3BXK0ERXBxQ5HDCK9g"
+    }
+  },
+  {
+    "id": 30709,
+    "name_no_copy": "с. Ранок, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.5525525,
+    "lng": 33.1548892,
+    "meta": {
+      "google_maps_place_id": "ChIJbTEZkwamK0ERpojQ9ZxO21Y"
+    }
+  },
+  {
+    "id": 11420,
+    "name_no_copy": "с. Рибне, Гуляйпільська громада, Пологівський р-н, Запорізька обл.",
+    "lat": 47.81298779999999,
+    "lng": 36.3410401,
+    "meta": {
+      "google_maps_place_id": "ChIJVXXBlwfD3UARQOA2o9yTnws"
+    }
+  },
+  {
+    "id": 9473,
+    "name_no_copy": "с. Ровба, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.3476143,
+    "lng": 29.3541555,
+    "meta": {
+      "google_maps_place_id": "ChIJ166_7j4-KkcRHm04HclJuMU"
+    }
+  },
+  {
+    "id": 27175,
+    "name_no_copy": "с. Рогачинка, Хрестівська громада, Каховський р-н, Херсонська обл.",
+    "lat": 46.5050163,
+    "lng": 33.7459754,
+    "meta": {
+      "google_maps_place_id": "ChIJa0AUT_m2w0ARwjCYl0IHuUk"
+    }
+  },
+  {
+    "id": 15165,
+    "name_no_copy": "с. Роднички, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.9894658,
+    "lng": 38.4361193,
+    "meta": {
+      "google_maps_place_id": "ChIJlx8gX-dpIUER5j8tR_vrnoo"
+    }
+  },
+  {
+    "id": 23720,
+    "name_no_copy": "с. Романькове, Дружбівська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.05327,
+    "lng": 33.85722370000001,
+    "meta": {
+      "google_maps_place_id": "ChIJ-dhNq2Z7LEER2mY5gQUCnOY"
+    }
+  },
+  {
+    "id": 28102,
+    "name_no_copy": "с. Російська Буда, Летичівська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.3000822,
+    "lng": 27.5548293,
+    "meta": {
+      "google_maps_place_id": "ChIJZT7zYUV4MkcRNl4PwcF6vnE"
+    }
+  },
+  {
+    "id": 30713,
+    "name_no_copy": "с. Рубанників, Коропська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 51.3949232,
+    "lng": 32.9496987,
+    "meta": {
+      "google_maps_place_id": "ChIJl8Z84Z5UKkERXktmkHEJS_8"
+    }
+  },
+  {
+    "id": 8855,
+    "name_no_copy": "с. Рудка, Попільнянська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.0885131,
+    "lng": 29.4605508,
+    "meta": {
+      "google_maps_place_id": "ChIJLQIIKOqkLEcRPKt2R_VWVHU"
+    }
+  },
+  {
+    "id": 9476,
+    "name_no_copy": "с. Рудня-Базарська, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.0700554,
+    "lng": 29.2707902,
+    "meta": {
+      "google_maps_place_id": "ChIJVVfJGpxLKkcRsP5upPb9nVw"
+    }
+  },
+  {
+    "id": 8785,
+    "name_no_copy": "с. Рудня-Гацьківка, Новоборівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.7099419,
+    "lng": 28.5549396,
+    "meta": {
+      "google_maps_place_id": "ChIJjxdQrWfuK0cRgtn0mbYBWaM"
+    }
+  },
+  {
+    "id": 8786,
+    "name_no_copy": "с. Рудня-Фасова, Новоборівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6352985,
+    "lng": 28.6440615,
+    "meta": {
+      "google_maps_place_id": "ChIJ60DvWq7yK0cRHmY1juZhjNE"
+    }
+  },
+  {
+    "id": 15024,
+    "name_no_copy": "с. Рудове, Білокуракинська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.6282962,
+    "lng": 38.6273993,
+    "meta": {
+      "google_maps_place_id": "ChIJ1QRk8binIUER9PEs-qUS8wQ"
+    }
+  },
+  {
+    "id": 12665,
+    "name_no_copy": "с. Ріденьке, Тетіївська громада, Білоцерківський р-н, Київська обл.",
+    "lat": 49.214206,
+    "lng": 29.8748334,
+    "meta": {
+      "google_maps_place_id": "ChIJp95MhZPw0kARrHo3WOfi1dc"
+    }
+  },
+  {
+    "id": 7359,
+    "name_no_copy": "с-ще Рідкодуб, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.2673284,
+    "lng": 38.5216887,
+    "meta": {
+      "google_maps_place_id": "ChIJM7KwsNNB4EARzmHFU55zrXY"
+    }
+  },
+  {
+    "id": 7360,
+    "name_no_copy": "с-ще Савелівка, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.2912632,
+    "lng": 38.3406947,
+    "meta": {
+      "google_maps_place_id": "ChIJdypoNahu4EARwGwugPt96Yk"
+    }
+  },
+  {
+    "id": 30925,
+    "name_no_copy": "с-ще Саверське, Варвинська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.5368916,
+    "lng": 32.7290173,
+    "meta": {
+      "google_maps_place_id": "ChIJHaWxyyPl1UARYCz6B_mzG3k"
+    }
+  },
+  {
+    "id": 6075,
+    "name_no_copy": "с. Савро, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3223846,
+    "lng": 33.611703,
+    "meta": {
+      "google_maps_place_id": "ChIJW09cJApX2kARxzmOuEBq-mw"
+    }
+  },
+  {
+    "id": 9478,
+    "name_no_copy": "с. Савченки, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.3005793,
+    "lng": 29.0090942,
+    "meta": {
+      "google_maps_place_id": "ChIJFaVc76ElKkcRzk1FZRXL0cQ"
+    }
+  },
+  {
+    "id": 13784,
+    "name": "с. Садове, Бобринецька громада, Кропивницький р-н, Кіровоградська обл.",
+    "lat": 48.123219,
+    "lng": 32.007732,
+    "meta": {
+      "google_maps_place_id": "ChIJeyWEl1oc0EAR2gwBM9VDdeg"
+    }
+  },
+  {
+    "id": 7154,
+    "name_no_copy": "с. Сакко І Ванцетті, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.7463754,
+    "lng": 38.0305206,
+    "meta": {
+      "google_maps_place_id": "ChIJY-uPctPz30AR-LRVCz4aykM"
+    }
+  },
+  {
+    "id": 5901,
+    "name_no_copy": "с. Самоткань, Верхньодніпровська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.6025365,
+    "lng": 34.2917345,
+    "meta": {
+      "google_maps_place_id": "ChIJ30Q8dzct2kARLhmzcGNfm2U"
+    }
+  },
+  {
+    "id": 30188,
+    "name_no_copy": "с. Самсонівка, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.6821375,
+    "lng": 32.2160296,
+    "meta": {
+      "google_maps_place_id": "ChIJWx1iUbsnK0ERMLZm9WBsqYc"
+    }
+  },
+  {
+    "id": 29801,
+    "name_no_copy": "с. Сарата, Селятинська громада, Вижницький р-н, Чернівецька обл.",
+    "lat": 47.7470448,
+    "lng": 24.9949033,
+    "meta": {
+      "google_maps_place_id": "ChIJvyMpMiB6NkcR7sn8Pz0QvwM"
+    }
+  },
+  {
+    "id": 22619,
+    "name_no_copy": "с. Сахарове, Новослобідська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.3151961,
+    "lng": 33.9305745,
+    "meta": {
+      "google_maps_place_id": "ChIJzaR3Z8bZK0ERijbIBcpiHAM"
+    }
+  },
+  {
+    "id": 31648,
+    "name_no_copy": "м. Севастополь",
+    "lat": 44.61665,
+    "lng": 33.525367,
+    "meta": {
+      "google_maps_place_id": "ChIJ9USRZe8llUARzDRN_6-nLb0"
+    }
+  },
+  {
+    "id": 8761,
+    "name_no_copy": "с. Северинівка, Любарська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 49.8195065,
+    "lng": 27.8790175,
+    "meta": {
+      "google_maps_place_id": "ChIJt0iZnB-3LUcR0FlseY4J7Zs"
+    }
+  },
+  {
+    "id": 30969,
+    "name_no_copy": "с. Селихів, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.9312355,
+    "lng": 32.2217726,
+    "meta": {
+      "google_maps_place_id": "ChIJfUKiXsd_KkERsO6_o0l7jis"
+    }
+  },
+  {
+    "id": 19106,
+    "name_no_copy": "с. Семено-Карпівка, Балтська громада, Подільський р-н, Одеська обл.",
+    "lat": 47.9117506,
+    "lng": 29.4933117,
+    "meta": {
+      "google_maps_place_id": "ChIJFTPQvj4lzEARMIuMBkyhtGk"
+    }
+  },
+  {
+    "id": 6077,
+    "name_no_copy": "с. Семенівка, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3355019,
+    "lng": 33.6738674,
+    "meta": {
+      "google_maps_place_id": "ChIJE4PkltJQ2kARWE8B-Nqc4Ck"
+    }
+  },
+  {
+    "id": 18118,
+    "name_no_copy": "с. Сеньчине, Нечаянська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.9304332,
+    "lng": 31.6651848,
+    "meta": {
+      "google_maps_place_id": "ChIJE2KsMp7cxUARFOTA2LLEtNY"
+    }
+  },
+  {
+    "id": 15051,
+    "name_no_copy": "с. Сергіївка, Коломийчиська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.36406700000001,
+    "lng": 37.9560497,
+    "meta": {
+      "google_maps_place_id": "ChIJr8ELxPTzIEERQmsOO0s--JY"
+    }
+  },
+  {
+    "id": 30878,
+    "name_no_copy": "с. Сергіївське, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.2244146,
+    "lng": 32.8786057,
+    "meta": {
+      "google_maps_place_id": "ChIJaeaF2OanLEERxqA_Cf0oUMA"
+    }
+  },
+  {
+    "id": 9569,
+    "name_no_copy": "с. Середня Рудня, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.5553884,
+    "lng": 28.5733076,
+    "meta": {
+      "google_maps_place_id": "ChIJf-gk2r2UKUcR0kExgR35mBc"
+    }
+  },
+  {
+    "id": 9814,
+    "name_no_copy": "с. Синявка, Барашівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.6751977,
+    "lng": 28.2496608,
+    "meta": {
+      "google_maps_place_id": "ChIJ6Y3uPff7K0cRnH5VvG8v9A8"
+    }
+  },
+  {
+    "id": 22621,
+    "name_no_copy": "с. Сиром'ятникове, Новослобідська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.3424472,
+    "lng": 33.9265288,
+    "meta": {
+      "google_maps_place_id": "ChIJ5WnbjILZK0ERpNiURsJ1OO8"
+    }
+  },
+  {
+    "id": 29719,
+    "name_no_copy": "с-ще Скаржинка, Чигиринська громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.0781282,
+    "lng": 32.4089585,
+    "meta": {
+      "google_maps_place_id": "ChIJ-99v2mnf0EARanKeSRf7WpE"
+    }
+  },
+  {
+    "id": 22781,
+    "name_no_copy": "с. Скелька, Грунська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.1656541,
+    "lng": 34.7012588,
+    "meta": {
+      "google_maps_place_id": "ChIJ86RNwj8cKEERCMv0gbYi8MM"
+    }
+  },
+  {
+    "id": 29588,
+    "name_no_copy": "с-ще Скелівка, Медведівська громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.0862874,
+    "lng": 32.3110648,
+    "meta": {
+      "google_maps_place_id": "ChIJ5VqQs6oh0UARKF0pyIZ4IGY"
+    }
+  },
+  {
+    "id": 21324,
+    "name_no_copy": "с. Скибівка, Скороходівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.8555327,
+    "lng": 34.999072,
+    "meta": {
+      "google_maps_place_id": "ChIJqwQUGwkF2EAR3IqO1R485Bk"
+    }
+  },
+  {
+    "id": 31300,
+    "name_no_copy": "с. Скиток, Добрянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 52.0722231,
+    "lng": 30.9691071,
+    "meta": {
+      "google_maps_place_id": "ChIJadVtOIJV1EYRaD-3W5ZCKtw"
+    }
+  },
+  {
+    "id": 30284,
+    "name_no_copy": "с. Слава, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.96652,
+    "lng": 32.1871617,
+    "meta": {
+      "google_maps_place_id": "ChIJK74HcrU0K0ERnG-XSdSq5MI"
+    }
+  },
+  {
+    "id": 9482,
+    "name_no_copy": "с. Славковиці, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.0527639,
+    "lng": 29.427174,
+    "meta": {
+      "google_maps_place_id": "ChIJYTd2hvNNKkcRtNHdt6tnReA"
+    }
+  },
+  {
+    "id": 9573,
+    "name_no_copy": "с. Слобода-Новоселицька, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.2214689,
+    "lng": 28.9450052,
+    "meta": {
+      "google_maps_place_id": "ChIJrcvKa2YuKkcRCAwFcBMawu8"
+    }
+  },
+  {
+    "id": 9574,
+    "name_no_copy": "с. Слобода-Шоломківська, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.2959583,
+    "lng": 28.7315827,
+    "meta": {
+      "google_maps_place_id": "ChIJQc--BROHKUcRTjvkK7Hw4dQ"
+    }
+  },
+  {
+    "id": 27516,
+    "name_no_copy": "с. Слобідка-Малиновецька, Жванецька громада, Кам'янець-Подільський р-н, Хмельницька обл.",
+    "lat": 48.5144213,
+    "lng": 26.6094498,
+    "meta": {
+      "google_maps_place_id": "ChIJS6EZdjqWM0cRno0NPzVEJb0"
+    }
+  },
+  {
+    "id": 27900,
+    "name_no_copy": "с. Случ, Волочиська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.68965439999999,
+    "lng": 26.4171986,
+    "meta": {
+      "google_maps_place_id": "ChIJqTHgHZohLkcRzhTZQm2OYuQ"
+    }
+  },
+  {
+    "id": 23525,
+    "name_no_copy": "с. Соколине, Миколаївська громада, Сумський р-н, Сумська обл.",
+    "lat": 51.0088796,
+    "lng": 34.6149111,
+    "meta": {
+      "google_maps_place_id": "ChIJs9wmHnIPKUERVOhJEI6a5EM"
+    }
+  },
+  {
+    "id": 6768,
+    "name_no_copy": "с. Солонці, Васильківська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.24185139999999,
+    "lng": 35.7788671,
+    "meta": {
+      "google_maps_place_id": "ChIJ00AcpuKf3kARGLEDBNzDWK4"
+    }
+  },
+  {
+    "id": 22967,
+    "name_no_copy": "с. Сороколітове, Вільшанська громада, Роменський р-н, Сумська обл.",
+    "lat": 50.849028,
+    "lng": 34.1593754,
+    "meta": {
+      "google_maps_place_id": "ChIJBxz6htaiKUERcqJH4SEU4Mg"
+    }
+  },
+  {
+    "id": 5850,
+    "name_no_copy": "с-ще Сорокопанівка, Божедарівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.241915,
+    "lng": 34.0033785,
+    "meta": {
+      "google_maps_place_id": "ChIJTZmZtr6u20ARhHbLPW_kOpw"
+    }
+  },
+  {
+    "id": 30191,
+    "name_no_copy": "с. Спичувате, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.8543874,
+    "lng": 32.3794532,
+    "meta": {
+      "google_maps_place_id": "ChIJdf8O-HU6K0EREGPKpmjKTSc"
+    }
+  },
+  {
+    "id": 6191,
+    "name_no_copy": "с. Спокойствіє, Девладівська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 48.0977468,
+    "lng": 33.8361954,
+    "meta": {
+      "google_maps_place_id": "ChIJoXfI1CcE20AR1OidtrySzQE"
+    }
+  },
+  {
+    "id": 8884,
+    "name_no_copy": "с. Стара Гребля, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6409764,
+    "lng": 29.0728281,
+    "meta": {
+      "google_maps_place_id": "ChIJgwz1tGyZK0cRciuVfrIMQAY"
+    }
+  },
+  {
+    "id": 9485,
+    "name_no_copy": "с. Стара Радча, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.37803479999999,
+    "lng": 29.2954676,
+    "meta": {
+      "google_maps_place_id": "ChIJi5HSzIs9KkcR3LlEu_cHEF0"
+    }
+  },
+  {
+    "id": 9487,
+    "name_no_copy": "с. Старий Кужіль, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.04187719999999,
+    "lng": 29.4329935,
+    "meta": {
+      "google_maps_place_id": "ChIJx2EoO3RSKkcRdD9NI8CxuTY"
+    }
+  },
+  {
+    "id": 9957,
+    "name_no_copy": "с. Старий Хмерин, Ємільчинська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.78096,
+    "lng": 27.6507526,
+    "meta": {
+      "google_maps_place_id": "ChIJt0pPsFtKKUcRHCQ5KId7jrg"
+    }
+  },
+  {
+    "id": 8589,
+    "name_no_copy": "с. Старицьке, Брусилівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.3190417,
+    "lng": 29.6168543,
+    "meta": {
+      "google_maps_place_id": "ChIJaWNA4EhcK0cRKE51tijtyuI"
+    }
+  },
+  {
+    "id": 7764,
+    "name_no_copy": "смт Старобешеве, Старобешівська громада, Кальміуський р-н, Донецька обл.",
+    "lat": 47.7529456,
+    "lng": 38.0250736,
+    "meta": {
+      "google_maps_place_id": "ChIJj73FsLTC4EARsADKnyt1taI"
+    }
+  },
+  {
+    "id": 22623,
+    "name_no_copy": "с. Старі Гончарі, Новослобідська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.2969928,
+    "lng": 33.9927246,
+    "meta": {
+      "google_maps_place_id": "ChIJMXl-PxPYK0ERmkN5MMwZN_g"
+    }
+  },
+  {
+    "id": 9959,
+    "name_no_copy": "с. Старі Серби, Ємільчинська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.7880844,
+    "lng": 27.7515739,
+    "meta": {
+      "google_maps_place_id": "ChIJ4VOxhP5LKUcRzp6Bj9MYRdA"
+    }
+  },
+  {
+    "id": 30581,
+    "name_no_copy": "с. Степ, Лосинівська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.76580389999999,
+    "lng": 31.9484718,
+    "meta": {
+      "google_maps_place_id": "ChIJfepWzNp31UARKtqW324cqac"
+    }
+  },
+  {
+    "id": 30658,
+    "name_no_copy": "с. Степ, Плисківська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.76580389999999,
+    "lng": 31.9484718,
+    "meta": {
+      "google_maps_place_id": "ChIJfepWzNp31UARKtqW324cqac"
+    }
+  },
+  {
+    "id": 29076,
+    "name_no_copy": "с-ще Степне, Тальнівська громада, Звенигородський р-н, Черкаська обл.",
+    "lat": 48.9238848,
+    "lng": 30.8027002,
+    "meta": {
+      "google_maps_place_id": "ChIJ2U3iJX8m0kARAEg6h3e05G4"
+    }
+  },
+  {
+    "id": 21677,
+    "name_no_copy": "с. Стоморги, Млинівська громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.5505592,
+    "lng": 25.5614518,
+    "meta": {
+      "google_maps_place_id": "ChIJvX_qNBWAJUcR3DRb076CYbY"
+    }
+  },
+  {
+    "id": 7155,
+    "name_no_copy": "с. Стряпівка, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.6713582,
+    "lng": 38.1537569,
+    "meta": {
+      "google_maps_place_id": "ChIJBSzA8MH630ARjMVRScPch8c"
+    }
+  },
+  {
+    "id": 31259,
+    "name_no_copy": "с. Студенець, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.9011528,
+    "lng": 31.4561909,
+    "meta": {
+      "google_maps_place_id": "ChIJOW6nV-jf1EYRLB1albTYtYY"
+    }
+  },
+  {
+    "id": 10852,
+    "name_no_copy": "с. Суворе, Роздольська громада, Василівський р-н, Запорізька обл.",
+    "lat": 47.2229026,
+    "lng": 35.4493396,
+    "meta": {
+      "google_maps_place_id": "ChIJO69o548-3UARsn4zPqCbyyo"
+    }
+  },
+  {
+    "id": 15170,
+    "name_no_copy": "с. Судьбинка, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.9460181,
+    "lng": 38.5719859,
+    "meta": {
+      "google_maps_place_id": "ChIJ33u5k8JuIUER2FseTIE9-ic"
+    }
+  },
+  {
+    "id": 21131,
+    "name_no_copy": "с. Сусідки, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.7246731,
+    "lng": 34.71950959999999,
+    "meta": {
+      "google_maps_place_id": "ChIJDVnYLFMf2EARetdQxzk5R5E"
+    }
+  },
+  {
+    "id": 31260,
+    "name_no_copy": "с. Сутоки, Городнянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 52.0087911,
+    "lng": 31.7480475,
+    "meta": {
+      "google_maps_place_id": "ChIJ_YHHq5nE1EYRwB3ly8SyfJo"
+    }
+  },
+  {
+    "id": 6885,
+    "name_no_copy": "с. Сухарева Балка, Межівська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.2818874,
+    "lng": 36.82591439999999,
+    "meta": {
+      "google_maps_place_id": "ChIJs4kJaC5D3kARroALxRFBo0o"
+    }
+  },
+  {
+    "id": 5998,
+    "name_no_copy": "с. Сухий Хутір, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2949964,
+    "lng": 34.3195001,
+    "meta": {
+      "google_maps_place_id": "ChIJfVslcd6720ARpplwggnt9-U"
+    }
+  },
+  {
+    "id": 30480,
+    "name_no_copy": "с. Суховодка, Борзнянська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 51.210218,
+    "lng": 32.6571265,
+    "meta": {
+      "google_maps_place_id": "ChIJ9d1QyeleKkERln2Lk3_7MD4"
+    }
+  },
+  {
+    "id": 14336,
+    "name_no_copy": "с. Схід, Новоукраїнська громада, Новоукраїнський р-н, Кіровоградська обл.",
+    "lat": 48.366923,
+    "lng": 31.6295234,
+    "meta": {
+      "google_maps_place_id": "ChIJy9rlagQy0EARHE0ckvru2Is"
+    }
+  },
+  {
+    "id": 30880,
+    "name_no_copy": "с. Східне, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1620733,
+    "lng": 32.7874792,
+    "meta": {
+      "google_maps_place_id": "ChIJKf_5kd9ZK0ERlGya_oDUBmQ"
+    }
+  },
+  {
+    "id": 21132,
+    "name_no_copy": "с. Сягайли, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.6886746,
+    "lng": 34.7801904,
+    "meta": {
+      "google_maps_place_id": "ChIJC4Ml_Jgi2EARrDOHsaWdXZs"
+    }
+  },
+  {
+    "id": 30920,
+    "name_no_copy": "с. Сіряківщина, Варвинська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.5206084,
+    "lng": 32.8138221,
+    "meta": {
+      "google_maps_place_id": "ChIJy9Qy6VDj1UAR1DDL09CaoHQ"
+    }
+  },
+  {
+    "id": 21625,
+    "name_no_copy": "с. Табачуки, Крупецька громада, Дубенський р-н, Рівненська обл.",
+    "lat": 50.1965011,
+    "lng": 25.4063323,
+    "meta": {
+      "google_maps_place_id": "ChIJXbPPn1vzL0cRkjR65GLOJQ4"
+    }
+  },
+  {
+    "id": 5904,
+    "name_no_copy": "с. Тарасівка, Верхньодніпровська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.6207109,
+    "lng": 34.3217885,
+    "meta": {
+      "google_maps_place_id": "ChIJa260xNMs2kAR6huepmRMsd8"
+    }
+  },
+  {
+    "id": 30455,
+    "name_no_copy": "с. Татарівка, Бобровицька громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.7540446,
+    "lng": 31.6805933,
+    "meta": {
+      "google_maps_place_id": "ChIJwYz-AkVy1UARwDx3GWN44-E"
+    }
+  },
+  {
+    "id": 8885,
+    "name_no_copy": "с. Теклянівка, Потіївська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.5724376,
+    "lng": 29.0337,
+    "meta": {
+      "google_maps_place_id": "ChIJ2RQaJWSbK0cR6NXVBBuuWMU"
+    }
+  },
+  {
+    "id": 9577,
+    "name_no_copy": "с. Теклівка, Овруцька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.44481529999999,
+    "lng": 28.5291428,
+    "meta": {
+      "google_maps_place_id": "ChIJLaFBj-SQKUcR9qn01sGnoXo"
+    }
+  },
+  {
+    "id": 5918,
+    "name_no_copy": "с. Терно-Лозуватка, Вишнівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.4155959,
+    "lng": 33.8812181,
+    "meta": {
+      "google_maps_place_id": "ChIJO2VuFZ9O2kARehSgdb-j_Aw"
+    }
+  },
+  {
+    "id": 7017,
+    "name_no_copy": "с. Терса, Раївська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 48.1490697,
+    "lng": 35.6882634,
+    "meta": {
+      "google_maps_place_id": "ChIJv-uDxFEi3EARGmlYjfUmi2Q"
+    }
+  },
+  {
+    "id": 31119,
+    "name_no_copy": "с. Тихе, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.6231061,
+    "lng": 32.2596684,
+    "meta": {
+      "google_maps_place_id": "ChIJjyLx0kSR1UARjoQRe87qckE"
+    }
+  },
+  {
+    "id": 9489,
+    "name_no_copy": "с. Тичків, Народицька громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.354523,
+    "lng": 29.2241106,
+    "meta": {
+      "google_maps_place_id": "ChIJ7334lwI9KkcRpN7h_4XyavI"
+    }
+  },
+  {
+    "id": 8788,
+    "name_no_copy": "с. Томашівка, Новоборівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.6515013,
+    "lng": 28.7099825,
+    "meta": {
+      "google_maps_place_id": "ChIJVzxbqL-SK0cR4kTSUs3sGxU"
+    }
+  },
+  {
+    "id": 31063,
+    "name_no_copy": "с. Точене, Срібнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.541178,
+    "lng": 32.84731,
+    "meta": {
+      "google_maps_place_id": "ChIJQx65HJj81UAR7H94aBjIv2E"
+    }
+  },
+  {
+    "id": 29509,
+    "name_no_copy": "с. Трахтемирів, Бобрицька громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.9772078,
+    "lng": 31.338124,
+    "meta": {
+      "google_maps_place_id": "ChIJRfnfW7Jo1EARMvma8CHtIsg"
+    }
+  },
+  {
+    "id": 18187,
+    "name_no_copy": "с. Трихатське, Степівська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 47.1514714,
+    "lng": 31.6960949,
+    "meta": {
+      "google_maps_place_id": "ChIJQZQVr_CUxUARMumChD48twI"
+    }
+  },
+  {
+    "id": 29511,
+    "name_no_copy": "с. Трощин, Бобрицька громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.8285334,
+    "lng": 31.3417526,
+    "meta": {
+      "google_maps_place_id": "ChIJQ5Fgpa1z1EARBEkqGmgDDpA"
+    }
+  },
+  {
+    "id": 19371,
+    "name_no_copy": "с. Трудомирівка, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 46.9790108,
+    "lng": 29.8597411,
+    "meta": {
+      "google_maps_place_id": "ChIJR2EcquDfyEAR6sCAmGb3C_Q"
+    }
+  },
+  {
+    "id": 15085,
+    "name_no_copy": "с. Трудродительське, Лозно-Олександрівська громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.8530512,
+    "lng": 38.6189471,
+    "meta": {
+      "google_maps_place_id": "ChIJUeSRI1xyIUER1JBewiy1WHY"
+    }
+  },
+  {
+    "id": 15540,
+    "name_no_copy": "с. Трьохізбенка, Щастинська громада, Щастинський р-н, Луганська обл.",
+    "lat": 48.75691399999999,
+    "lng": 38.9618232,
+    "meta": {
+      "google_maps_place_id": "ChIJpXYcSMvvH0ER0WdDKNSOoBY"
+    }
+  },
+  {
+    "id": 31478,
+    "name_no_copy": "с. Тулія, Любецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.67369979999999,
+    "lng": 30.7091973,
+    "meta": {
+      "google_maps_place_id": "ChIJ5xE8u6Zz1UYRBimlGbZid1o"
+    }
+  },
+  {
+    "id": 9880,
+    "name_no_copy": "с. Турова, Довбиська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.3267499,
+    "lng": 27.9379016,
+    "meta": {
+      "google_maps_place_id": "ChIJpRw6eFgYLEcR4rZsvmYzNSo"
+    }
+  },
+  {
+    "id": 31435,
+    "name_no_copy": "с. Уборки, Куликівська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.4853629,
+    "lng": 31.5356918,
+    "meta": {
+      "google_maps_place_id": "ChIJm7QaXl411UYRjFP76YSbcV4"
+    }
+  },
+  {
+    "id": 31479,
+    "name_no_copy": "с. Углова Рудня, Любецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.7610951,
+    "lng": 30.729155,
+    "meta": {
+      "google_maps_place_id": "ChIJb61AJHQL1UYRXFgVjpdBT1E"
+    }
+  },
+  {
+    "id": 10876,
+    "name_no_copy": "с. Уділенське, Біленьківська громада, Запорізький р-н, Запорізька обл.",
+    "lat": 47.7383076,
+    "lng": 34.96847899999999,
+    "meta": {
+      "google_maps_place_id": "ChIJI7W71gyL3EARcktSjxG0D6A"
+    }
+  },
+  {
+    "id": 23774,
+    "name_no_copy": "с. Улиця, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.3073032,
+    "lng": 33.6140477,
+    "meta": {
+      "google_maps_place_id": "ChIJZY974PaSLEERoOT40utYro0"
+    }
+  },
+  {
+    "id": 5556,
+    "name_no_copy": "с. Усичівські Будки, Торчинська громада, Луцький р-н, Волинська обл.",
+    "lat": 50.7308764,
+    "lng": 25.0856131,
+    "meta": {
+      "google_maps_place_id": "ChIJ9wPHkt6jJUcRKGKAERplgFg"
+    }
+  },
+  {
+    "id": 15173,
+    "name_no_copy": "с. Федосіївка, Троїцька громада, Сватівський р-н, Луганська обл.",
+    "lat": 49.8689755,
+    "lng": 38.4404779,
+    "meta": {
+      "google_maps_place_id": "ChIJhV9jB7NsIUERVreuwOtblws"
+    }
+  },
+  {
+    "id": 30884,
+    "name_no_copy": "с. Ферубки, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1707286,
+    "lng": 32.8312318,
+    "meta": {
+      "google_maps_place_id": "ChIJdfIoRstZK0ERjJfSnk5OZeQ"
+    }
+  },
+  {
+    "id": 21134,
+    "name_no_copy": "с. Фисуни, Новоселівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.70129319999999,
+    "lng": 34.8386053,
+    "meta": {
+      "google_maps_place_id": "ChIJdcoT_RgY2EARFpVuAD-DMtk"
+    }
+  },
+  {
+    "id": 19372,
+    "name_no_copy": "с. Фрасине, Великомихайлівська громада, Роздільнянський р-н, Одеська обл.",
+    "lat": 47.0973233,
+    "lng": 29.79055,
+    "meta": {
+      "google_maps_place_id": "ChIJG4CIHEIkyUARqDqifUOyRXA"
+    }
+  },
+  {
+    "id": 30885,
+    "name_no_copy": "с. Фроли, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.1914704,
+    "lng": 32.9504296,
+    "meta": {
+      "google_maps_place_id": "ChIJ86q-5WenLEERsu-O7anl5TA"
+    }
+  },
+  {
+    "id": 30886,
+    "name_no_copy": "с. Хандобоківка, Семенівська громада, Новгород-Сіверський р-н, Чернігівська обл.",
+    "lat": 52.0683558,
+    "lng": 32.4818317,
+    "meta": {
+      "google_maps_place_id": "ChIJ8w_nNCFMK0ER_AqrJGWoxMU"
+    }
+  },
+  {
+    "id": 19108,
+    "name_no_copy": "с. Харитинівка, Балтська громада, Подільський р-н, Одеська обл.",
+    "lat": 47.8555115,
+    "lng": 29.5969089,
+    "meta": {
+      "google_maps_place_id": "ChIJT0MA3PEmzEARfE3dSBt74zk"
+    }
+  },
+  {
+    "id": 31030,
+    "name_no_copy": "с. Хаїха, Парафіївська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.9470207,
+    "lng": 32.6298383,
+    "meta": {
+      "google_maps_place_id": "ChIJlYIQGs5xKkER8upK8B_xC-E"
+    }
+  },
+  {
+    "id": 23331,
+    "name_no_copy": "с. Хвойне, Краснопільська громада, Сумський р-н, Сумська обл.",
+    "lat": 50.84258699999999,
+    "lng": 35.0607336,
+    "meta": {
+      "google_maps_place_id": "ChIJqYFp1z_6KEERrjU2EoeYRnQ"
+    }
+  },
+  {
+    "id": 27639,
+    "name_no_copy": "с. Хворосна, Новоушицька громада, Кам'янець-Подільський р-н, Хмельницька обл.",
+    "lat": 48.8116647,
+    "lng": 27.1553207,
+    "meta": {
+      "google_maps_place_id": "ChIJH3ID9A9UMkcR0jiqVFzKwmI"
+    }
+  },
+  {
+    "id": 15398,
+    "name_no_copy": "с. Хворостяне, Новопсковська громада, Старобільський р-н, Луганська обл.",
+    "lat": 49.5168347,
+    "lng": 39.0549635,
+    "meta": {
+      "google_maps_place_id": "ChIJ2aENp8i4IUERMMEWs8tSlkI"
+    }
+  },
+  {
+    "id": 30198,
+    "name_no_copy": "с. Ховдіївка, Корюківська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.7144419,
+    "lng": 32.3670686,
+    "meta": {
+      "google_maps_place_id": "ChIJ34bB-gkkK0ERFkinYcMYfMk"
+    }
+  },
+  {
+    "id": 20973,
+    "name_no_copy": "с. Холодне Плесо, Ланнівська громада, Полтавський р-н, Полтавська обл.",
+    "lat": 49.4305834,
+    "lng": 35.3098165,
+    "meta": {
+      "google_maps_place_id": "ChIJ_zM-pb1e2EARnN9xcHafsFs"
+    }
+  },
+  {
+    "id": 8591,
+    "name_no_copy": "с. Хом'янка, Брусилівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.3271402,
+    "lng": 29.5827827,
+    "meta": {
+      "google_maps_place_id": "ChIJ_Wxz2L5dK0cRiJ6j2HFiqhI"
+    }
+  },
+  {
+    "id": 30459,
+    "name_no_copy": "с. Хомівці, Бобровицька громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 50.7931947,
+    "lng": 31.283393,
+    "meta": {
+      "google_maps_place_id": "ChIJV-Ueip4_1UAR-uE5itJdhe4"
+    }
+  },
+  {
+    "id": 30922,
+    "name_no_copy": "с. Хортиця, Варвинська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.4321156,
+    "lng": 32.8827635,
+    "meta": {
+      "google_maps_place_id": "ChIJ38evk-sJ1kARXJXWFdVjxu4"
+    }
+  },
+  {
+    "id": 9636,
+    "name_no_copy": "с. Хочине, Олевська громада, Коростенський р-н, Житомирська обл.",
+    "lat": 51.45964739999999,
+    "lng": 27.8804453,
+    "meta": {
+      "google_maps_place_id": "ChIJ-XW6k2CpKUcRBq62bpj_2yc"
+    }
+  },
+  {
+    "id": 31522,
+    "name_no_copy": "с. Храпате, Михайло-Коцюбинська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.461568,
+    "lng": 30.6895548,
+    "meta": {
+      "google_maps_place_id": "ChIJZTVywQ5k1UYRANtcDEG_a3Q"
+    }
+  },
+  {
+    "id": 7159,
+    "name_no_copy": "с. Хромівка, Соледарська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.746438,
+    "lng": 37.94328429999999,
+    "meta": {
+      "google_maps_place_id": "ChIJefBIAY_y30ARQB__SS2P_XA"
+    }
+  },
+  {
+    "id": 14952,
+    "name_no_copy": "м. Хрустальний, Хрустальненська громада, Ровеньківський р-н, Луганська обл.",
+    "lat": 48.1406371,
+    "lng": 38.9367363,
+    "meta": {
+      "google_maps_place_id": "ChIJ34vHUu5K4EARUgJRuZDdPkA"
+    }
+  },
+  {
+    "id": 28355,
+    "name_no_copy": "с. Хутір Дашківський, Старосинявська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.5602722,
+    "lng": 27.5604629,
+    "meta": {
+      "google_maps_place_id": "ChIJmdv02QeTLUcRULoHwa8KCyM"
+    }
+  },
+  {
+    "id": 27682,
+    "name_no_copy": "с. Цвіклівці Другі, Слобідсько-Кульчієвецька громада, Кам'янець-Подільський р-н, Хмельницька обл.",
+    "lat": 48.5860865,
+    "lng": 26.629438,
+    "meta": {
+      "google_maps_place_id": "ChIJt-4DlSC8M0cRitSou1boX6g"
+    }
+  },
+  {
+    "id": 6029,
+    "name_no_copy": "с. Цвіле, Лихівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.5685267,
+    "lng": 33.8282089,
+    "meta": {
+      "google_maps_place_id": "ChIJMzSHHpE42kAR8ExBs8plpaw"
+    }
+  },
+  {
+    "id": 6079,
+    "name_no_copy": "с. Цівки, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3274158,
+    "lng": 33.7088841,
+    "meta": {
+      "google_maps_place_id": "ChIJ9Tfr8i1R2kARwvsS5E8PZ0k"
+    }
+  },
+  {
+    "id": 19126,
+    "name_no_copy": "с. Чабанівка, Зеленогірська громада, Подільський р-н, Одеська обл.",
+    "lat": 47.806212,
+    "lng": 30.0542124,
+    "meta": {
+      "google_maps_place_id": "ChIJr-pIIW6OzkARUrCyZcHIeTU"
+    }
+  },
+  {
+    "id": 6486,
+    "name_no_copy": "с. Чайки, Томаківська громада, Нікопольський р-н, Дніпропетровська обл.",
+    "lat": 47.8498756,
+    "lng": 34.8693039,
+    "meta": {
+      "google_maps_place_id": "ChIJvwndhk193EARnsPIiX0XK0c"
+    }
+  },
+  {
+    "id": 6030,
+    "name_no_copy": "с. Червона Гірка, Лихівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.6077732,
+    "lng": 33.8099147,
+    "meta": {
+      "google_maps_place_id": "ChIJX-MgENo-2kAR6jvblDzk5k4"
+    }
+  },
+  {
+    "id": 30522,
+    "name_no_copy": "с. Червона Гірка, Височанська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 51.4300512,
+    "lng": 32.6694885,
+    "meta": {
+      "google_maps_place_id": "ChIJs12Vl6f-KkER2CzCYYok9NE"
+    }
+  },
+  {
+    "id": 23217,
+    "name_no_copy": "с. Червона Діброва, Бездрицька громада, Сумський р-н, Сумська обл.",
+    "lat": 50.8923958,
+    "lng": 34.9944634,
+    "meta": {
+      "google_maps_place_id": "ChIJ03OhhoH8KEERDiKaUKY3w2Q"
+    }
+  },
+  {
+    "id": 17655,
+    "name_no_copy": "с. Червона Новоселівка, Казанківська громада, Баштанський р-н, Миколаївська обл.",
+    "lat": 47.6109843,
+    "lng": 32.9452648,
+    "meta": {
+      "google_maps_place_id": "ChIJIYO3dRQoxUARbjAMByXsQm4"
+    }
+  },
+  {
+    "id": 6080,
+    "name_no_copy": "с. Червона Поляна, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3400454,
+    "lng": 33.6006794,
+    "meta": {
+      "google_maps_place_id": "ChIJpR8fwutZ2kARRJqkCAbAP4k"
+    }
+  },
+  {
+    "id": 30975,
+    "name_no_copy": "с. Червоне, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.7958098,
+    "lng": 32.2490457,
+    "meta": {
+      "google_maps_place_id": "ChIJdcV7riuE1UAR6sYYfC2madw"
+    }
+  },
+  {
+    "id": 9963,
+    "name_no_copy": "с. Червоний Бір, Ємільчинська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.6506513,
+    "lng": 27.8915285,
+    "meta": {
+      "google_maps_place_id": "ChIJ8aWWhrCsLkcR7KWcu7EfwK0"
+    }
+  },
+  {
+    "id": 5848,
+    "name_no_copy": "с. Червоний Орлик, Божедарівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.1905454,
+    "lng": 33.9933425,
+    "meta": {
+      "google_maps_place_id": "ChIJFZ7QXvyo20ARHKTRWvw8wpE"
+    }
+  },
+  {
+    "id": 6001,
+    "name_no_copy": "с. Червоний Став, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.3254473,
+    "lng": 34.3086651,
+    "meta": {
+      "google_maps_place_id": "ChIJA236laK520ARzmwztA5SlmM"
+    }
+  },
+  {
+    "id": 5919,
+    "name_no_copy": "с. Червоний Яр, Вишнівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.4290361,
+    "lng": 33.9843257,
+    "meta": {
+      "google_maps_place_id": "ChIJxwdxxXVL2kAR-hh9pnWVUpM"
+    }
+  },
+  {
+    "id": 8106,
+    "name_no_copy": "с. Черненко, Сартанська громада, Маріупольський р-н, Донецька обл.",
+    "lat": 47.227853,
+    "lng": 37.746468,
+    "meta": {
+      "google_maps_place_id": "ChIJtRSx5BDc5kARThPnhOZwGto"
+    }
+  },
+  {
+    "id": 23778,
+    "name_no_copy": "с. Четвертакове, Зноб-Новгородська громада, Шосткинський р-н, Сумська обл.",
+    "lat": 52.2298015,
+    "lng": 33.5309937,
+    "meta": {
+      "google_maps_place_id": "ChIJdX3pwzWQLEERYqezmiI4U5g"
+    }
+  },
+  {
+    "id": 6081,
+    "name_no_copy": "с. Чигринівка, Саксаганська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2807019,
+    "lng": 33.6932452,
+    "meta": {
+      "google_maps_place_id": "ChIJCSP2En1W2kAR0j69yItkCLE"
+    }
+  },
+  {
+    "id": 27195,
+    "name_no_copy": "с. Чорна Долина, Чаплинська громада, Каховський р-н, Херсонська обл.",
+    "lat": 46.5286203,
+    "lng": 33.4730862,
+    "meta": {
+      "google_maps_place_id": "ChIJDc12oozAw0ARdouQw0VHGAI"
+    }
+  },
+  {
+    "id": 30239,
+    "name_no_copy": "с. Чорногорці, Менська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.4738921,
+    "lng": 31.8480532,
+    "meta": {
+      "google_maps_place_id": "ChIJkeiBJLTIKkERRLJhSNd9OEw"
+    }
+  },
+  {
+    "id": 14628,
+    "name_no_copy": "смт Чорнухине, Алчевська громада, Алчевський р-н, Луганська обл.",
+    "lat": 48.3238703,
+    "lng": 38.5208692,
+    "meta": {
+      "google_maps_place_id": "ChIJFcHI8CkV4EARiOGG1esTscg"
+    }
+  },
+  {
+    "id": 6005,
+    "name_no_copy": "с. Шмакове, Криничанська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.2032105,
+    "lng": 34.4238311,
+    "meta": {
+      "google_maps_place_id": "ChIJiS6ICcWX20ARZo0PziRAyDc"
+    }
+  },
+  {
+    "id": 18030,
+    "name_no_copy": "с. Шмідтівка, Березанська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.78598239999999,
+    "lng": 31.5147016,
+    "meta": {
+      "google_maps_place_id": "ChIJJZUqU2B2xkAR4kFVTuWOaT8"
+    }
+  },
+  {
+    "id": 15530,
+    "name_no_copy": "м. Щастя, Щастинська громада, Щастинський р-н, Луганська обл.",
+    "lat": 48.737247,
+    "lng": 39.2311974,
+    "meta": {
+      "google_maps_place_id": "ChIJ9b5lRWDqH0ER8peWGJ5mIGM"
+    }
+  },
+  {
+    "id": 22433,
+    "name_no_copy": "с. Щекинське, Бочечківська громада, Конотопський р-н, Сумська обл.",
+    "lat": 51.3052812,
+    "lng": 33.4521199,
+    "meta": {
+      "google_maps_place_id": "ChIJtxOPJgbLK0ERSmvd2K0Lgfs"
+    }
+  },
+  {
+    "id": 6194,
+    "name_no_copy": "с. Южне, Девладівська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 48.2244846,
+    "lng": 33.8456002,
+    "meta": {
+      "google_maps_place_id": "ChIJTyq-0OSq20ARdNfVdJJj_Ak"
+    }
+  },
+  {
+    "id": 7929,
+    "name_no_copy": "с. Юрківка, Миколаївська громада, Краматорський р-н, Донецька обл.",
+    "lat": 48.7767247,
+    "lng": 37.8001361,
+    "meta": {
+      "google_maps_place_id": "ChIJO7KE5XGS30ARFBletdkJfyQ"
+    }
+  },
+  {
+    "id": 11430,
+    "name_no_copy": "с. Яблукове, Гуляйпільська громада, Пологівський р-н, Запорізька обл.",
+    "lat": 47.72716750000001,
+    "lng": 36.3276013,
+    "meta": {
+      "google_maps_place_id": "ChIJNyllNX7q3UAR_nrbVeb4n3Y"
+    }
+  },
+  {
+    "id": 18032,
+    "name_no_copy": "с. Яблуня, Березанська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.8967308,
+    "lng": 31.5385262,
+    "meta": {
+      "google_maps_place_id": "ChIJgaX1lInexUARGFzODb0s_90"
+    }
+  },
+  {
+    "id": 8793,
+    "name_no_copy": "с. Ягодинка Друга, Новоборівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.7289833,
+    "lng": 28.6000313,
+    "meta": {
+      "google_maps_place_id": "ChIJS8L1tqHuK0cRkinr1T-1Cvg"
+    }
+  },
+  {
+    "id": 6032,
+    "name_no_copy": "с. Яковлівка, Лихівська громада, Кам'янський р-н, Дніпропетровська обл.",
+    "lat": 48.5708991,
+    "lng": 33.8401682,
+    "meta": {
+      "google_maps_place_id": "ChIJ6cMZRY042kAR-ojz8OMui4I"
+    }
+  },
+  {
+    "id": 19206,
+    "name_no_copy": "с. Ясинове, Куяльницька громада, Подільський р-н, Одеська обл.",
+    "lat": 47.7458441,
+    "lng": 29.3178001,
+    "meta": {
+      "google_maps_place_id": "ChIJpywxT5QZzEARhEctac0H-40"
+    }
+  },
+  {
+    "id": 4088,
+    "name_no_copy": "с. Яструбиха, Брацлавська громада, Тульчинський р-н, Вінницька обл.",
+    "lat": 48.8068367,
+    "lng": 28.86806869999999,
+    "meta": {
+      "google_maps_place_id": "ChIJE2dvWlVDzUARnMlwBH7wRWA"
+    }
+  },
+  {
+    "id": 8593,
+    "name_no_copy": "с. Яструбна, Брусилівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.2917771,
+    "lng": 29.6613178,
+    "meta": {
+      "google_maps_place_id": "ChIJNdfk1vZbK0cReJNiXsMDzII"
+    }
+  },
+  {
+    "id": 9798,
+    "name_no_copy": "с. Євгенівка, Барашівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.6390634,
+    "lng": 27.9982165,
+    "meta": {
+      "google_maps_place_id": "ChIJGVvkKs2qLkcRgkPQvidgNmA"
+    }
+  },
+  {
+    "id": 9799,
+    "name_no_copy": "с. Єлизаветпіль, Барашівська громада, Новоград-Волинський р-н, Житомирська обл.",
+    "lat": 50.6107945,
+    "lng": 28.0230701,
+    "meta": {
+      "google_maps_place_id": "ChIJJYtTCB8ALEcRhseCXiIuny0"
+    }
+  },
+  {
+    "id": 8677,
+    "name_no_copy": "с. Єлизаветівка, Коростишівська громада, Житомирський р-н, Житомирська обл.",
+    "lat": 50.247501,
+    "lng": 29.149548,
+    "meta": {
+      "google_maps_place_id": "ChIJLdbXC6ycLEcRktjDOqEJSXA"
+    }
+  },
+  {
+    "id": 7379,
+    "name_no_copy": "м. Єнакієве, Єнакієвська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.2368992,
+    "lng": 38.2082157,
+    "meta": {
+      "google_maps_place_id": "ChIJFZupjqJl4EARbOt0_WNDUgA"
+    }
+  },
+  {
+    "id": 19169,
+    "name_no_copy": "с. Єфросинівка, Куяльницька громада, Подільський р-н, Одеська обл.",
+    "lat": 47.6651233,
+    "lng": 29.7898946,
+    "meta": {
+      "google_maps_place_id": "ChIJWUfPNUS9zkARLNjWwQLMvvI"
+    }
+  },
+  {
+    "id": 7097,
+    "name_no_copy": "с. Івано-Дар'ївка, Званівська громада, Бахмутський р-н, Донецька обл.",
+    "lat": 48.8139182,
+    "lng": 38.200419,
+    "meta": {
+      "google_maps_place_id": "ChIJA-DVviH230AR7KR9YNEXN_c"
+    }
+  },
+  {
+    "id": 29497,
+    "name_no_copy": "с. Іваньків, Бобрицька громада, Черкаський р-н, Черкаська обл.",
+    "lat": 49.8693934,
+    "lng": 31.3898264,
+    "meta": {
+      "google_maps_place_id": "ChIJ1wYjYoht1EARfBtJuomE9q8"
+    }
+  },
+  {
+    "id": 22775,
+    "name_no_copy": "с. Івахи, Грунська громада, Охтирський р-н, Сумська обл.",
+    "lat": 50.2699215,
+    "lng": 34.6850865,
+    "meta": {
+      "google_maps_place_id": "ChIJ59LW0T4YKEER-iclcFZodcE"
+    }
+  },
+  {
+    "id": 15384,
+    "name_no_copy": "с. Ікове, Новопсковська громада, Старобільський р-н, Луганська обл.",
+    "lat": 49.5198091,
+    "lng": 39.0868722,
+    "meta": {
+      "google_maps_place_id": "ChIJ-zsVkEm_IUERfCR_LBqT4ck"
+    }
+  },
+  {
+    "id": 7356,
+    "name_no_copy": "с-ще Іллінка, Вуглегірська громада, Горлівський р-н, Донецька обл.",
+    "lat": 48.26948789999999,
+    "lng": 38.4256806,
+    "meta": {
+      "google_maps_place_id": "ChIJgT-ktyxq4EARFEK6gxSOL4Q"
+    }
+  },
+  {
+    "id": 30258,
+    "name_no_copy": "с. Ількуча, Сновська громада, Корюківський р-н, Чернігівська обл.",
+    "lat": 51.8934098,
+    "lng": 31.925694,
+    "meta": {
+      "google_maps_place_id": "ChIJ1wGm1SfS1EYR7Cqcn6EZmJ4"
+    }
+  },
+  {
+    "id": 28328,
+    "name_no_copy": "с. Ілятка, Старосинявська громада, Хмельницький р-н, Хмельницька обл.",
+    "lat": 49.5589098,
+    "lng": 27.685674,
+    "meta": {
+      "google_maps_place_id": "ChIJuS8deTKRLUcRwJ7r9qDadUc"
+    }
+  },
+  {
+    "id": 30952,
+    "name_no_copy": "с. Іценків, Ічнянська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.7573746,
+    "lng": 32.59415329999999,
+    "meta": {
+      "google_maps_place_id": "ChIJATw-FceK1UARdhCwUw1XkMU"
+    }
+  }
+]

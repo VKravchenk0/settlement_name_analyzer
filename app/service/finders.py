@@ -47,7 +47,7 @@ def find_settlements_without_coordinates():
     settlements = UaLocationsSettlement.query \
         .filter(
         and_(
-            UaLocationsSettlement.type.not_in(['COUNTRY', 'CAPITAL_CITY', 'STATE', 'DISTRICT', 'COMMUNITY']),
+            UaLocationsSettlement.type.not_in(['COUNTRY', 'STATE', 'DISTRICT', 'COMMUNITY']),
             or_(
                 UaLocationsSettlement.lat.is_(None),
                 UaLocationsSettlement.lng.is_(None)
