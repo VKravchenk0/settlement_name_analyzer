@@ -1,0 +1,138 @@
+[
+  {
+    "id": 31271,
+    "name_no_copy": "с. Бір, Деснянська громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 51.134739,
+    "lng": 30.641295,
+    "meta": {
+      "google_maps_place_id": "ChIJv8cERnm8KkcRBpy-WryDLcA"
+    }
+  },
+  {
+    "id": 11331,
+    "name_no_copy": "с. В'язівка, Якимівська громада, Мелітопольський р-н, Запорізька обл.",
+    "lat": 46.783045,
+    "lng": 34.900744,
+    "meta": {
+      "google_maps_place_id": "ChIJnSlC2jnAwkARqmZPtURZFRk"
+    }
+  },
+  {
+    "id": 6933,
+    "name_no_copy": "с. Вовче, Покровська громада, Синельниківський р-н, Дніпропетровська обл.",
+    "lat": 47.945278,
+    "lng": 36.390000
+  },
+  {
+    "id": 6204,
+    "name_no_copy": "с. Городуватка, Карпівська громада, Криворізький р-н, Дніпропетровська обл.",
+    "lat": 47.574722,
+    "lng": 33.178333
+  },
+  {
+    "id": 14729,
+    "name_no_copy": "с. Калинник, Довжанська громада, Довжанський р-н, Луганська обл.",
+    "lat": 48.110123,
+    "lng": 39.803613,
+    "meta": {
+      "google_maps_place_id": "ChIJkVIeBmzh4UARmGzTlHF5AMc"
+    }
+  },
+  {
+    "id": 31085,
+    "name_no_copy": "с. Капустенці, Сухополов'янська громада, Прилуцький р-н, Чернігівська обл.",
+    "lat": 50.625405,
+    "lng": 32.457189,
+    "meta": {
+      "google_maps_place_id": "ChIJCzNcpU7t1UARHFXUqWYLdos"
+    }
+  },
+  {
+    "id": 12254,
+    "name_no_copy": "с. Кийданці, Печеніжинська громада, Коломийський р-н, Івано-Франківська обл.",
+    "lat": 48.540081,
+    "lng": 24.973826,
+    "name": {
+      "uk": "Кіданч"
+    },
+    "public_name": {
+      "uk": "с. Кіданч"
+    },
+    "name_lower": "кіданч",
+    "meta": {
+      "google_maps_place_id": "ChIJMaOJQwrTNkcR4veEHOiERJA"
+    }
+  },
+  {
+    "id": 31381,
+    "name_no_copy": "с. Кривицьке, Козелецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 50.91824,
+    "lng": 31.075244,
+    "meta": {
+      "google_maps_place_id": "ChIJCQKgPqFJ1UARtqCTgI6lVx0"
+    }
+  },
+  {
+    "id": 30516,
+    "name_no_copy": "с. Мала Доч, Височанська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 51.302395,
+    "lng": 32.699739,
+    "meta": {
+      "google_maps_place_id": "ChIJOxwDYxhYKkERQkXDzH5W4HY"
+    }
+  },
+  {
+    "id": 19180,
+    "name_no_copy": "с. Мала Петрівка, Куяльницька громада, Подільський р-н, Одеська обл.",
+    "lat": 47.587929,
+    "lng": 29.770144,
+    "meta": {
+      "google_maps_place_id": "ChIJv2B0YZG7zkAR1lGSffyV0pg"
+    }
+  },
+  {
+    "id": 30369,
+    "name_no_copy": "с. Обірки, Батуринська громада, Ніжинський р-н, Чернігівська обл.",
+    "lat": 51.384704,
+    "lng": 32.87019,
+    "meta": {
+      "google_maps_place_id": "ChIJd8WXyU1UKkERul1pxqMjL50"
+    }
+  },
+  {
+    "id": 15397,
+    "name_no_copy": "с. Тев'яшеве, Новопсковська громада, Старобільський р-н, Луганська обл.",
+    "lat": 49.603925,
+    "lng": 39.034433,
+    "meta": {
+      "google_maps_place_id": "ChIJu-nfd8G9IUERWLzUnJI5wsE"
+    }
+  },
+  {
+    "id": 2961,
+    "name_no_copy": "с-ще Чайка, Маломаяцька громада, Ялтинський р-н, Автономна Республіка Крим обл.",
+    "lat": 44.616194,
+    "lng": 34.377877,
+    "meta": {
+      "google_maps_place_id": "ChIJYanIbPA160ARJkQbLJ_AusM"
+    }
+  },
+  {
+    "id": 31411,
+    "name_no_copy": "с. Шапіхи, Козелецька громада, Чернігівський р-н, Чернігівська обл.",
+    "lat": 50.990933,
+    "lng": 31.085409,
+    "meta": {
+      "google_maps_place_id": "ChIJq-hhZT5M1UARWkAkDoPmGs0"
+    }
+  },
+  {
+    "id": 18210,
+    "name_no_copy": "с. Їжицьке, Чорноморська громада, Миколаївський р-н, Миколаївська обл.",
+    "lat": 46.751852,
+    "lng": 31.553985,
+    "meta": {
+      "google_maps_place_id": "ChIJe9tOvGp3xkARvC0DJR6wYQI"
+    }
+  }
+]
