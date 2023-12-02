@@ -88,21 +88,33 @@ def execute_updates():
 
 def process_updated_locations(filename, json_object):
     for entry in json_object:
-        if entry["lat"] and entry["lng"]:
-            settlement = db.session.query(UaLocationsSettlement).get(int(entry['id']))
+        settlement = db.session.query(UaLocationsSettlement).get(int(entry['id']))
 
-            if 'lat' in entry:
-                settlement.lat = float(entry['lat'])
-            if 'lng' in entry:
-                settlement.lng = float(entry['lng'])
-            if 'meta' in entry:
-                update_meta = entry['meta']
-                existing_meta_copy = dict(settlement.meta)
-                existing_meta_copy.update(update_meta)
-                settlement.meta = existing_meta_copy
-            settlement.update_file_name = filename
-            settlement.updated_at = datetime.now()
-            db.session.commit()
+        if 'lat' in entry:
+            settlement.lat = float(entry['lat'])
+        if 'lng' in entry:
+            settlement.lng = float(entry['lng'])
+        if 'meta' in entry:
+            update_meta = entry['meta']
+            existing_meta_copy = dict(settlement.meta)
+            existing_meta_copy.update(update_meta)
+            settlement.meta = existing_meta_copy
+        if 'name' in entry:
+            update_name = entry['name']
+            existing_name_copy = dict(settlement.name)
+            existing_name_copy.update(update_name)
+            settlement.name = existing_name_copy
+        if 'public_name' in entry:
+            update_public_name = entry['public_name']
+            existing_public_name_copy = dict(settlement.public_name)
+            existing_public_name_copy.update(update_public_name)
+            settlement.public_name = existing_public_name_copy
+        if 'name_lower' in entry:
+            settlement.name_lower = entry['name_lower']
+
+        settlement.update_file_name = filename
+        settlement.updated_at = datetime.now()
+        db.session.commit()
 
 
 def read_json_file(file_path):
