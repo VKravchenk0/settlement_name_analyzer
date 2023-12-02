@@ -29,6 +29,12 @@ def process_json_entry(json_obj):
     return result
 
 
+def take_ukrainian_only(json_field):
+    return {
+        'uk': json_field['uk']
+    }
+
+
 def convert_raw_entry_to_model(list):
     result = []
     for entry in list:
@@ -40,7 +46,7 @@ def convert_raw_entry_to_model(list):
         settlement.created_at = datetime.strptime(entry["created_at"], date_format)
         settlement.updated_at = datetime.strptime(entry["updated_at"], date_format)
         settlement.type = convert_to_string_and_strip(entry["type"])
-        settlement.name = process_json_entry(entry["name"])
+        settlement.name = take_ukrainian_only(process_json_entry(entry["name"]))
         settlement.name_lower = settlement.name["uk"].lower()
         settlement.post_code = entry["post_code"]
         settlement.katottg = convert_to_string_and_strip(entry["katottg"])
@@ -48,7 +54,7 @@ def convert_raw_entry_to_model(list):
         settlement.lng = entry["lng"]
         settlement.lat = entry["lat"]
         settlement.parent_id = entry["parent_id"]
-        settlement.public_name = process_json_entry(entry["public_name"])
+        settlement.public_name = take_ukrainian_only(process_json_entry(entry["public_name"]))
         settlement.update_file_name = "ua_locations_10_11_2021.json"
 
         result.append(settlement)
