@@ -3,6 +3,7 @@ import os
 import jsonpickle
 from flask import Blueprint, send_file, request, Response
 
+from app.config import PATTERN_BLACKLIST
 from app.service.converters import convert_settlements, convert_missing_coordinates_settlements
 from app.service.finders import find_settlements_by_regex, find_settlements_without_coordinates
 from app.misc.util import split_into_chunks_and_compress_into_archive
@@ -13,9 +14,21 @@ api_bp = Blueprint('api_bp', __name__)
 @api_bp.route("/api/settlements")
 def search_settlements():
     name_regex = request.args.get("settlement_name_regex")
+    print(f"Search settlements: {name_regex}")
+
+    if not name_regex:
+        return "Missing settlement_name_regex request param", 400
+
+    if name_regex.strip() in PATTERN_BLACKLIST:
+        return Response(
+            response=jsonpickle.encode([], unpicklable=False),
+            status=200,
+            mimetype='application/json'
+        )
+
     settlements = find_settlements_by_regex(name_regex)
     settlement_dtos = convert_settlements(settlements)
-    # TODO: not sure if using Response instead of app.response_class is fine
+
     response = Response(
         response=jsonpickle.encode(settlement_dtos, unpicklable=False),
         status=200,
