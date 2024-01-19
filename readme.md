@@ -10,8 +10,9 @@
 3. `export FLASK_ENV=development && python ./dev_starter.py`
 4. Додаток доступний на http://localhost:5000
 
-#### Поточний деплоймент
-Додаток на http://134.122.66.78/ запущений на digitalocean-дроплеті через nginx + gunicorn. Зроблено по цьому [туторіалу](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-20-04). 
+#### Поточний деплоймент:
+- Додаток на http://134.122.66.78/ запущений на digitalocean-дроплеті через nginx + gunicorn. Зроблено по цьому [туторіалу](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-20-04). 
+- Прод версія: https://ridni.in.ua/toponimika
 
 #### Головний клас який створює аплікейшн:
 `app/__init__.py`
@@ -28,7 +29,6 @@
 - `api_bp.py` - містить API для пошуку
 - `rendering_bp.py` - url який рендерить html-сторінку
 - `static_files_bp.py` - шляхи для js/css-файлів.
-- Якщо фронт-енд буде в окремій апці, то `rendering_bp.py` і `static_files_bp.py` для проду не потрібні, і можемо зробити їх доступними тільки для дев-енву, як це зроблено для `/api/locations-without-coordinates` в `api_bp.py`
 
 #### Огляд бібліотек для роботи з файлами (щоб не загубити):
 https://flatlogic.com/blog/top-mapping-and-maps-api/
